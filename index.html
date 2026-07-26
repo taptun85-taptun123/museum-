@@ -68,5 +68,25 @@
    
 	
     <script src="js/script.js"></script>
+<!-- Модальное окно для скриншотов -->
+<div id="screenshotsModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeScreenshots()">&times;</span>
+        <img id="screenshotsImage" src="" alt="Скриншот" style="width:100%; border-radius:12px;" />
+        <div class="screenshots-nav">
+            <button onclick="prevScreenshot()">◀</button>
+            <span id="screenshotsCounter">1 / 1</span>
+            <button onclick="nextScreenshot()">▶</button>
+        </div>
+    </div>
+</div>
+
+<!-- Модальное окно для фото диска -->
+<div id="discModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeDisc()">&times;</span>
+        <img id="discImage" src="" alt="Фото диска" style="width:100%; border-radius:12px;" />
+    </div>
+</div>
 </body>
 </html>

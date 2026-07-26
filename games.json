@@ -4,7 +4,13 @@
     "title": "Jade Cocoon",
     "platform": "PS1",
     "year": 2000,
-    "cover": "media/covers/jade-cocoon.jpg",
+    "cover": "media/covers/jade_cocoon_cover/jade_cocoon_cover_f.webp",
+	"backCover": "media/covers/jade_cocoon_cover/jade_cocoon_cover_b.webp",
+	"manual": "",
+	"disc": "media/covers/jade_cocoon_cover/jade_cocoon_cover_disc.webp",
+    "screenshots": [
+        
+    ],
     "passed": false,
     "platinum": false
   },
@@ -13,7 +19,13 @@
     "title": "Alundra",
     "platform": "PS1",
     "year": 1998,
-    "cover": "media/covers/alundra.jpg",
+    "cover": "media/covers/alundra_cover/alundra_cover_f.webp",
+	"backCover": "media/covers/alundra_cover/alundra_cover_b.webp",
+	"manual": "",
+	"disc": "media/covers/alundra_cover/alundra_cover_disc.webp",
+    "screenshots": [
+        
+    ],
     "passed": false,
     "platinum": false
   },
@@ -44,7 +56,13 @@
     "year": 2006,
     "cover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_f.webp",
 	"backCover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_b.webp",
-	"manual": "media/covers/dirgeofcerberus_cover/manuals/dirgeofcerberus.pdf",
+	"manual": "https://taptun85-taptun123.github.io/taptun_manuals/dirgeofcerberus.pdf",
+	"disc": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_disc.webp",
+    "screenshots": [
+        "media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_1.webp",
+        "media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_2.webp",
+		"media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_3.webp"
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -54,7 +72,13 @@
     "title": "Tomb Raider II: Starring Lara Croft",
     "platform": "PS1",
     "year": 1997,
-    "cover": "media/covers/default.webp",
+    "cover": "media/covers/tomb_raider2_cover/tomb_raider2_cover_f.webp",
+	"backCover": "media/covers/tomb_raider2_cover/tomb_raider2_cover_b.webp",
+	"manual": "",
+	"disc": "media/covers/tomb_raider2_cover/tomb_raider2_cover_disc.webp",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -65,6 +89,12 @@
     "platform": "Sega",
     "year": 1996,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -75,6 +105,12 @@
     "platform": "PS1",
     "year": 1998,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": false,
     "platinum": false,
     "steamId": null
@@ -85,6 +121,12 @@
     "platform": "PC",
     "year": 2015,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -92,6 +134,12 @@
   {
     "id": 1784477930753,
     "title": "Shadow Tactics: Blades of the Shogun",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "platform": "PC",
     "year": 2016,
     "cover": "media/covers/default.webp",
@@ -105,6 +153,12 @@
     "platform": "PS1",
     "year": 1997,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -115,6 +169,12 @@
     "platform": "PS1",
     "year": 1996,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -125,6 +185,12 @@
     "platform": "PS1",
     "year": 1999,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -135,6 +201,12 @@
     "platform": "PS1",
     "year": 2000,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -145,6 +217,12 @@
     "platform": "Sega",
     "year": 1995,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -155,6 +233,12 @@
     "platform": "PS1",
     "year": 2001,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -165,6 +249,12 @@
     "platform": "PC",
     "year": 2010,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -175,6 +265,12 @@
     "platform": "PC",
     "year": 2007,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -185,6 +281,12 @@
     "platform": "PC",
     "year": 2021,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -195,6 +297,12 @@
     "platform": "PC",
     "year": 2014,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -205,6 +313,12 @@
     "platform": "PC",
     "year": 2005,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -215,6 +329,12 @@
     "platform": "Wii u",
     "year": 2014,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -225,6 +345,12 @@
     "platform": "Wii u",
     "year": 2015,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -235,6 +361,12 @@
     "platform": "PS3",
     "year": 2009,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -245,6 +377,12 @@
     "platform": "PS1",
     "year": 0,
     "cover": "media/covers/default.webp",
+	"backCover": "",
+	"manual": "",
+	"disc": "",
+    "screenshots": [
+        
+    ],
     "passed": false,
     "platinum": false,
     "steamId": null
