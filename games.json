@@ -1,0 +1,252 @@
+[
+  {
+    "id": 2,
+    "title": "Jade Cocoon",
+    "platform": "PS1",
+    "year": 2000,
+    "cover": "media/covers/jade-cocoon.jpg",
+    "passed": false,
+    "platinum": false
+  },
+  {
+    "id": 3,
+    "title": "Alundra",
+    "platform": "PS1",
+    "year": 1998,
+    "cover": "media/covers/alundra.jpg",
+    "passed": false,
+    "platinum": false
+  },
+  {
+    "id": 1784475739213,
+    "title": "Disco Elysium",
+    "platform": "PC",
+    "year": 2019,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477469845,
+    "title": "Psychonayts",
+    "platform": "PC",
+    "year": 2005,
+    "cover": "media/covers/default.webp",
+    "passed": false,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477539831,
+    "title": "Dirge of Cerberus: Final Fantasy VII",
+    "platform": "PS2",
+    "year": 2006,
+    "cover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_f.webp",
+	"backCover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_b.webp",
+	"manual": "media/covers/dirgeofcerberus_cover/manuals/dirgeofcerberus.pdf",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477600544,
+    "title": "Tomb Raider II: Starring Lara Croft",
+    "platform": "PS1",
+    "year": 1997,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477649841,
+    "title": "Disney's Pocahontas",
+    "platform": "Sega",
+    "year": 1996,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477814358,
+    "title": "Tomb Raider: Unfinished Business",
+    "platform": "PS1",
+    "year": 1998,
+    "cover": "media/covers/default.webp",
+    "passed": false,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477909441,
+    "title": "Kingdom: Classic",
+    "platform": "PC",
+    "year": 2015,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477930753,
+    "title": "Shadow Tactics: Blades of the Shogun",
+    "platform": "PC",
+    "year": 2016,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477971340,
+    "title": "Final Fantasy VII",
+    "platform": "PS1",
+    "year": 1997,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478027636,
+    "title": "Tomb Raider",
+    "platform": "PS1",
+    "year": 1996,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478097782,
+    "title": "Syphon Filter",
+    "platform": "PS1",
+    "year": 1999,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478134271,
+    "title": "Syphon Filter 2",
+    "platform": "PS1",
+    "year": 2000,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478179297,
+    "title": "Comix Zone",
+    "platform": "Sega",
+    "year": 1995,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478211170,
+    "title": "Syphon Filter 3",
+    "platform": "PS1",
+    "year": 2001,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478285179,
+    "title": "Darksiders",
+    "platform": "PC",
+    "year": 2010,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478337357,
+    "title": "The Witcher",
+    "platform": "PC",
+    "year": 2007,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478395903,
+    "title": "Darksiders III",
+    "platform": "PC",
+    "year": 2021,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784479227430,
+    "title": "Bayonetta",
+    "platform": "PC",
+    "year": 2014,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784479267224,
+    "title": "Prince of Persia: The Two Thrones",
+    "platform": "PC",
+    "year": 2005,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784479532352,
+    "title": "Donkey Kong Country: Tropical Freeze",
+    "platform": "Wii u",
+    "year": 2014,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784479571560,
+    "title": "Yoshi's Woolly World",
+    "platform": "Wii u",
+    "year": 2015,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784479620970,
+    "title": "Demon’s Souls",
+    "platform": "PS3",
+    "year": 2009,
+    "cover": "media/covers/default.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784641707669,
+    "title": "rrrr",
+    "platform": "PS1",
+    "year": 0,
+    "cover": "media/covers/default.webp",
+    "passed": false,
+    "platinum": false,
+    "steamId": null
+  }
+]
