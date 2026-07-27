@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мой музей игр</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="media/favicon.ico" type="image/x-icon" />
+</head>
+<body class="dark">
+    <div class="container">
+	  <div class="theme-toggle" onclick="toggleTheme()">🌙</div>
+	  <div class="hymn-container">
+    <div class="hymn-toggle" onclick="toggleHymn()">✦</div>
+    <div class="hymn-content" id="hymnContent">
+        <div class="hymn-text glitch">
+            Свет внутри — для штаба рай,<br />
+            Камень, книга, Нюсик, чай.<br />
+            Ждём собак — вернутся в срок,<br />
+            В играх — тоже знаем толк.<br />
+            Свет внутри нас всех собрал,<br />
+            И в тиши — Кэп генерал.
+        </div>
+    </div>
+       </div>
+        <h1 class="site-title">🎮 Мой музей игр</h1>
+		  <!-- Форма добавления -->
+<div class="add-form">
+    <select id="gamePlatform">
+        <option value="PS1">PS1</option>
+        <option value="PS2">PS2</option>
+        <option value="PS3">PS3</option>
+        <option value="PS4">PS4</option>
+        <option value="PC">PC</option>
+        <option value="Sega">Sega</option>
+		<option value="Wii u">Wii u</option>
+    </select>
+    <input type="text" id="gameTitle" placeholder="Название игры" />
+    <input type="text" id="gameCover" placeholder="Ссылка на обложку" />
+	<input type="text" id="gameBackCover" placeholder="Ссылка на заднюю обложку" />
+	<input type="text" id="gameManual" placeholder="Ссылка на мануал (PDF)" />
+    <input type="number" id="gameYear" placeholder="Год" />
+    <button onclick="addGame()">➕ Добавить</button>
+</div>
+
+           <!-- Кнопки экспорта/импорта -->
+    <div class="actions">
+		<button onclick="exportGames()">💾 Сохранить</button>
+		<button onclick="document.getElementById('importInput').click();">📂 Загрузить</button>
+        <input type="file" id="importInput" accept=".json" style="display: none;" onchange="importGames(event)" />
+    </div>
+	
+		    <!-- Пагинация -->
+        <div class="pagination" id="pagination-top"></div>
+	
+	        <!-- Сетка с играми -->
+    <div class="grid" id="gameGrid"></div>
+	
+	    <div class="pagination" id="pagination-bottom"></div>
+	    <!-- Модальное окно для мануала -->
+<div id="manualModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeManual()">&times;</span>
+        <iframe id="manualFrame" src="" width="100%" height="600px" style="border:none;"></iframe>
+    </div>
+</div>
+  </div>
+   
+	
+    <script src="js/script.js"></script>
+<!-- Модальное окно для скриншотов -->
+<div id="screenshotsModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeScreenshots()">&times;</span>
+        <img id="screenshotsImage" src="" alt="Скриншот" style="width:100%; border-radius:12px;" />
+        <div class="screenshots-nav">
+            <button onclick="prevScreenshot()">◀</button>
+            <span id="screenshotsCounter">1 / 1</span>
+            <button onclick="nextScreenshot()">▶</button>
+        </div>
+    </div>
+</div>
+
+<!-- Модальное окно для фото диска -->
+<div id="discModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeDisc()">&times;</span>
+        <img id="discImage" src="" alt="Фото диска" style="width:100%; border-radius:12px;" />
+    </div>
+</div>
+</body>
+</html>
