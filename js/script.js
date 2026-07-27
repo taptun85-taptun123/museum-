@@ -148,20 +148,22 @@ grid.innerHTML = pageGames.map(game => `
         <div class="meta">
             <span>${game.platform}</span> ${game.year || ''}
         </div>
-		<div class="manual-link">
-    <button onclick="openManual('${game.manual}')" ${!game.manual ? 'disabled' : ''}>
-        📖 Мануал
-    </button>
-</div>
+
         <div class="status">
-            <span class="badge ${game.passed ? 'passed' : ''}" ondblclick="toggleStatus(${game.id}, 'passed')">
-                ${game.passed ? '✅ Пройдена' : '❌ Не пройдена'}
-            </span>
-            <span class="badge ${game.platinum ? 'platinum' : ''}" ondblclick="toggleStatus(${game.id}, 'platinum')">
-                ${game.platinum ? '🏆 Платина' : '🚫 Без платины'}
-            </span>
-            <span class="badge" ondblclick="deleteGame(${game.id})" style="cursor:pointer;background:#3a1a2a;color:#a06a7a;">✕</span>
-        </div>
+    <span class="badge ${game.passed ? 'passed' : ''}" ondblclick="toggleStatus(${game.id}, 'passed')">
+        ${game.passed ? '✅ Пройдена' : '❌ Не пройдена'}
+    </span>
+    <span class="badge ${game.platinum ? 'platinum' : ''}" ondblclick="toggleStatus(${game.id}, 'platinum')">
+        ${game.platinum ? '🏆 Платина' : '🚫 Без платины'}
+    </span>
+	<button class="delete-btn" ondblclick="deleteGame(${game.id})">✕</button>
+</div>
+
+<div class="card-actions">
+    <button onclick="openScreenshots(${game.id})">📸 Память</button>
+    <button onclick="openManual('${game.manual}')" ${!game.manual ? 'disabled' : ''}>📖 Мануал</button>
+	<button onclick="openDisc(${game.id})">💿</button>
+</div>
     </div>
 `).join('');
 
@@ -283,4 +285,84 @@ function closeManual() {
     document.getElementById('manualFrame').src = '';
 }
 
+
+function openDisc(id) {
+    const game = games.find(g => g.id === id);
+    if (!game || !game.disc) {
+        alert('Фото диска нет');
+        return;
+    }
+    document.getElementById('discImage').src = game.disc;
+    document.getElementById('discModal').style.display = 'block';
+}
+
+function closeDisc() {
+    document.getElementById('discModal').style.display = 'none';
+    document.getElementById('discImage').src = '';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var discModal = document.getElementById('discModal');
+    if (discModal) {
+        discModal.addEventListener('click', function(e) {
+            if (e.target === this) closeDisc();
+        });
+    }
+});
+
+let currentScreenshotIndex = 0;
+let currentScreenshots = [];
+
+function openScreenshots(id) {
+    const game = games.find(g => g.id === id);
+    if (!game || !game.screenshots || game.screenshots.length === 0) {
+        alert('Скриншотов нет');
+        return;
+    }
+    currentScreenshots = game.screenshots;
+    currentScreenshotIndex = 0;
+    showScreenshot();
+    document.getElementById('screenshotsModal').style.display = 'block';
+}
+
+function closeScreenshots() {
+    document.getElementById('screenshotsModal').style.display = 'none';
+    document.getElementById('screenshotsImage').src = '';
+}
+
+function showScreenshot() {
+    const img = document.getElementById('screenshotsImage');
+    img.src = currentScreenshots[currentScreenshotIndex];
+    document.getElementById('screenshotsCounter').textContent =
+        `${currentScreenshotIndex + 1} / ${currentScreenshots.length}`;
+}
+
+function nextScreenshot() {
+    if (currentScreenshotIndex < currentScreenshots.length - 1) {
+        currentScreenshotIndex++;
+        showScreenshot();
+    }
+}
+
+function prevScreenshot() {
+    if (currentScreenshotIndex > 0) {
+        currentScreenshotIndex--;
+        showScreenshot();
+    }
+}
+
+// Закрытие по клику вне окна
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('screenshotsModal').addEventListener('click', function(e) {
+        if (e.target === this) {
+            closeScreenshots();
+        }
+    });
+});
+// Закрытие по Escape
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeScreenshots();
+    }
+});
 loadGames();
