@@ -286,29 +286,43 @@ function closeManual() {
 }
 
 
+let currentDiscIndex = 0;
+let currentDiscs = [];
+
 function openDisc(id) {
     const game = games.find(g => g.id === id);
-    if (!game || !game.disc) {
-        alert('Фото диска нет');
+    if (!game || !game.disc || game.disc.length === 0) {
+        alert('Фото дисков нет');
         return;
     }
-    document.getElementById('discImage').src = game.disc;
+    // Если disc — строка, превращаем в массив
+    currentDiscs = Array.isArray(game.disc) ? game.disc : [game.disc];
+    currentDiscIndex = 0;
+    showDisc();
     document.getElementById('discModal').style.display = 'block';
 }
 
-function closeDisc() {
-    document.getElementById('discModal').style.display = 'none';
-    document.getElementById('discImage').src = '';
+function showDisc() {
+    const img = document.getElementById('discImage');
+    img.src = currentDiscs[currentDiscIndex];
+    document.getElementById('discCounter').textContent = 
+        `${currentDiscIndex + 1} / ${currentDiscs.length}`;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    var discModal = document.getElementById('discModal');
-    if (discModal) {
-        discModal.addEventListener('click', function(e) {
-            if (e.target === this) closeDisc();
-        });
+function nextDisc() {
+    if (currentDiscIndex < currentDiscs.length - 1) {
+        currentDiscIndex++;
+        showDisc();
     }
-});
+}
+
+function prevDisc() {
+    if (currentDiscIndex > 0) {
+        currentDiscIndex--;
+        showDisc();
+    }
+
+}
 
 let currentScreenshotIndex = 0;
 let currentScreenshots = [];
@@ -351,18 +365,33 @@ function prevScreenshot() {
     }
 }
 
-// Закрытие по клику вне окна
+// Закрытие модалок по клику вне окна и по Escape
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('screenshotsModal').addEventListener('click', function(e) {
-        if (e.target === this) {
-            closeScreenshots();
-        }
-    });
-});
-// Закрытие по Escape
-document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-        closeScreenshots();
+    const discModal = document.getElementById('discModal');
+    const screenshotsModal = document.getElementById('screenshotsModal');
+
+    if (discModal) {
+        discModal.addEventListener('click', function(e) {
+            if (e.target === this) closeDisc();
+        });
+    }
+    if (screenshotsModal) {
+        screenshotsModal.addEventListener('click', function(e) {
+            if (e.target === this) closeScreenshots();
+        });
     }
 });
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        if (document.getElementById('discModal').style.display === 'block') closeDisc();
+        if (document.getElementById('screenshotsModal').style.display === 'block') closeScreenshots();
+    }
+});
+
+function closeDisc() {
+    document.getElementById('discModal').style.display = 'none';
+    document.getElementById('discImage').src = '';
+}
+
 loadGames();
