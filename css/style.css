@@ -737,6 +737,29 @@ button:active {
     background: #4a3a8a;
 }
 
+/* Навигация для дисков — единый стиль */
+.disc-nav {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.disc-nav button {
+    background: #2a2a4a;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.disc-nav button:hover {
+    background: #4a3a8a;
+}
+
 #discModal .modal-content {
     max-width: 600px;
     max-height: 90vh;
@@ -748,4 +771,10 @@ button:active {
     object-fit: contain;
 }
 
+#screenshotsModal .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	gap: 16px;
+}
 
