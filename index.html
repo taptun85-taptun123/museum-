@@ -43,6 +43,17 @@
     <button onclick="addGame()">➕ Добавить</button>
 </div>
 
+<div class="top-bar">
+           <!--Адаптивный поиск-->
+    <input type="text" id="searchInput" placeholder="🔍 Поиск игры..." oninput="filterGames()" />
+	
+	<div class="music-player">
+    <button id="playBtn" onclick="toggleMusic()">▶</button>
+    <span id="trackName">🎵 Трек не выбран</span>
+    <button onclick="nextTrack()">⏭</button>
+    </div>
+</div>
+
            <!-- Кнопки экспорта/импорта -->
     <div class="actions">
 		<button onclick="exportGames()">💾 Сохранить</button>
