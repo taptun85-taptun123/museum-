@@ -114,11 +114,6 @@ body {
 	object-fit: cover;
 }
 
-.title {
-    font-size: 20px;
-    font-weight: 600;
-}
-
 .meta {
     font-size: 14px;
     margin: 6px 0 10px;
@@ -565,6 +560,16 @@ body.light .manual-link button:hover {
 	
 }
 
+body.light .music-player button {
+    background: #d0d0e0;
+    color: #1a1a2e;
+    border-color: #b0b0c0;
+}
+body.light .music-player button:hover {
+    background: #4a3a8a;
+    color: #fff;
+}
+
 button {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: transform 0.1s, box-shadow 0.2s;
@@ -778,3 +783,79 @@ button:active {
 	gap: 16px;
 }
 
+/* Стиль адаптивног поиска и музплеера*/
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+}
+
+#searchInput {
+    flex: 0 1 280px;
+    min-width: 180px;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid #2a2a4a;
+    background: #111128;
+    color: #e0e0e0;
+    outline: none;
+}
+
+.music-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.music-player button {
+    background: #111128;
+    color: #e0e0e0;
+    border: 1px solid #2a2a4a;
+    border-radius: 30px;
+    padding: 6px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s, box-shadow 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    line-height: 1;
+}
+.music-player button:hover {
+    background: #4a3a8a;
+    color: #fff;
+}
+.music-player button:active {
+    transform: scale(0.96);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+   
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.glow-text {
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #6fe238, #3f51b5, #25b21c, #3f51b5, #04a552);
+    background-size: 200% 150%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-position 5s ease;
+    display: inline-block;
+}
+  
+ .card:hover .glow-text {
+    background-position: 400% 0;
+}
