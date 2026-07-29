@@ -115,6 +115,104 @@ function deleteGame(id) {
     renderGames();
 }
 
+let filteredGames = [];
+
+function filterGames() {
+    const query = document.getElementById('searchInput').value.toLowerCase().trim();
+    if (query === '') {
+        filteredGames = [];
+        renderGames();
+        return;
+    }
+    filteredGames = games.filter(game =>
+        game.title.toLowerCase().includes(query) ||
+        game.platform.toLowerCase().includes(query)
+    );
+    renderFilteredGames(filteredGames);
+}
+
+function renderFilteredGames(list) {
+    const grid = document.getElementById('gameGrid');
+    const paginationTop = document.getElementById('pagination-top');
+    const paginationBottom = document.getElementById('pagination-bottom');
+
+    if (list.length === 0) {
+        grid.innerHTML = '<p style="color:#4a4a6a;text-align:center;width:100%;">Ничего не найдено</p>';
+        paginationTop.innerHTML = '';
+        paginationBottom.innerHTML = '';
+        return;
+    }
+
+    // Используем ту же пагинацию, что и в renderGames, но с переданным списком
+    const totalPages = Math.ceil(list.length / itemsPerPage);
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const pageGames = list.slice(start, end);
+
+    grid.innerHTML = pageGames.map(game => `
+        <div class="card">
+            <div class="cover" onclick="this.classList.toggle('flipped')">
+                <div class="cover-inner">
+                    <div class="cover-front">
+                        <img src="${game.cover || 'media/covers/default.webp'}" alt="${game.title}" />
+                    </div>
+                    <div class="cover-back">
+                        <img src="${game.backCover || 'media/covers/default_back.jpg'}" alt="Задняя сторона" />
+                    </div>
+                </div>
+            </div>
+            <div class="title"><span class="glow-text">${game.title}</span></div>
+            <div class="meta">
+                <span>${game.platform}</span> ${game.year || ''}
+            </div>
+            <div class="status">
+                <span class="badge ${game.passed ? 'passed' : ''}" ondblclick="toggleStatus(${game.id}, 'passed')">
+                    ${game.passed ? '✅ Пройдена' : '❌ Не пройдена'}
+                </span>
+                <span class="badge ${game.platinum ? 'platinum' : ''}" ondblclick="toggleStatus(${game.id}, 'platinum')">
+                    ${game.platinum ? '🏆 Платина' : '🚫 Без платины'}
+                </span>
+                <button class="delete-btn" ondblclick="deleteGame(${game.id})">✕</button>
+            </div>
+            <div class="card-actions">
+                <button onclick="openScreenshots(${game.id})">📸 Память</button>
+                <button onclick="openManual('${game.manual}')" ${!game.manual ? 'disabled' : ''}>📖 Мануал</button>
+                <button onclick="openDisc(${game.id})">💿</button>
+            </div>
+        </div>
+    `).join('');
+
+    // Пагинация для отфильтрованного списка
+    let paginationHTML = '';
+    const visiblePages = 5;
+    let startPage = Math.max(1, currentPage - Math.floor(visiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + visiblePages - 1);
+    if (endPage - startPage < visiblePages - 1) {
+        startPage = Math.max(1, endPage - visiblePages + 1);
+    }
+
+    function addPageBtnHTML(page) {
+        const active = page === currentPage ? ' active' : '';
+        paginationHTML += `<button class="page-btn${active}" onclick="goToPage(${page})">${page}</button>`;
+    }
+    function addEllipsisHTML() {
+        paginationHTML += `<span class="page-ellipsis">…</span>`;
+    }
+
+    if (startPage > 1) {
+        addPageBtnHTML(1);
+        if (startPage > 2) addEllipsisHTML();
+    }
+    for (let i = startPage; i <= endPage; i++) addPageBtnHTML(i);
+    if (endPage < totalPages) {
+        if (endPage < totalPages - 1) addEllipsisHTML();
+        addPageBtnHTML(totalPages);
+    }
+
+    paginationTop.innerHTML = paginationHTML;
+    paginationBottom.innerHTML = paginationHTML;
+}
+
 function renderGames() {
     const grid = document.getElementById('gameGrid');
     const paginationTop = document.getElementById('pagination-top');
@@ -144,7 +242,7 @@ grid.innerHTML = pageGames.map(game => `
                 </div>
             </div>
         </div>
-        <div class="title">${game.title}</div>
+        <div class="title"><span class="glow-text">${game.title}</span></div>
         <div class="meta">
             <span>${game.platform}</span> ${game.year || ''}
         </div>
@@ -393,5 +491,62 @@ function closeDisc() {
     document.getElementById('discModal').style.display = 'none';
     document.getElementById('discImage').src = '';
 }
+
+// Музыкальный плеер
+let currentTrackIndex = 0;
+let isPlaying = false;
+let audio = new Audio();
+
+const tracks = [
+    { name: 'Томб Райдер', file: 'https://lambda.vgmtreasurechest.com/soundtracks/classical-games-in-concert-2019/qcvfwrsorq/07%20-%20Tomb%20Raider%20%28Live%20from%20Paris%29.mp3' },
+    { name: 'Getting Up', file: 'https://lambda.vgmtreasurechest.com/soundtracks/marc-eckos-getting-up-contents-under-pressure-ipod-menu-tracks-ps2-windows-xbox-gamerip-2006/yakgkxqnpj/02.%20Welcome%20to%20New%20Radius.mp3' },
+    { name: 'Соната', file: 'https://lambda.vgmtreasurechest.com/soundtracks/eternal-sonata-ps3/dpnwtepn/01_Eternal%20Sonata%20%5BTrusty%20Bell%20-%20Chopin%27s%20Dream%5D%20%28Think%20of%20Me%29.mp3' },
+    { name: 'Диабло', file: 'https://lambda.vgmtreasurechest.com/soundtracks/diablo-1998-psx-gamerip/hvfodbuw/06.mp3' },
+    { name: 'Алундра', file: 'https://nu.vgmtreasurechest.com/soundtracks/alundra-ps1-gamerip-1997/cqwjgfix/1-06.%20Requiem.mp3' }
+];
+
+function toggleMusic() {
+    const playBtn = document.getElementById('playBtn');
+    if (isPlaying) {
+        audio.pause();
+        playBtn.textContent = '▶';
+        isPlaying = false;
+    } else {
+        if (audio.src === '') {
+            // Первый запуск — выбираем случайный трек
+            currentTrackIndex = Math.floor(Math.random() * tracks.length);
+            loadTrack(currentTrackIndex);
+        }
+        audio.play();
+        playBtn.textContent = '⏸';
+        isPlaying = true;
+    }
+    updateTrackName();
+}
+
+function loadTrack(index) {
+    audio.src = tracks[index].file;
+    audio.load();
+    updateTrackName();
+}
+
+function nextTrack() {
+    currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
+    loadTrack(currentTrackIndex);
+    if (isPlaying) {
+        audio.play();
+    }
+    updateTrackName();
+}
+
+function updateTrackName() {
+    document.getElementById('trackName').textContent = `🎵 ${tracks[currentTrackIndex].name}`;
+}
+
+// При загрузке страницы — выбираем случайный трек, но не играем
+document.addEventListener('DOMContentLoaded', function() {
+    currentTrackIndex = Math.floor(Math.random() * tracks.length);
+    loadTrack(currentTrackIndex);
+});
 
 loadGames();
