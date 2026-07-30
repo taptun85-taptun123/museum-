@@ -25,22 +25,29 @@
        </div>
         <h1 class="site-title">🎮 Мой музей игр</h1>
 		  <!-- Форма добавления -->
-<div class="add-form">
-    <select id="gamePlatform">
-        <option value="PS1">PS1</option>
-        <option value="PS2">PS2</option>
-        <option value="PS3">PS3</option>
-        <option value="PS4">PS4</option>
-        <option value="PC">PC</option>
-        <option value="Sega">Sega</option>
-		<option value="Wii u">Wii u</option>
-    </select>
-    <input type="text" id="gameTitle" placeholder="Название игры" />
-    <input type="text" id="gameCover" placeholder="Ссылка на обложку" />
-	<input type="text" id="gameBackCover" placeholder="Ссылка на заднюю обложку" />
-	<input type="text" id="gameManual" placeholder="Ссылка на мануал (PDF)" />
-    <input type="number" id="gameYear" placeholder="Год" />
-    <button onclick="addGame()">➕ Добавить</button>
+<button onclick="toggleAddForm()" class="add-btn">➕</button>
+<div id="addFormContainer" style="display: none;">
+    <div class="add-form">
+        <select id="gamePlatform">
+            <option value="PS1">PS1</option>
+            <option value="PS2">PS2</option>
+            <option value="PS3">PS3</option>
+            <option value="PS4">PS4</option>
+            <option value="PC">PC</option>
+            <option value="Sega">Sega</option>
+            <option value="Wii u">Wii u</option>
+        </select>
+        <input type="text" id="gameTitle" placeholder="Название игры" />
+        <input type="text" id="gameCover" placeholder="Ссылка на обложку" />
+        <input type="text" id="gameBackCover" placeholder="Ссылка на заднюю обложку" />
+        <input type="text" id="gameManual" placeholder="Ссылка на мануал (PDF)" />
+        <input type="number" id="gameYear" placeholder="Год" />
+        <input type="text" id="gameDiscs" placeholder="Ссылки на диски (через запятую)" />
+        <input type="text" id="gameScreenshots" placeholder="Ссылки на скриншоты (через запятую)" />
+		<input type="text" id="gameBosses" placeholder="Ссылки на боссов (через запятую)" />
+        <input type="text" id="gameAchievements" placeholder="Достижения (название|иконка, название|иконка...)" />
+        <button onclick="addGame()">➕ Добавить</button>
+    </div>
 </div>
 
 <div class="top-bar">
@@ -104,5 +111,29 @@
 </div>
     </div>
 </div>
+
+<!-- Модальное окно для боссов -->
+<div id="bossModal" class="modal">
+    <div class="modal-content" style="max-width:600px;">
+        <span class="close" onclick="closeBosses()">&times;</span>
+        <img id="bossImage" src="" alt="Босс" style="width:100%; border-radius:12px;" />
+        <div class="boss-nav">
+            <button onclick="prevBoss()">◀</button>
+            <span id="bossCounter">1 / 1</span>
+            <button onclick="nextBoss()">▶</button>
+        </div>
+    </div>
+</div>
+
+<!-- Модальное окно для Достижения -->
+
+<div id="achievementModal" class="modal">
+    <div class="modal-content" style="max-width:600px;">
+        <span class="close" onclick="closeAchievements()">&times;</span>
+        <h2 style="text-align:center; margin-top:0;">🏆 Достижения</h2>
+        <div id="achievementGrid" style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center; padding:10px 0;"></div>
+    </div>
+</div>
+
 </body>
 </html>
