@@ -171,34 +171,70 @@ body {
 /* ====================================================
    ФОРМА ДОБАВЛЕНИЯ
    ==================================================== */
+/* Кнопка "Добавить игру" */
+.add-btn {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 5px 10px;
+    font-size: 18px;
+    background: #2a2a4a;
+    color: #e0e0e0;
+    border: 1px solid #3a3a5a;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.add-btn:hover {
+    background: #4a3a8a;
+    color: #fff;
+    transform: scale(1.02);
+}
+.add-btn:active {
+    transform: scale(0.96);
+}
+
+/* Контейнер формы */
+#addFormContainer {
+    max-width: 900px;
+    margin: 0 auto 20px;
+}
+
+/* Сама форма — центрируем и делаем компактной */
 .add-form {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    margin-bottom: 30px;
-    border-radius: 20px;
     padding: 20px;
+    border-radius: 20px;
+    background: #18182a;
+    border: 1px solid #2a2a4a;
 }
 
 .add-form input,
 .add-form select {
-    flex: 1 1 100px;
-    min-width: 80px;
-    padding: 6px 10px;
-    font-size: 13px;
-	border-radius: 12px;
+    flex: 1 1 160px;
+    min-width: 140px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 12px;
+    border: 1px solid #2a2a4a;
+    background: #111128;
+    color: #e0e0e0;
+    outline: none;
 }
-
-.add-form input#gameManual {
-    flex: 0 1 120px;
-	border-radius: 12px;
-}
-
 .add-form button {
-    flex: 0 0 auto;
-    padding: 8px 16px;
-	border-radius: 12px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    background: #111128;
+    color: #e0e0e0;
+    border: 1px solid #2a2a4a;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.add-form button:hover {
+    background: #4b3a9e;
 }
 
 /* ====================================================
@@ -660,13 +696,14 @@ button:active {
 
 .modal-content {
     position: relative;
-    margin: 5% auto;
+    margin: 5vh auto;
     padding: 20px;
     width: 90%;
     max-width: 900px;
     background: #18182a;
     border-radius: 16px;
     border: 1px solid #2a2a4a;
+	overflow: auto;
 }
 
 .close {
@@ -858,4 +895,67 @@ button:active {
   
  .card:hover .glow-text {
     background-position: 400% 0;
+}
+
+/* Боссы */
+.boss-nav {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.boss-nav button {
+    background: #2a2a4a;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.boss-nav button:hover {
+    background: #4a3a8a;
+}
+
+/* Достижения */
+.ach-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    text-align: center;
+}
+.ach-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #1a1a2e;
+    padding: 4px;
+}
+.ach-name {
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 4px;
+    word-break: break-word;
+}
+
+/*стиль иконок консолей*/
+
+.platform-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 4px;
+    filter: invert(1);
+}
+body.light .platform-icon {
+    filter: none;
+}
+
+#bossModal .modal-content {
+    margin: 5vh auto;
+    max-height: 90vh;
+    overflow: auto;
 }
