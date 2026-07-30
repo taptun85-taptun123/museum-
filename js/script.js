@@ -34,8 +34,6 @@ function importGames(event) {
         }
     };
     reader.readAsText(file);
-
-    // Очищаем поле, чтобы можно было загрузить тот же файл повторно
     event.target.value = '';
 }
 
@@ -48,7 +46,6 @@ function loadGames() {
             games = [];
         }
     } else {
-        // Начальные игры, если ничего нет
         games = [
             { id: 1, title: 'Getting Up', platform: 'PS2', year: 2006, cover: 'media/covers/getting-up.jpg', passed: false, platinum: false, steamId: null},
             { id: 2, title: 'Jade Cocoon', platform: 'PS1', year: 2000, cover: 'media/covers/jade-cocoon.jpg', passed: false, platinum: false, steamId: null },
@@ -66,11 +63,19 @@ function saveGames() {
 function addGame() {
     const title = document.getElementById('gameTitle').value.trim();
     const cover = document.getElementById('gameCover').value.trim() || '';
-	const backCover = document.getElementById('gameBackCover').value.trim() || '';
+    const backCover = document.getElementById('gameBackCover').value.trim() || '';
     const platform = document.getElementById('gamePlatform').value;
     const year = parseInt(document.getElementById('gameYear').value) || 0;
-	const manual = document.getElementById('gameManual').value.trim() || '';
-	
+    const manual = document.getElementById('gameManual').value.trim() || '';
+    const discs = document.getElementById('gameDiscs').value.split(',').map(s => s.trim()).filter(s => s);
+    const screenshots = document.getElementById('gameScreenshots').value.split(',').map(s => s.trim()).filter(s => s);
+    const bosses = document.getElementById('gameBosses').value.split(',').map(s => s.trim()).filter(s => s);
+
+    const achievementsRaw = document.getElementById('gameAchievements').value.split(',').map(s => s.trim()).filter(s => s);
+    const achievements = achievementsRaw.map(item => {
+        const parts = item.split('|').map(s => s.trim());
+        return parts.length === 2 ? { name: parts[0], icon: parts[1] } : null;
+    }).filter(Boolean);
 
     if (!title) {
         alert('Введи название игры');
@@ -83,21 +88,30 @@ function addGame() {
         platform: platform,
         year: year,
         cover: cover || 'media/covers/default.webp',
-		backCover: backCover || 'media/covers/default_back.jpg',
-		manual: manual || '',
+        backCover: backCover || 'media/covers/default_back.jpg',
+        manual: manual || '',
+        discs: discs,
+        screenshots: screenshots,
+        bosses: bosses,
+        achievements: achievements,
         passed: false,
         platinum: false,
-	    steamId: null
+        steamId: null
     };
 
     games.push(newGame);
     saveGames();
     renderGames();
 
-    // Очистить поля
     document.getElementById('gameTitle').value = '';
     document.getElementById('gameCover').value = '';
+    document.getElementById('gameBackCover').value = '';
     document.getElementById('gameYear').value = '';
+    document.getElementById('gameManual').value = '';
+    document.getElementById('gameDiscs').value = '';
+    document.getElementById('gameScreenshots').value = '';
+    document.getElementById('gameBosses').value = '';
+    document.getElementById('gameAchievements').value = '';
 }
 
 function toggleStatus(id, field) {
@@ -121,6 +135,7 @@ function filterGames() {
     const query = document.getElementById('searchInput').value.toLowerCase().trim();
     if (query === '') {
         filteredGames = [];
+        currentPage = 1;
         renderGames();
         return;
     }
@@ -128,6 +143,7 @@ function filterGames() {
         game.title.toLowerCase().includes(query) ||
         game.platform.toLowerCase().includes(query)
     );
+    currentPage = 1;
     renderFilteredGames(filteredGames);
 }
 
@@ -143,8 +159,9 @@ function renderFilteredGames(list) {
         return;
     }
 
-    // Используем ту же пагинацию, что и в renderGames, но с переданным списком
     const totalPages = Math.ceil(list.length / itemsPerPage);
+    if (currentPage > totalPages) currentPage = totalPages;
+
     const start = (currentPage - 1) * itemsPerPage;
     const end = start + itemsPerPage;
     const pageGames = list.slice(start, end);
@@ -163,7 +180,8 @@ function renderFilteredGames(list) {
             </div>
             <div class="title"><span class="glow-text">${game.title}</span></div>
             <div class="meta">
-                <span>${game.platform}</span> ${game.year || ''}
+                <img src="media/icons/${game.platform.toLowerCase().replace(/ /g, '_')}.svg" alt="${game.platform}" class="platform-icon" />
+                ${game.year || ''}
             </div>
             <div class="status">
                 <span class="badge ${game.passed ? 'passed' : ''}" ondblclick="toggleStatus(${game.id}, 'passed')">
@@ -175,14 +193,15 @@ function renderFilteredGames(list) {
                 <button class="delete-btn" ondblclick="deleteGame(${game.id})">✕</button>
             </div>
             <div class="card-actions">
-                <button onclick="openScreenshots(${game.id})">📸 Память</button>
-                <button onclick="openManual('${game.manual}')" ${!game.manual ? 'disabled' : ''}>📖 Мануал</button>
+                <button onclick="openScreenshots(${game.id})">📸</button>
+                <button onclick="openManual('${game.manual}')" ${!game.manual ? 'disabled' : ''}>📖</button>
                 <button onclick="openDisc(${game.id})">💿</button>
+                <button onclick="openBosses(${game.id})">👾</button>
+                <button onclick="openAchievements(${game.id})">🏆</button>
             </div>
         </div>
     `).join('');
 
-    // Пагинация для отфильтрованного списка
     let paginationHTML = '';
     const visiblePages = 5;
     let startPage = Math.max(1, currentPage - Math.floor(visiblePages / 2));
@@ -220,7 +239,7 @@ function renderGames() {
 
     if (games.length === 0) {
         grid.innerHTML = '<p style="color:#4a4a6a;text-align:center;width:100%;">Пока нет игр. Добавь первую!</p>';
-        paginationTop.innerHTML = '' ;
+        paginationTop.innerHTML = '';
         paginationBottom.innerHTML = '';
         return;
     }
@@ -230,85 +249,68 @@ function renderGames() {
     const end = start + itemsPerPage;
     const pageGames = games.slice(start, end);
 
-grid.innerHTML = pageGames.map(game => `
-    <div class="card">
-        <div class="cover" onclick="this.classList.toggle('flipped')">
-            <div class="cover-inner">
-                <div class="cover-front">
-                    <img src="${game.cover || 'media/covers/default.webp'}" alt="${game.title}" />
-                </div>
-                <div class="cover-back">
-                    <img src="${game.backCover || 'media/covers/default_back.jpg'}" alt="Задняя сторона" />
+    grid.innerHTML = pageGames.map(game => `
+        <div class="card">
+            <div class="cover" onclick="this.classList.toggle('flipped')">
+                <div class="cover-inner">
+                    <div class="cover-front">
+                        <img src="${game.cover || 'media/covers/default.webp'}" alt="${game.title}" />
+                    </div>
+                    <div class="cover-back">
+                        <img src="${game.backCover || 'media/covers/default_back.jpg'}" alt="Задняя сторона" />
+                    </div>
                 </div>
             </div>
+            <div class="title"><span class="glow-text">${game.title}</span></div>
+            <div class="meta">
+                <img src="media/icons/${game.platform.toLowerCase().replace(/ /g, '_')}.svg" alt="${game.platform}" class="platform-icon" />
+                ${game.year || ''}
+            </div>
+            <div class="status">
+                <span class="badge ${game.passed ? 'passed' : ''}" ondblclick="toggleStatus(${game.id}, 'passed')">
+                    ${game.passed ? '✅ Пройдена' : '❌ Не пройдена'}
+                </span>
+                <span class="badge ${game.platinum ? 'platinum' : ''}" ondblclick="toggleStatus(${game.id}, 'platinum')">
+                    ${game.platinum ? '🏆 Платина' : '🚫 Без платины'}
+                </span>
+                <button class="delete-btn" ondblclick="deleteGame(${game.id})">✕</button>
+            </div>
+            <div class="card-actions">
+                <button onclick="openScreenshots(${game.id})">📸</button>
+                <button onclick="openManual('${game.manual}')" ${!game.manual ? 'disabled' : ''}>📖</button>
+                <button onclick="openDisc(${game.id})">💿</button>
+                <button onclick="openBosses(${game.id})">👾</button>
+                <button onclick="openAchievements(${game.id})">🏆</button>
+            </div>
         </div>
-        <div class="title"><span class="glow-text">${game.title}</span></div>
-        <div class="meta">
-            <span>${game.platform}</span> ${game.year || ''}
-        </div>
+    `).join('');
 
-        <div class="status">
-    <span class="badge ${game.passed ? 'passed' : ''}" ondblclick="toggleStatus(${game.id}, 'passed')">
-        ${game.passed ? '✅ Пройдена' : '❌ Не пройдена'}
-    </span>
-    <span class="badge ${game.platinum ? 'platinum' : ''}" ondblclick="toggleStatus(${game.id}, 'platinum')">
-        ${game.platinum ? '🏆 Платина' : '🚫 Без платины'}
-    </span>
-	<button class="delete-btn" ondblclick="deleteGame(${game.id})">✕</button>
-</div>
-
-<div class="card-actions">
-    <button onclick="openScreenshots(${game.id})">📸 Память</button>
-    <button onclick="openManual('${game.manual}')" ${!game.manual ? 'disabled' : ''}>📖 Мануал</button>
-	<button onclick="openDisc(${game.id})">💿</button>
-</div>
-    </div>
-`).join('');
-
-      // Пагинация с многоточием
     let paginationHTML = '';
     const visiblePages = 5;
-
     let startPage = Math.max(1, currentPage - Math.floor(visiblePages / 2));
     let endPage = Math.min(totalPages, startPage + visiblePages - 1);
-
     if (endPage - startPage < visiblePages - 1) {
         startPage = Math.max(1, endPage - visiblePages + 1);
     }
 
-    // Функция для добавления кнопки в строку
     function addPageBtnHTML(page) {
         const active = page === currentPage ? ' active' : '';
         paginationHTML += `<button class="page-btn${active}" onclick="goToPage(${page})">${page}</button>`;
     }
-
-    // Функция для добавления многоточия в строку
     function addEllipsisHTML() {
         paginationHTML += `<span class="page-ellipsis">…</span>`;
     }
 
-    // Первая страница
     if (startPage > 1) {
         addPageBtnHTML(1);
-        if (startPage > 2) {
-            addEllipsisHTML();
-        }
+        if (startPage > 2) addEllipsisHTML();
     }
-
-    // Видимые страницы
-    for (let i = startPage; i <= endPage; i++) {
-        addPageBtnHTML(i);
-    }
-
-    // Последняя страница
+    for (let i = startPage; i <= endPage; i++) addPageBtnHTML(i);
     if (endPage < totalPages) {
-        if (endPage < totalPages - 1) {
-            addEllipsisHTML();
-        }
+        if (endPage < totalPages - 1) addEllipsisHTML();
         addPageBtnHTML(totalPages);
     }
 
-    // Вставляем в оба блока
     paginationTop.innerHTML = paginationHTML;
     paginationBottom.innerHTML = paginationHTML;
 }
@@ -329,7 +331,6 @@ let isDark = true;
 function toggleTheme() {
     const body = document.body;
     const themeBtn = document.querySelector('.theme-toggle');
-
     if (body.classList.contains('dark')) {
         body.classList.remove('dark');
         body.classList.add('light');
@@ -341,7 +342,6 @@ function toggleTheme() {
     }
 }
 
-// Затухание кнопок через 5 секунд бездействия
 let timerTheme, timerHymn;
 const themeBtn = document.querySelector('.theme-toggle');
 const hymnBtn = document.querySelector('.hymn-toggle');
@@ -356,17 +356,13 @@ function brightenButton(btn, timer) {
     timer = setTimeout(() => dimButton(btn), 5000);
 }
 
-// Для кнопки темы
 themeBtn.addEventListener('click', () => brightenButton(themeBtn, timerTheme));
 themeBtn.addEventListener('mouseenter', () => brightenButton(themeBtn, timerTheme));
 themeBtn.addEventListener('touchstart', () => brightenButton(themeBtn, timerTheme));
-
-// Для кнопки гимна
 hymnBtn.addEventListener('click', () => brightenButton(hymnBtn, timerHymn));
 hymnBtn.addEventListener('mouseenter', () => brightenButton(hymnBtn, timerHymn));
 hymnBtn.addEventListener('touchstart', () => brightenButton(hymnBtn, timerHymn));
 
-// Устанавливаем начальную прозрачность
 setTimeout(() => {
     themeBtn.style.opacity = '0.3';
     hymnBtn.style.opacity = '0.3';
@@ -383,18 +379,25 @@ function closeManual() {
     document.getElementById('manualFrame').src = '';
 }
 
-
 let currentDiscIndex = 0;
 let currentDiscs = [];
 
 function openDisc(id) {
     const game = games.find(g => g.id === id);
-    if (!game || !game.disc || game.disc.length === 0) {
-        alert('Фото дисков нет');
+    if (!game) {
+        alert('Игра не найдена');
         return;
     }
-    // Если disc — строка, превращаем в массив
-    currentDiscs = Array.isArray(game.disc) ? game.disc : [game.disc];
+    let discsArray = game.discs;
+    if (!discsArray || discsArray.length === 0) {
+        if (game.disc && game.disc.length > 0) {
+            discsArray = Array.isArray(game.disc) ? game.disc : [game.disc];
+        } else {
+            alert('Фото дисков нет');
+            return;
+        }
+    }
+    currentDiscs = discsArray;
     currentDiscIndex = 0;
     showDisc();
     document.getElementById('discModal').style.display = 'block';
@@ -419,7 +422,11 @@ function prevDisc() {
         currentDiscIndex--;
         showDisc();
     }
+}
 
+function closeDisc() {
+    document.getElementById('discModal').style.display = 'none';
+    document.getElementById('discImage').src = '';
 }
 
 let currentScreenshotIndex = 0;
@@ -463,10 +470,12 @@ function prevScreenshot() {
     }
 }
 
-// Закрытие модалок по клику вне окна и по Escape
+// Закрытие модалок
 document.addEventListener('DOMContentLoaded', function() {
     const discModal = document.getElementById('discModal');
     const screenshotsModal = document.getElementById('screenshotsModal');
+    const bossModal = document.getElementById('bossModal');
+    const achievementModal = document.getElementById('achievementModal');
 
     if (discModal) {
         discModal.addEventListener('click', function(e) {
@@ -478,19 +487,26 @@ document.addEventListener('DOMContentLoaded', function() {
             if (e.target === this) closeScreenshots();
         });
     }
+    if (bossModal) {
+        bossModal.addEventListener('click', function(e) {
+            if (e.target === this) closeBosses();
+        });
+    }
+    if (achievementModal) {
+        achievementModal.addEventListener('click', function(e) {
+            if (e.target === this) closeAchievements();
+        });
+    }
 });
 
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
         if (document.getElementById('discModal').style.display === 'block') closeDisc();
         if (document.getElementById('screenshotsModal').style.display === 'block') closeScreenshots();
+        if (document.getElementById('bossModal').style.display === 'block') closeBosses();
+        if (document.getElementById('achievementModal').style.display === 'block') closeAchievements();
     }
 });
-
-function closeDisc() {
-    document.getElementById('discModal').style.display = 'none';
-    document.getElementById('discImage').src = '';
-}
 
 // Музыкальный плеер
 let currentTrackIndex = 0;
@@ -513,7 +529,6 @@ function toggleMusic() {
         isPlaying = false;
     } else {
         if (audio.src === '') {
-            // Первый запуск — выбираем случайный трек
             currentTrackIndex = Math.floor(Math.random() * tracks.length);
             loadTrack(currentTrackIndex);
         }
@@ -543,10 +558,90 @@ function updateTrackName() {
     document.getElementById('trackName').textContent = `🎵 ${tracks[currentTrackIndex].name}`;
 }
 
-// При загрузке страницы — выбираем случайный трек, но не играем
 document.addEventListener('DOMContentLoaded', function() {
     currentTrackIndex = Math.floor(Math.random() * tracks.length);
     loadTrack(currentTrackIndex);
 });
+
+function toggleAddForm() {
+    const container = document.getElementById('addFormContainer');
+    const btn = document.querySelector('.add-btn');
+    if (!container) return;
+    if (container.style.display === 'none' || container.style.display === '') {
+        container.style.display = 'block';
+        if (btn) btn.textContent = '✖ Свернуть форму';
+    } else {
+        container.style.display = 'none';
+        if (btn) btn.textContent = '➕';
+    }
+}
+
+let currentBossIndex = 0;
+let currentBosses = [];
+
+function openBosses(id) {
+    const game = games.find(g => g.id === id);
+    if (!game || !game.bosses || game.bosses.length === 0) {
+        alert('Боссов нет');
+        return;
+    }
+    currentBosses = game.bosses;
+    currentBossIndex = 0;
+    showBoss();
+    document.getElementById('bossModal').style.display = 'block';
+}
+
+function closeBosses() {
+    document.getElementById('bossModal').style.display = 'none';
+    document.getElementById('bossImage').src = '';
+}
+
+function showBoss() {
+    const img = document.getElementById('bossImage');
+    img.src = currentBosses[currentBossIndex];
+    document.getElementById('bossCounter').textContent = `${currentBossIndex + 1} / ${currentBosses.length}`;
+}
+
+function nextBoss() {
+    if (currentBossIndex < currentBosses.length - 1) {
+        currentBossIndex++;
+        showBoss();
+    }
+}
+
+function prevBoss() {
+    if (currentBossIndex > 0) {
+        currentBossIndex--;
+        showBoss();
+    }
+}
+
+let currentAchievements = [];
+
+function openAchievements(id) {
+    const game = games.find(g => g.id === id);
+    if (!game || !game.achievements || game.achievements.length === 0) {
+        alert('Достижений нет');
+        return;
+    }
+    currentAchievements = game.achievements;
+    renderAchievements();
+    document.getElementById('achievementModal').style.display = 'block';
+}
+
+function closeAchievements() {
+    document.getElementById('achievementModal').style.display = 'none';
+}
+
+function renderAchievements() {
+    const container = document.getElementById('achievementGrid');
+    if (!container) return;
+    container.innerHTML = currentAchievements.map(a => `
+        <div class="ach-item">
+            <img src="${a.icon}" alt="${a.name}" class="ach-icon" />
+            <span class="ach-name">${a.name}</span>
+        </div>
+    `).join('');
+}
 
 loadGames();
