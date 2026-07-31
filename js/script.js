@@ -61,20 +61,20 @@ function saveGames() {
 }
 
 function addGame() {
+	const platform = document.getElementById('gamePlatform').value;
     const title = document.getElementById('gameTitle').value.trim();
-    const cover = document.getElementById('gameCover').value.trim() || '';
-    const backCover = document.getElementById('gameBackCover').value.trim() || '';
-    const platform = document.getElementById('gamePlatform').value;
-    const year = parseInt(document.getElementById('gameYear').value) || 0;
-    const manual = document.getElementById('gameManual').value.trim() || '';
-    const discs = document.getElementById('gameDiscs').value.split(',').map(s => s.trim()).filter(s => s);
-    const screenshots = document.getElementById('gameScreenshots').value.split(',').map(s => s.trim()).filter(s => s);
-    const bosses = document.getElementById('gameBosses').value.split(',').map(s => s.trim()).filter(s => s);
+    const cover = document.getElementById('gameCover').value.trim().replace(/\\/g, '/') || '';
+    const backCover = document.getElementById('gameBackCover').value.trim().replace(/\\/g, '/') || '';
+	const year = parseInt(document.getElementById('gameYear').value) || 0;
+    const manual = document.getElementById('gameManual').value.trim().replace(/\\/g, '/') || '';
+    const discs = document.getElementById('gameDiscs').value.split(',').map(s => s.trim().replace(/\\/g, '/')).filter(s => s);
+    const screenshots = document.getElementById('gameScreenshots').value.split(',').map(s => s.trim().replace(/\\/g, '/')).filter(s => s);
+    const bosses = document.getElementById('gameBosses').value.split(',').map(s => s.trim().replace(/\\/g, '/')).filter(s => s);
 
     const achievementsRaw = document.getElementById('gameAchievements').value.split(',').map(s => s.trim()).filter(s => s);
     const achievements = achievementsRaw.map(item => {
         const parts = item.split('|').map(s => s.trim());
-        return parts.length === 2 ? { name: parts[0], icon: parts[1] } : null;
+        return parts.length === 2 ? { name: parts[0], icon: parts[1].replace(/\\/g, '/') } : null;
     }).filter(Boolean);
 
     if (!title) {
@@ -180,7 +180,7 @@ function renderFilteredGames(list) {
             </div>
             <div class="title"><span class="glow-text">${game.title}</span></div>
             <div class="meta">
-                <img src="media/icons/${game.platform.toLowerCase().replace(/ /g, '_')}.svg" alt="${game.platform}" class="platform-icon" />
+                <img src="media/icons/${game.platform.toLowerCase().replace(/ /g, '_')}.svg" alt="${game.platform}" class="platform-icon ${game.platform.toLowerCase().replace(/ /g, '_')}" />
                 ${game.year || ''}
             </div>
             <div class="status">
@@ -263,7 +263,7 @@ function renderGames() {
             </div>
             <div class="title"><span class="glow-text">${game.title}</span></div>
             <div class="meta">
-                <img src="media/icons/${game.platform.toLowerCase().replace(/ /g, '_')}.svg" alt="${game.platform}" class="platform-icon" />
+                <img src="media/icons/${game.platform.toLowerCase().replace(/ /g, '_')}.svg" alt="${game.platform}" class="platform-icon ${game.platform.toLowerCase().replace(/ /g, '_')}" />
                 ${game.year || ''}
             </div>
             <div class="status">
