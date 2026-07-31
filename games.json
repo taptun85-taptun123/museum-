@@ -432,5 +432,123 @@
     "passed": false,
     "platinum": false,
     "steamId": null
+  },
+  {
+    "id": 1785503467535,
+    "title": "ELDEN RING",
+    "platform": "PC",
+    "year": 2022,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900.jpg",
+    "backCover": "media/covers/default_back.jpg",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/elden_ring_cover/screnshots/elden_ring_cover1.webp",
+      "media/covers/elden_ring_cover/screnshots/elden_ring_cover2.webp",
+      "media/covers/elden_ring_cover/screnshots/elden_ring_cover3.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785505753023,
+    "title": "Shadow's of the damned",
+    "platform": "PS3",
+    "year": 2011,
+    "cover": "media/covers/shadows_of_the_damned_cover/shadows_of_the_damned_cover_f.webp",
+    "backCover": "media/covers/shadows_of_the_damned_cover/shadows_of_the_damned_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/shadows_of_the_damned.pdf",
+    "discs": [
+      "media/covers/shadows_of_the_damned_cover/shadows_of_the_damned_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover1.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover2.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover3.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover4.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover5.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover6.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover7.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover8.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover9.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover10.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover11.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785507357902,
+    "title": "Assassin's Creed",
+    "platform": "PC",
+    "year": 2008,
+    "cover": "media/covers/assassins_creed_cover/assassins_creed_cover_f.webp",
+    "backCover": "media/covers/assassins_creed_cover/assassins_creed_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/assassins_creed .pdf",
+    "discs": [
+      "media/covers/assassins_creed_cover/assassins_creed_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover1.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover2.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover3.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover4.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover5.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover6.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785508244789,
+    "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "platform": "PC",
+    "year": 2022,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1361510/library_600x900.jpg",
+    "backCover": "media/covers/default_back.jpg",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover1.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover2.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover3.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover4.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover5.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover6.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover7.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": true,
+    "steamId": null
+  },
+  {
+    "id": 1785508517462,
+    "title": "Darksiders Genesis",
+    "platform": "PC",
+    "year": 2019,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/710920/library_600x900.jpg",
+    "backCover": "media/covers/default_back.jpg",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/darksiders_genesis_cover/screnshots/darksiders_genesis_cover1.webp",
+      "media/covers/darksiders_genesis_cover/screnshots/darksiders_genesis_cover2.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
   }
 ]
