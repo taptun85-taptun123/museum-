@@ -884,7 +884,7 @@ button:active {
 .glow-text {
     font-size: 20px;
     font-weight: 600;
-    background: linear-gradient(90deg, #6fe238, #3f51b5, #25b21c, #3f51b5, #04a552);
+    background: linear-gradient(90deg, #c3e77e, #6774bd, #45cd3d, #7e35c0, #04a552);
     background-size: 200% 150%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -894,7 +894,7 @@ button:active {
 }
   
  .card:hover .glow-text {
-    background-position: 400% 0;
+    background-position: 320% 0;
 }
 
 /* Боссы */
