@@ -261,11 +261,14 @@
     "title": "Darksiders",
     "platform": "PC",
     "year": 2010,
-    "cover": "media/covers/default.webp",
+    "cover": "media/covers/darksiders_cover/darksiders_cover_f.webp",
     "backCover": "",
     "manual": "",
     "disc": "",
-    "screenshots": [],
+    "screenshots": [
+      "media/covers/darksiders_cover/screnshots/darksiders_cover1.webp",
+      "media/covers/darksiders_cover/screnshots/darksiders_cover2.webp"
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -275,11 +278,15 @@
     "title": "The Witcher",
     "platform": "PC",
     "year": 2007,
-    "cover": "media/covers/default.webp",
+    "cover": "media/covers/the_witcher_cover/the_witcher_cover_f.webp",
     "backCover": "",
     "manual": "",
     "disc": "",
-    "screenshots": [],
+    "screenshots": [
+      "media/covers/the_witcher_cover/screnshots/the_witcher_cover1.webp",
+      "media/covers/the_witcher_cover/screnshots/the_witcher_cover2.webp",
+      "media/covers/the_witcher_cover/screnshots/the_witcher_cover3.webp"
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -289,11 +296,16 @@
     "title": "Darksiders III",
     "platform": "PC",
     "year": 2021,
-    "cover": "media/covers/default.webp",
+    "cover": "media/covers/darksiders_III_cover/darksiders_III_cover_f.webp",
     "backCover": "",
     "manual": "",
     "disc": "",
-    "screenshots": [],
+    "screenshots": [
+      "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover1.webp",
+      "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover2.webp",
+      "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover3.webp",
+      "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover4.webp"
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -303,11 +315,16 @@
     "title": "Bayonetta",
     "platform": "PC",
     "year": 2014,
-    "cover": "media/covers/default.webp",
+    "cover": "media/covers/bayonetta_cover/bayonetta_cover_f.webp",
     "backCover": "",
     "manual": "",
     "disc": "",
-    "screenshots": [],
+    "screenshots": [
+      "media/covers/bayonetta_cover/screnshots/bayonetta_cover1.webp",
+      "media/covers/bayonetta_cover/screnshots/bayonetta_cover2.webp",
+      "media/covers/bayonetta_cover/screnshots/bayonetta_cover3.webp",
+      "media/covers/bayonetta_cover/screnshots/bayonetta_cover4.webp"
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -317,11 +334,17 @@
     "title": "Prince of Persia: The Two Thrones",
     "platform": "PC",
     "year": 2005,
-    "cover": "media/covers/default.webp",
-    "backCover": "",
+    "cover": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_f.webp",
+    "backCover": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_b.webp",
     "manual": "",
-    "disc": "",
-    "screenshots": [],
+    "disc": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_disc.webp",
+    "screenshots": [
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover1.webp",
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover2.webp",
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover3.webp",
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover4.webp",
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover5.webp"
+    ],
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -364,7 +387,7 @@
   },
   {
     "id": 1784479620970,
-    "title": "DemonвЂ™s Souls",
+    "title": "Demon's Souls",
     "platform": "PS3",
     "year": 2009,
     "cover": "media/covers/demon_souls_cover/demon_souls_cover_f.webp",
@@ -385,6 +408,28 @@
       "media/covers/demon_souls_cover/screnshots/demon_souls_cover8.webp"
     ],
     "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785494562274,
+    "title": "The Witcher 2: Assassins of Kings",
+    "platform": "PC",
+    "year": 2011,
+    "cover": "media\\covers\\the_witcher_2_cover\\the_witcher_2_cover_f.webp\"",
+    "backCover": "media/covers/default_back.jpg",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media\\covers\\the_witcher_2_cover\\screnshots\\the_witcher_2_cover1.webp",
+      "media\\covers\\the_witcher_2_cover\\screnshots\\the_witcher_2_cover2.webp",
+      "media\\covers\\the_witcher_2_cover\\screnshots\\the_witcher_2_cover3.webp",
+      "media\\covers\\the_witcher_2_cover\\screnshots\\the_witcher_2_cover4.webp",
+      "media\\covers\\the_witcher_2_cover\\screnshots\\the_witcher_2_cover5.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": false,
     "platinum": false,
     "steamId": null
   }
