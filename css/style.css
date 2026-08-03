@@ -884,7 +884,7 @@ button:active {
 .glow-text {
     font-size: 20px;
     font-weight: 600;
-    background: linear-gradient(90deg, #c3e77e, #6774bd, #45cd3d, #7e35c0, #04a552);
+    background: linear-gradient(90deg, #44bc26, #2822af, #11997b, #631ea1, #139752);
     background-size: 200% 150%;
     background-clip: text;
     -webkit-background-clip: text;
