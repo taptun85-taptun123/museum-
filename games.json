@@ -189,6 +189,22 @@
     "platinum": false,
     "steamId": null
   },
+    {
+    "id": 1784478134271,
+    "title": "Syphon Filter",
+    "platform": "PS1",
+    "year": 2000,
+    "cover": "media/covers/syphon_filter_cover/syphon_filter_cover_f.webp",
+    "backCover": "media/covers/syphon_filter_cover/syphon_filter_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter.pdf",
+    "disc": "media/covers/syphon_filter_cover/syphon_filter_cover_disc.webp",
+    "screenshots": [
+      "media/covers/syphon_filter_cover/screnshots/syphon_filter_cover.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
   {
     "id": 1784478097782,
     "title": "Syphon Filter 2",
@@ -208,22 +224,7 @@
     "platinum": false,
     "steamId": null
   },
-  {
-    "id": 1784478134271,
-    "title": "Syphon Filter",
-    "platform": "PS1",
-    "year": 2000,
-    "cover": "media/covers/syphon_filter_cover/syphon_filter_cover_f.webp",
-    "backCover": "media/covers/syphon_filter_cover/syphon_filter_cover_b.webp",
-    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter.pdf",
-    "disc": "media/covers/syphon_filter_cover/syphon_filter_cover_disc.webp",
-    "screenshots": [
-      "media/covers/syphon_filter_cover/screnshots/syphon_filter_cover.webp"
-    ],
-    "passed": true,
-    "platinum": false,
-    "steamId": null
-  },
+
   {
     "id": 1784478179297,
     "title": "Comix Zone",
