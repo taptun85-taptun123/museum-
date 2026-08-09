@@ -3,6 +3,26 @@ let games = [];
 let currentPage = 1;
 const itemsPerPage = 12;
 
+//Музыка
+
+let tracks = [];
+let currentTrackIndex = 0;
+let isPlaying = false;
+let audio = new Audio();
+
+async function loadTracks() {
+    try {
+        const response = await fetch('media/music/tracks.json');
+        if (!response.ok) throw new Error('Не удалось загрузить список треков');
+        tracks = await response.json();
+        // После загрузки выбираем случайный трек
+        currentTrackIndex = Math.floor(Math.random() * tracks.length);
+        loadTrack(currentTrackIndex);
+    } catch (error) {
+        console.error('Ошибка загрузки треков:', error);
+        // Можно вывести сообщение пользователю или оставить плеер неактивным
+    }
+}
 function exportGames() {
     const data = JSON.stringify(games, null, 2);
     const blob = new Blob([data], { type: 'application/json' });
@@ -508,19 +528,6 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-// Музыкальный плеер
-let currentTrackIndex = 0;
-let isPlaying = false;
-let audio = new Audio();
-
-const tracks = [
-    { name: 'Томб Райдер', file: 'https://lambda.vgmtreasurechest.com/soundtracks/classical-games-in-concert-2019/qcvfwrsorq/07%20-%20Tomb%20Raider%20%28Live%20from%20Paris%29.mp3' },
-    { name: 'Getting Up', file: 'https://lambda.vgmtreasurechest.com/soundtracks/marc-eckos-getting-up-contents-under-pressure-ipod-menu-tracks-ps2-windows-xbox-gamerip-2006/yakgkxqnpj/02.%20Welcome%20to%20New%20Radius.mp3' },
-    { name: 'Соната', file: 'https://lambda.vgmtreasurechest.com/soundtracks/eternal-sonata-ps3/dpnwtepn/01_Eternal%20Sonata%20%5BTrusty%20Bell%20-%20Chopin%27s%20Dream%5D%20%28Think%20of%20Me%29.mp3' },
-    { name: 'Диабло', file: 'https://lambda.vgmtreasurechest.com/soundtracks/diablo-1998-psx-gamerip/hvfodbuw/06.mp3' },
-    { name: 'Алундра', file: 'https://nu.vgmtreasurechest.com/soundtracks/alundra-ps1-gamerip-1997/cqwjgfix/1-06.%20Requiem.mp3' }
-];
-
 function toggleMusic() {
     const playBtn = document.getElementById('playBtn');
     if (isPlaying) {
@@ -540,8 +547,22 @@ function toggleMusic() {
 }
 
 function loadTrack(index) {
-    audio.src = tracks[index].file;
+    const track = tracks[index];
+    if (!track) return;
+
+    // Пытаемся загрузить основной файл
+    audio.src = track.file;
     audio.load();
+
+    // Пытаемся воспроизвести, при ошибке переключаемся на резерв
+    audio.play().catch((error) => {
+        console.warn('Ошибка загрузки основного трека, пробуем резерв:', error);
+        audio.src = track.backup;
+        audio.load();
+        audio.play().catch((backupError) => {
+            console.error('Резервный трек тоже не загрузился:', backupError);
+        });
+    });
     updateTrackName();
 }
 
@@ -559,8 +580,7 @@ function updateTrackName() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    currentTrackIndex = Math.floor(Math.random() * tracks.length);
-    loadTrack(currentTrackIndex);
+    loadTracks();
 });
 
 function toggleAddForm() {
