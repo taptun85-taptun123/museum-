@@ -417,27 +417,38 @@ async function toggleMusic() {
         isPlaying = false;
         return;
     }
-        if (audio.src === '') {
-            currentTrackIndex = Math.floor(Math.random() * tracks.length);
-            loadTrack(currentTrackIndex);
-        }
-        try {
-            await audio.play();
-            playBtn.textContent = '⏸';
-            isPlaying = true;
-        } catch (error) {
-            console.warn('Не удалось воспроизвести, попробуйте снова:', error);
-        }
+
+    if (audio.src === '') {
+        currentTrackIndex = Math.floor(Math.random() * tracks.length);
+        loadTrack(currentTrackIndex);
+        // Ждём, пока браузер загрузит достаточно данных
+        await new Promise(resolve => {
+            if (audio.readyState >= 3) {
+                resolve();
+            } else {
+                audio.addEventListener('canplaythrough', resolve, { once: true });
+            }
+        });
+    }
+
+    try {
+        await audio.play();
+        playBtn.textContent = '⏸';
+        isPlaying = true;
+    } catch (error) {
+        console.warn('Не удалось воспроизвести:', error);
+        // Попробуем принудительно перезагрузить
+        audio.load();
+        setTimeout(() => audio.play().catch(() => {}), 100);
     }
     updateTrackName();
+}
 
 
 function loadTrack(index) {
     const track = tracks[index];
     if (!track) return;
     audio.src = track.file;
-    audio.load();
-    // audio.play() убрать
     updateTrackName();
 }
 
