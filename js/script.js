@@ -421,14 +421,6 @@ async function toggleMusic() {
     if (audio.src === '') {
         currentTrackIndex = Math.floor(Math.random() * tracks.length);
         loadTrack(currentTrackIndex);
-        // Ждём, пока браузер загрузит достаточно данных
-        await new Promise(resolve => {
-            if (audio.readyState >= 3) {
-                resolve();
-            } else {
-                audio.addEventListener('canplaythrough', resolve, { once: true });
-            }
-        });
     }
 
     try {
@@ -436,10 +428,16 @@ async function toggleMusic() {
         playBtn.textContent = '⏸';
         isPlaying = true;
     } catch (error) {
-        console.warn('Не удалось воспроизвести:', error);
-        // Попробуем принудительно перезагрузить
-        audio.load();
-        setTimeout(() => audio.play().catch(() => {}), 100);
+        console.warn('Не удалось воспроизвести, пробую через 500ms:', error);
+        setTimeout(async () => {
+            try {
+                await audio.play();
+                playBtn.textContent = '⏸';
+                isPlaying = true;
+            } catch (e) {
+                console.warn('Повторная попытка не удалась:', e);
+            }
+        }, 500);
     }
     updateTrackName();
 }
