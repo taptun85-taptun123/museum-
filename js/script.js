@@ -216,7 +216,7 @@ function renderGames(list = null) {
             </div>
             <div class="card-actions">
                 <button onclick="openScreenshots(${game.id})">📸</button>
-                <button onclick="openManual('${game.manual}')" ${!game.manual ? 'disabled' : ''}>📖</button>
+                <button onclick="openManual('${game.manual || ''}')">📖</button>
                 <button onclick="openDisc(${game.id})">💿</button>
                 <button onclick="openBosses(${game.id})">👾</button>
                 <button onclick="openAchievements(${game.id})">🏆</button>
@@ -308,9 +308,16 @@ setTimeout(() => {
 }, 5000);
 
 function openManual(url) {
-    if (!url) return;
+    if (!url || url.trim() === '') {
+        showNoManualMessage();
+        return;
+    }
     document.getElementById('manualFrame').src = url;
     document.getElementById('manualModal').style.display = 'block';
+}
+
+function showNoManualMessage() {
+    alert('📖 Мануал для этой игры пока не добавлен.');
 }
 
 function closeManual() {
