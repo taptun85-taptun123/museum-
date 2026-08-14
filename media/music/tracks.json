@@ -50,13 +50,55 @@
         "file": "https://lambda.vgmtreasurechest.com/soundtracks/psychonauts/fybmemxd/06.%20Relaxing%20Within%20the%20Campground%20Lodge.mp3"
     },
 	{
-        "name": "",
+        "name": "Darksiders Genesis",
         "backup": "",
-        "file": ""
+        "file": "https://jetta.vgmtreasurechest.com/soundtracks/darksiders-genesis-official-soundtrack/pstpudgv/16.%20The%20Maelstrom.mp3"
     },
 	{
-        "name": "",
+        "name": "Comix Zone",
         "backup": "",
-        "file": ""
-    }
+        "file": "https://nu.vgmtreasurechest.com/soundtracks/comix-zone-remastered-2016/juwxaggm/02.%20In%20the%20Zone%20%28Episode%201%2C%20Page%201-1%29.mp3"
+    },
+	
+	{
+        "name": "Syphon Filter 3",
+        "backup": "",
+        "file": "https://lambda.vgmtreasurechest.com/soundtracks/syphon-filter-3/fvqpeaos/205%20-%20paradise%20ridge.mp3"
+	}
+	
+	{
+        "name": "Syphon Filter 2",
+        "backup": "",
+        "file": "https://lambda.vgmtreasurechest.com/soundtracks/syphon-filter-2-psx-game-rip/zggpdyit/06%20-%20interstate%2070.mp3"
+	},
+	
+	{
+        "name": "Syphon Filter",
+        "backup": "",
+        "file": "https://vgmtreasurechest.com/soundtracks/syphon-filter/nphuircyqm/01.%20Title%20Screen.mp3"
+	},
+	
+	{
+        "name": "Космо-каньон",
+        "backup": "",
+        "file": "https://lambda.vgmtreasurechest.com/soundtracks/final-fantasy-vii-arranged-soundtrack-2016/oeegvkmg/45.%20Cosmo%20Canyon.mp3"
+	},
+	
+	{
+        "name": "Darksiders",
+        "backup": "",
+        "file": "https://jetta.vgmtreasurechest.com/soundtracks/darksiders-gamerip-2010/tiirldif/085.%20End%20Credits.mp3"
+	},
+	
+	{
+        "name": "Darksiders III",
+        "backup": "",
+        "file": "https://nu.vgmtreasurechest.com/soundtracks/darksiders-3-ost/nbrfzhll/19.%20Maker%27s%20Hideout.mp3"
+	},
+	
+	{
+        "name": "The Witcher",
+        "backup": "",
+        "file": "https://nu.vgmtreasurechest.com/soundtracks/the-witcher-the-complete-soundtrack/ldhexakx/005%20Dusk%20of%20a%20Northern%20Kingdom.mp3"
+	}
 ]
