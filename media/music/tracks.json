@@ -40,11 +40,6 @@
         "file": "https://nu.vgmtreasurechest.com/soundtracks/shadow-tactics-blades-of-the-shogun/nzitusfw/01.%20Main%20Theme.mp3"
     },
 	{
-        "name": "Диско Элизиум",
-        "backup": "",
-        "file": "https://nu.vgmtreasurechest.com/soundtracks/disco-elysium-windows-gamerip-2021/kynuigix/21.%20Hard%20Core%20Dance.mp3"
-    },
-	{
         "name": "Психонавты",
         "backup": "",
         "file": "https://lambda.vgmtreasurechest.com/soundtracks/psychonauts/fybmemxd/06.%20Relaxing%20Within%20the%20Campground%20Lodge.mp3"
@@ -64,7 +59,7 @@
         "name": "Syphon Filter 3",
         "backup": "",
         "file": "https://lambda.vgmtreasurechest.com/soundtracks/syphon-filter-3/fvqpeaos/205%20-%20paradise%20ridge.mp3"
-	}
+	},
 	
 	{
         "name": "Syphon Filter 2",
