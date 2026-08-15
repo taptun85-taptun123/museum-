@@ -597,4 +597,38 @@ document.addEventListener('DOMContentLoaded', function() {
             if (document.getElementById('achievementModal').style.display === 'block') closeAchievements();
         }
     });
+	
+	
+	document.addEventListener('keydown', function(e) {
+    // Если открыто модальное окно скриншотов
+    if (document.getElementById('screenshotsModal').style.display === 'block') {
+        if (e.key === 'ArrowLeft') {
+            e.preventDefault();
+            prevScreenshot();
+        } else if (e.key === 'ArrowRight') {
+            e.preventDefault();
+            nextScreenshot();
+        }
+    }
+    // Если открыто модальное окно дисков
+    else if (document.getElementById('discModal').style.display === 'block') {
+        if (e.key === 'ArrowLeft') {
+            e.preventDefault();
+            prevDisc();
+        } else if (e.key === 'ArrowRight') {
+            e.preventDefault();
+            nextDisc();
+        }
+    }
+    // Если открыто модальное окно боссов
+    else if (document.getElementById('bossModal').style.display === 'block') {
+        if (e.key === 'ArrowLeft') {
+            e.preventDefault();
+            prevBoss();
+        } else if (e.key === 'ArrowRight') {
+            e.preventDefault();
+            nextBoss();
+        }
+    }
+});
 });
