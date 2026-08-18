@@ -34,6 +34,7 @@
             <option value="PS3">PS3</option>
             <option value="PS4">PS4</option>
 			<option value="PSP">PSP</option>
+			<option value="GBA">GBA</option>
             <option value="PC">PC</option>
             <option value="Sega">Sega</option>
             <option value="Wii u">Wii u</option>
@@ -129,10 +130,20 @@
 <!-- Модальное окно для Достижения -->
 
 <div id="achievementModal" class="modal">
-    <div class="modal-content" style="max-width:600px;">
+    <div class="modal-content">
         <span class="close" onclick="closeAchievements()">&times;</span>
         <h2 style="text-align:center; margin-top:0;">🏆 Достижения</h2>
-        <div id="achievementGrid" style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center; padding:10px 0;"></div>
+        
+    <!-- СОРТИРОВКА -->
+        <div class="ach-sort">
+           <span>Сортировка:</span>
+           <button onclick="sortAchievements('dateAsc')">📅 По дате (↑)</button>
+           <button onclick="sortAchievements('type')">🏅 По типу (P→B)</button>
+           <button onclick="sortAchievements('typeDesc')">🏅 По типу (B→P)</button>
+		   <button onclick="sortAchievements('dateDesc')">📅 По дате (↓)</button>
+        </div>
+        
+        <div id="achievementGrid"></div>
     </div>
 </div>
 
