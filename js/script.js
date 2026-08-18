@@ -13,6 +13,7 @@ let currentGameId = null;
 let tracks = [];
 let currentTrackIndex = 0;
 let isPlaying = false;
+let trackLoadTimeout = null;
 const audio = new Audio();
 
 async function loadTracks() {
@@ -29,10 +30,18 @@ async function loadTracks() {
 
 function loadTrack(index) {
     const track = tracks[index];
-    if (track) {
-        audio.src = track.file;
-        updateTrackName();
-    }
+    if (!track) return;
+
+    audio.src = track.file;
+    updateTrackName();
+
+    clearTimeout(trackLoadTimeout);
+    trackLoadTimeout = setTimeout(() => {
+        if (audio.readyState < 2) {
+            console.warn('⚠️ Трек не загрузился, переключаю:', track.name);
+            nextTrack();
+        }
+    }, 5000);
 }
 
 function updateTrackName() {
@@ -70,11 +79,20 @@ async function toggleMusic() {
 }
 
 function nextTrack() {
+	clearTimeout(trackLoadTimeout);
     if (!tracks.length) return;
     currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
     loadTrack(currentTrackIndex);
     if (isPlaying) audio.play().catch(() => {});
 }
+
+// Автопереключение треков
+audio.addEventListener('ended', function() {
+    if (isPlaying) {
+        nextTrack();
+        audio.play().catch(() => {});
+    }
+});
 
 // ============================================================
 // ЭКСПОРТ / ИМПОРТ
