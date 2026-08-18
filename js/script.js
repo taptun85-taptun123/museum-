@@ -529,7 +529,12 @@ function prevBoss() {
     }
 }
 
+// ============================================================
+// ДОСТИЖЕНИЯ — ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ И ФУНКЦИИ
+// ============================================================
 let currentAchievements = [];
+let currentAchievementsCopy = [];
+let sortMode = 'dateAsc';
 
 function openAchievements(id) {
     const game = games.find(g => g.id === id);
@@ -537,7 +542,10 @@ function openAchievements(id) {
         alert('Достижений нет');
         return;
     }
-    currentAchievements = game.achievements;
+    currentGameId = id; // <-- запоминаем ID
+    currentAchievements = [...game.achievements];
+    currentAchievementsCopy = [...game.achievements];
+    sortMode = 'dateAsc';
     renderAchievements();
     document.getElementById('achievementModal').style.display = 'block';
 }
@@ -549,13 +557,103 @@ function closeAchievements() {
 function renderAchievements() {
     const container = document.getElementById('achievementGrid');
     if (!container) return;
-    container.innerHTML = currentAchievements.map(a => `
-        <div class="ach-item">
-            <img src="${a.icon}" alt="${a.name}" class="ach-icon" />
-            <span class="ach-name">${a.name}</span>
-        </div>
-    `).join('');
+
+    container.innerHTML = currentAchievements.map(a => {
+        const parts = a.obtainment_time ? a.obtainment_time.split(' ') : ['—', ''];
+        const date = parts[0] || '—';
+        const time = parts[1] || '';
+        const isLocked = a.status !== "Получен";
+        
+        return `
+            <div class="ach-item ${isLocked ? 'locked' : ''}" data-type="${a.type || 'B'}">
+                <div class="ach-tooltip">
+                    <span class="tooltip-text">${a.description || ''}</span>
+                       <div class="ach-icon-wrapper">
+                         <img src="${a.icon}" alt="${a.name}" class="ach-icon" />
+                       </div>
+                </div>
+                <span class="ach-name">${a.name}</span>
+                <span class="ach-date">${date}</span>
+                <span class="ach-time">${time}</span>
+            </div>
+        `;
+    }).join('');
 }
+
+function sortAchievements(mode) {
+    sortMode = mode;
+    
+    // Берём игру по сохранённому ID
+    const game = games.find(g => g.id === currentGameId);
+    if (!game) return;
+    
+    const sorted = [...game.achievements];
+    // ... остальная логика сортировки
+    
+    // Жёсткий порядок
+    const typeOrder = {
+        'P': 0,
+        'G': 1,
+        'S': 2,
+        'B': 3
+    };
+    
+    const typeOrderDesc = {
+        'B': 0,
+        'S': 1,
+        'G': 2,
+        'P': 3
+    };
+    
+    switch (mode) {
+        case 'dateAsc':
+    sorted.sort((a, b) => {
+        // Сначала идут полученные (есть дата), потом неполученные (null)
+        const aHas = a.obtainment_time ? 0 : 1;
+        const bHas = b.obtainment_time ? 0 : 1;
+        if (aHas !== bHas) return aHas - bHas;
+        // Если оба получены — сортируем по дате
+        return (a.obtainment_time || '').localeCompare(b.obtainment_time || '');
+    });
+    break;
+case 'dateDesc':
+    sorted.sort((a, b) => {
+        // Сначала полученные, потом неполученные
+        const aHas = a.obtainment_time ? 0 : 1;
+        const bHas = b.obtainment_time ? 0 : 1;
+        if (aHas !== bHas) return aHas - bHas;
+        // Если оба получены — сортируем по дате (обратный порядок)
+        return (b.obtainment_time || '').localeCompare(a.obtainment_time || '');
+    });
+    break;
+        case 'type':
+            sorted.sort((a, b) => {
+                const va = typeOrder[a.type] !== undefined ? typeOrder[a.type] : 99;
+                const vb = typeOrder[b.type] !== undefined ? typeOrder[b.type] : 99;
+                return va - vb;
+            });
+            break;
+        case 'typeDesc':
+            sorted.sort((a, b) => {
+                const va = typeOrderDesc[a.type] !== undefined ? typeOrderDesc[a.type] : 99;
+                const vb = typeOrderDesc[b.type] !== undefined ? typeOrderDesc[b.type] : 99;
+                return va - vb;
+            });
+            break;
+        default:
+            return;
+    }
+    
+    currentAchievements = sorted;
+    currentAchievementsCopy = [...sorted];
+    renderAchievements();
+    
+    document.querySelectorAll('.ach-sort button').forEach(btn => btn.classList.remove('active'));
+    const buttons = document.querySelectorAll('.ach-sort button');
+    const map = { 'dateAsc': 0, 'dateDesc': 3, 'type': 1, 'typeDesc': 2 };
+    if (buttons[map[mode]]) buttons[map[mode]].classList.add('active');
+}
+
 
 // Инициализация
 document.addEventListener('DOMContentLoaded', function() {
