@@ -14,9 +14,7 @@
 /* ====================================================
    БАЗОВЫЕ СТИЛИ
    ==================================================== */
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
     font-family: 'DiabloExocetCyr-Heavy', sans-serif;
@@ -26,19 +24,8 @@ body {
     transition: background 0.4s, color 0.4s;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* ====================================================
-   ЗАГОЛОВОК
-   ==================================================== */
-.site-title {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
+.container { max-width: 1200px; margin: 0 auto; }
+.site-title { text-align: center; font-size: 40px; margin-bottom: 20px; }
 
 /* ====================================================
    СЕТКА КАРТОЧЕК
@@ -62,6 +49,30 @@ body {
     transition: background 0.4s, border-color 0.4s;
 }
 
+/* Универсальная кнопка */
+button, .badge, .add-btn, .page-btn,
+.card-actions button, .delete-btn,
+.add-form button, .actions button,
+.music-player button, .manual-link button,
+.disc-nav button, .boss-nav button,
+.screenshots-nav button {
+    font-family: 'DiabloExocetCyr-Heavy', sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.2s, background 0.2s, color 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+button:active, .badge:active, .add-btn:active, .page-btn:active {
+    transform: scale(0.96);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Карточка — действия */
 .card-actions {
     display: flex;
     gap: 8px;
@@ -69,56 +80,64 @@ body {
     margin-top: 10px;
     flex-wrap: wrap;
 }
-
 .card-actions button {
-    font-family: 'DiabloExocetCyr-Heavy', sans-serif;
-    background: var(--btn-bg);
-    color: var(--btn-text);
-    border: 1px solid var(--border);
-    border-radius: 30px;
+    background: var(--btn-bg, #2a2a4a);
+    color: var(--btn-text, #e0e0e0);
+    border: 1px solid var(--border, #3a3a5a);
     padding: 6px 16px;
     font-size: 13px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.1);
-    transition: transform 0.1s, box-shadow 0.2s;
-    transition: transform 0.1s, box-shadow 0.2s;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.card-actions button:active {
-    transform: scale(0.96);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .delete-btn {
     background: #3a1a2a;
     color: #a06a7a;
     padding: 4px 12px;
-    border-radius: 30px;
     font-size: 12px;
-    cursor: pointer;
+    border: none;
 }
+
+/* Обложка + флип */
 .cover {
+    perspective: 800px;
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1/1;
     border-radius: 12px;
     overflow: hidden;
     margin-bottom: 12px;
 }
-
-.cover img {
+.cover-inner {
+    position: relative;
     width: 100%;
     height: 100%;
-	object-fit: cover;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+}
+.cover.flipped .cover-inner { transform: rotateY(180deg); }
+
+.cover-front, .cover-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #18182a;
+    padding: 10px;
+}
+.cover-front { z-index: 2; }
+.cover-back { transform: rotateY(180deg); }
+
+.cover-front img, .cover-back img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
-.meta {
-    font-size: 14px;
-    margin: 6px 0 10px;
-}
-
+/* Мета + статус */
+.meta { font-size: 14px; margin: 6px 0 10px; }
 .meta span {
     padding: 2px 10px;
     border-radius: 30px;
@@ -126,57 +145,54 @@ body {
     margin-right: 6px;
 }
 
-..status {
+.status {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; /* добавить */
+    align-items: center;
     margin-bottom: 10px;
 }
 
 .badge {
-    display: inline-flex; /* добавить */
-    align-items: center; /* добавить */
-    justify-content: center; /* добавить */
     padding: 4px 12px;
-    border-radius: 30px;
     font-size: 12px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.1);
-    transition: transform 0.1s, box-shadow 0.2s;
-    vertical-align: middle; /* добавить на всякий */
+    border: none;
 }
-
 .badge.passed {
     background: #1a3a2a;
     color: #8ac0a0;
 }
-
 .badge.platinum {
     background: #2a2a4a;
     color: #c8b0f0;
 }
 
+/* Заголовок игры */
+.title { font-size: 20px; font-weight: 600; }
+
+.glow-text {
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #44bc26, #2822af, #11997b, #631ea1, #139752);
+    background-size: 200% 150%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    transition: background-position 5s ease;
+}
+.card:hover .glow-text { background-position: 320% 0; }
+
 /* ====================================================
    АДАПТАЦИЯ КАРТОЧЕК
    ==================================================== */
-@media (max-width: 700px) {
-    .card {
-        flex-basis: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    .card {
-        flex-basis: 100%;
-    }
-}
+@media (max-width: 700px) { .card { flex-basis: calc(50% - 20px); } }
+@media (max-width: 480px) { .card { flex-basis: 100%; } }
 
 /* ====================================================
    ФОРМА ДОБАВЛЕНИЯ
    ==================================================== */
-/* Кнопка "Добавить игру" */
 .add-btn {
     display: block;
     margin: 0 auto 20px;
@@ -185,27 +201,11 @@ body {
     background: #2a2a4a;
     color: #e0e0e0;
     border: 1px solid #3a3a5a;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
-.add-btn:hover {
-    background: #4a3a8a;
-    color: #fff;
-    transform: scale(1.02);
-}
-.add-btn:active {
-    transform: scale(0.96);
-}
+.add-btn:hover { background: #4a3a8a; color: #fff; transform: scale(1.02); }
 
-/* Контейнер формы */
-#addFormContainer {
-    max-width: 900px;
-    margin: 0 auto 20px;
-}
+#addFormContainer { max-width: 900px; margin: 0 auto 20px; }
 
-/* Сама форма — центрируем и делаем компактной */
 .add-form {
     display: flex;
     flex-wrap: wrap;
@@ -216,9 +216,7 @@ body {
     background: #18182a;
     border: 1px solid #2a2a4a;
 }
-
-.add-form input,
-.add-form select {
+.add-form input, .add-form select {
     flex: 1 1 160px;
     min-width: 140px;
     padding: 8px 12px;
@@ -231,19 +229,14 @@ body {
 }
 .add-form button {
     padding: 8px 20px;
-    border-radius: 30px;
     background: #111128;
     color: #e0e0e0;
     border: 1px solid #2a2a4a;
-    cursor: pointer;
-    transition: 0.2s;
 }
-.add-form button:hover {
-    background: #4b3a9e;
-}
+.add-form button:hover { background: #4b3a9e; }
 
 /* ====================================================
-   КНОПКИ ДЕЙСТВИЙ (СОХРАНИТЬ / ЗАГРУЗИТЬ)
+   КНОПКИ ДЕЙСТВИЙ
    ==================================================== */
 .actions {
     display: flex;
@@ -252,6 +245,13 @@ body {
     margin: 20px 0;
     flex-wrap: wrap;
 }
+.actions button {
+    background: #111128;
+    color: #e0e0e0;
+    border: 1px solid #2a2a4a;
+    padding: 6px 16px;
+}
+.actions button:hover { background: #4b3a9e; }
 
 /* ====================================================
    ПАГИНАЦИЯ
@@ -263,24 +263,20 @@ body {
     margin: 20px 0;
     flex-wrap: wrap;
 }
-
 .page-btn {
     padding: 4px 10px;
-    border-radius: 6px;
-    cursor: pointer;
     font-size: 13px;
-    border: 1px solid;
+    border: 1px solid #2a2a4a;
+    background: #1f1f35;
+    color: #8a8ab0;
 }
-
 .page-btn.active {
+    background: #3a2b7a;
+    border-color: #5a4a9a;
     color: #fff;
 }
-
-.page-ellipsis {
-    display: inline-block;
-    padding: 6px 8px;
-    font-size: 14px;
-}
+.page-btn:hover { background: #2a2a4a; color: #c8c0f0; }
+.page-ellipsis { display: inline-block; padding: 6px 8px; font-size: 14px; color: #4a4a6a; }
 
 /* ====================================================
    ГИМН
@@ -294,7 +290,6 @@ body {
     flex-direction: column;
     align-items: flex-end;
 }
-
 .hymn-toggle {
     font-size: 28px;
     color: #6a5acd;
@@ -306,8 +301,9 @@ body {
     align-items: center;
     justify-content: center;
     transition: 0.3s;
+    background: rgba(24,24,42,0.7);
+    border: 1px solid #2a2a4a;
 }
-
 .hymn-content {
     max-height: 0;
     opacity: 0;
@@ -319,30 +315,27 @@ body {
     text-align: center;
     font-size: 18px;
     line-height: 1.8;
+    background: rgba(24,24,42,0.9);
+    border: 1px solid #2a2a4a;
+    color: #d4d0f0;
 }
-
 .hymn-content.open {
     max-height: 400px;
     opacity: 1;
     padding: 24px;
 }
 
-.glitch {
-    animation: flicker 2.5s infinite;
-}
-
+.glitch { animation: flicker 2.5s infinite; }
 @keyframes flicker {
-    0% { opacity: 1; }
+    0%, 12%, 24%, 100% { opacity: 1; }
     6% { opacity: 0.3; }
-    12% { opacity: 1; }
     18% { opacity: 0.6; }
-    24% { opacity: 1; }
-    100% { opacity: 1; }
 }
 
 /* ====================================================
-   КНОПКА СМЕНЫ ТЕМЫ
+   ТЕМЫ (ТЁМНАЯ / СВЕТЛАЯ)
    ==================================================== */
+/* Общие для обеих тем */
 .theme-toggle {
     position: fixed;
     top: 25px;
@@ -355,478 +348,117 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 2000;
     transition: 0.3s;
-	z-index: 2000;
+    background: rgba(24,24,42,0.7);
+    border: 1px solid #2a2a4a;
 }
 
-/* ====================================================
-   ТЁМНАЯ ТЕМА
-   ==================================================== */
 body.dark {
     background: url('../media/dark-bg.webp') no-repeat center/cover fixed;
     color: #e0e0e0;
 }
-
-body.dark .card {
-    background: #18182a;
-    border-color: #2a2a4a;
-}
-
-body.dark .add-form {
-    background: #18182a;
-    border-color: #2a2a4a;
-}
-
-body.dark .add-form input,
-body.dark .add-form select {
-    background: #111128;
-    border-color: #2a2a4a;
-    color: #e0e0e0;
-}
-
-body.dark .add-form button {
-    background: #111128;
-    color: #e0e0e0;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
-}
-
-body.dark .add-form button:hover {
-    background: #4b3a9e;
-}
-
-body.dark .site-title {
-    color: #b6cfed;
-}
-
-body.dark .title {
-    color: #d4d0f0;
-}
-
-body.dark .meta {
-    color: #c8c0f0;
-}
-
-body.dark .meta span {
-    background: #1f1f35;
-    color: #9a9ac0;
-}
-
-body.dark .badge {
-    background: #1f1f35;
-}
-
-body.dark .badge.passed {
-    background: #1a3a2a;
-    color: #8ac0a0;
-}
-
-body.dark .badge.platinum {
-    background: #2a2a4a;
-    color: #c8b0f0;
-}
-
-body.dark .page-btn {
-    background: #1f1f35;
-    border-color: #2a2a4a;
-    color: #8a8ab0;
-}
-
-body.dark .page-btn.active {
-    background: #3a2b7a;
-    border-color: #5a4a9a;
-    color: #ffffff;
-}
-
-body.dark .page-btn:hover {
-    background: #2a2a4a;
-    color: #c8c0f0;
-}
-
-body.dark .page-ellipsis {
-    color: #4a4a6a;
-}
-
-body.dark .actions button {
-    background: #111128;
-    color: #e0e0e0;
-	border-radius: 30px;
-}
-
-body.dark .manual-link button {
-    background: #111128;
-    color: #e0e0e0;
-    border-color: #2a2a4a;
-	
-}
-body.dark .manual-link button:hover {
-    background: #3a2b7a;
-
-}
-
-body.dark .actions button:hover {
-    background: #4b3a9e;
-}
-
-body.dark .hymn-toggle,
-body.dark .theme-toggle {
-    background: rgba(24, 24, 42, 0.7);
-    border: 1px solid #2a2a4a;
-}
-
-body.dark .hymn-content {
-    background: rgba(24, 24, 42, 0.9);
-    border: 1px solid #2a2a4a;
-    color: #d4d0f0;
-}
-
-/* ====================================================
-   СВЕТЛАЯ ТЕМА
-   ==================================================== */
 body.light {
     background: url('../media/light-bg.webp') no-repeat center/cover fixed;
     color: #1a1a2e;
 }
 
-body.light .card {
-    background: #ffffff;
-    border-color: #d0d0d0;
-}
-
+/* Карточки, формы, кнопки — общие правила для обеих тем */
+body.dark .card,
+body.dark .add-form,
+body.light .card,
 body.light .add-form {
-    background: #ffffff;
-    border-color: #d0d0d0;
+    background: var(--card-bg);
+    border-color: var(--border-color);
 }
 
-body.light .add-form input,
-body.light .add-form select {
-    background: #f0f0f5;
-    border-color: #d0d0d0;
-    color: #1a1a2e;
+body.dark {
+    --card-bg: #18182a;
+    --border-color: #2a2a4a;
+    --input-bg: #111128;
+    --btn-bg: #111128;
+    --btn-text: #e0e0e0;
+    --badge-bg: #1f1f35;
+    --page-bg: #1f1f35;
+    --page-text: #8a8ab0;
+    --hymn-bg: rgba(24,24,42,0.9);
+    --meta-span-bg: #1f1f35;
+    --meta-span-text: #9a9ac0;
+}
+body.light {
+    --card-bg: #ffffff;
+    --border-color: #d0d0d0;
+    --input-bg: #f0f0f5;
+    --btn-bg: #d0d0e0;
+    --btn-text: #1a1a2e;
+    --badge-bg: #e8e8f0;
+    --page-bg: #e8e8f0;
+    --page-text: #1a1a2e;
+    --hymn-bg: rgba(255,255,255,0.9);
+    --meta-span-bg: #e8e8f0;
+    --meta-span-text: #6a6a8a;
 }
 
-body.light .add-form button {
-    background: #d0d0e0;
-    color: #1a1a2e;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
+/* Применяем переменные */
+body.dark .card,
+body.dark .add-form,
+body.light .card,
+body.light .add-form {
+    background: var(--card-bg);
+    border-color: var(--border-color);
+}
+.add-form input, .add-form select {
+    background: var(--input-bg);
+    color: var(--btn-text);
+}
+.add-form button, .actions button, .music-player button {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+}
+.badge { background: var(--badge-bg); }
+.page-btn {
+    background: var(--page-bg);
+    color: var(--page-text);
+}
+.hymn-content { background: var(--hymn-bg); }
+.meta span {
+    background: var(--meta-span-bg);
+    color: var(--meta-span-text);
 }
 
-body.light .add-form button:hover {
-    background: #5a4a9a;
-}
-
-body.light .site-title {
-    color: #2a2a4a;
-}
-
-body.light .title {
-    color: #1a1a2e;
-}
-
-body.light .meta {
-    color: #1a1a2e;
-}
-
-body.light .meta span {
-    background: #e8e8f0;
-    color: #6a6a8a;
-}
-
-body.light .badge {
-    background: #e8e8f0;
-}
-
-body.light .badge.passed {
-    background: #d4edda;
-    color: #155724;
-}
-
-body.light .badge.platinum {
-    background: #e8d4f0;
-    color: #6a1b9a;
-}
-
-body.light .page-btn {
-    background: #e8e8f0;
-    border-color: #d0d0d0;
-    color: #1a1a2e;
-}
-
-body.light .page-btn.active {
-    background: #4a3a8a;
-    border-color: #5a4a9a;
-    color: #ffffff;
-}
-
-body.light .page-btn:hover {
-    background: #d0d0e0;
-}
-
-body.light .page-ellipsis {
-    color: #8a8ab0;
-}
-
-body.light .actions button {
-    background: #d0d0e0;
-    color: #1a1a2e;
-	border-radius: 30px;
-}
-
-body.light .actions button:hover {
-    background: #5a4a9a;
-}
-
+/* Специфичные для светлой темы */
+body.light .site-title { color: #2a2a4a; }
+body.light .title { color: #1a1a2e; }
+body.light .meta { color: #1a1a2e; }
+body.light .badge.passed { background: #d4edda; color: #155724; }
+body.light .badge.platinum { background: #e8d4f0; color: #6a1b9a; }
+body.light .page-btn.active { background: #4a3a8a; border-color: #5a4a9a; color: #fff; }
+body.light .page-btn:hover { background: #d0d0e0; }
+body.light .page-ellipsis { color: #8a8ab0; }
+body.light .add-form button:hover,
+body.light .actions button:hover { background: #5a4a9a; color: #fff; }
 body.light .hymn-toggle,
-body.light .theme-toggle {
-    background: rgba(255, 255, 255, 0.7);
-    border: 1px solid #d0d0d0;
-}
+body.light .theme-toggle { background: rgba(255,255,255,0.7); border-color: #d0d0d0; }
+body.light .hymn-content { border-color: #d0d0d0; color: #1a1a2e; }
 
-body.light .hymn-content {
-    background: rgba(255, 255, 255, 0.9);
-    border: 1px solid #d0d0d0;
-    color: #1a1a2e;
-}
-
-body.light .manual-link button {
-    background: #d0d0e0;
-    color: #1a1a2e;
-    border-color: #d0d0d0;
-}
-body.light .manual-link button:hover {
-    background: #4a3a8a;
-    color: #ffffff;
-	
-}
-
-body.light .music-player button {
-    background: #d0d0e0;
-    color: #1a1a2e;
-    border-color: #b0b0c0;
-}
-body.light .music-player button:hover {
-    background: #4a3a8a;
-    color: #fff;
-}
-
-button {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.1s, box-shadow 0.2s;
-}
-
-button:active {
-    transform: scale(0.96);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* Переворот обложки */
-.cover {
-    perspective: 800px;
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: 12px;
-}
-
-.cover-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.6s ease;
-    transform-style: preserve-3d;
-}
-
-.cover.flipped .cover-inner {
-    transform: rotateY(180deg);
-}
-
-.cover-front,
-.cover-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.cover-front{
-    background: #18182a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #18182a;
-    font-size: 14px;
-    padding: 10px;
-}
-
-.cover-front img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.cover-back {
-    transform: rotateY(180deg);
-    background: #18182a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #18182a;
-    font-size: 14px;
-    padding: 10px;
-}
-
-.cover-back img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-	
-}
-
-/* Модальное окно для мануала */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-}
-
-.modal-content {
-    position: relative;
-    margin: 5vh auto;
-    padding: 20px;
-    width: 90%;
-    max-width: 900px;
-    background: #18182a;
-    border-radius: 16px;
-    border: 1px solid #2a2a4a;
-	overflow: auto;
-}
-
-.close {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 30px;
-    color: #8a8ab0;
-    cursor: pointer;
-}
-
-.close:hover {
-    color: #fff;
-}
+/* Специфичные для тёмной темы */
+body.dark .site-title { color: #b6cfed; }
+body.dark .title { color: #d4d0f0; }
+body.dark .meta { color: #c8c0f0; }
+body.dark .badge.passed { background: #1a3a2a; color: #8ac0a0; }
+body.dark .badge.platinum { background: #2a2a4a; color: #c8b0f0; }
+body.dark .page-btn.active { background: #3a2b7a; border-color: #5a4a9a; color: #fff; }
+body.dark .page-btn:hover { background: #2a2a4a; color: #c8c0f0; }
+body.dark .page-ellipsis { color: #4a4a6a; }
+body.dark .add-form button:hover,
+body.dark .actions button:hover { background: #4b3a9e; }
+body.dark .hymn-toggle,
+body.dark .theme-toggle { background: rgba(24,24,42,0.7); border-color: #2a2a4a; }
+body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
 
 /* ====================================================
-   КНОПКА МАНУАЛА
+   ВЕРХНЯЯ ПАНЕЛЬ (ПОИСК + МУЗЫКА)
    ==================================================== */
-.manual-link {
-    margin-top: 20px;
-    padding-top: 12px;
-    border-top: 1px solid rgba(255,255,255,0.1);
-}
-
-.manual-link button {
-    display: inline-block;
-    width: auto;
-    padding: 6px 20px;
-    border-radius: 30px;
-    font-size: 13px;
-    cursor: pointer;
-    transition: 0.2s;
-    margin: 0 auto;
-}
-
-.manual-link button:disabled {
-    opacity: 0.3;
-    cursor: not-allowed;
-}
-
-/* Модальное окно для скриншотов */
-#screenshotsModal .modal-content {
-    max-width: 800px;
-    max-height: 90vh;
-    overflow: auto;
-}
-
-#screenshotsModal img {
-    max-height: 70vh;
-    object-fit: contain;
-}
-}
-
-.screenshots-nav {
-    margin-top: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.screenshots-nav button {
-    background: #2a2a4a;
-    border: none;
-    color: #fff;
-    padding: 8px 16px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.screenshots-nav button:hover {
-    background: #4a3a8a;
-}
-
-/* Навигация для дисков — единый стиль */
-.disc-nav {
-    margin-top: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.disc-nav button {
-    background: #2a2a4a;
-    border: none;
-    color: #fff;
-    padding: 8px 16px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.disc-nav button:hover {
-    background: #4a3a8a;
-}
-
-#discModal .modal-content {
-    max-width: 600px;
-    max-height: 90vh;
-    overflow: auto;
-}
-
-#discModal img {
-    max-height: 70vh;
-    object-fit: contain;
-}
-
-#screenshotsModal .modal-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-	gap: 16px;
-}
-
-/* Стиль адаптивног поиска и музплеера*/
-
 .top-bar {
     display: flex;
     align-items: center;
@@ -836,7 +468,6 @@ button:active {
     margin: 0 auto 20px;
     flex-wrap: wrap;
 }
-
 #searchInput {
     flex: 0 1 280px;
     min-width: 180px;
@@ -848,7 +479,6 @@ button:active {
     color: #e0e0e0;
     outline: none;
 }
-
 .music-player {
     display: flex;
     align-items: center;
@@ -856,92 +486,74 @@ button:active {
     flex-shrink: 0;
 }
 .music-player button {
-    background: #111128;
-    color: #e0e0e0;
-    border: 1px solid #2a2a4a;
-    border-radius: 30px;
     padding: 6px 16px;
     font-size: 14px;
-    cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.1s, box-shadow 0.2s;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-    line-height: 1;
+    border: 1px solid #2a2a4a;
 }
-.music-player button:hover {
-    background: #4a3a8a;
-    color: #fff;
-}
-.music-player button:active {
-    transform: scale(0.96);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-.title {
-   
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.glow-text {
-    font-size: 20px;
-    font-weight: 600;
-    background: linear-gradient(90deg, #44bc26, #2822af, #11997b, #631ea1, #139752);
-    background-size: 200% 150%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: background-position 5s ease;
-    display: inline-block;
-}
-  
- .card:hover .glow-text {
-    background-position: 320% 0;
-}
-
-/* Боссы */
-.boss-nav {
-    margin-top: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.boss-nav button {
-    background: #2a2a4a;
-    border: none;
-    color: #fff;
-    padding: 8px 16px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 18px;
-}
-.boss-nav button:hover {
-    background: #4a3a8a;
-}
-
+.music-player button:hover { background: #4a3a8a; color: #fff; }
 
 /* ====================================================
-   МОДАЛКА ДОСТИЖЕНИЙ — ПРОКРУТКА (ПРАВКА)
+   МОДАЛЬНЫЕ ОКНА
    ==================================================== */
-/* Модалка достижений — шире */
-#achievementModal .modal-content {
-    max-width: 800px;
-    max-height: 90vh;
-    overflow-y: auto;
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+.modal-content {
+    position: relative;
+    margin: 5vh auto;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    width: 90%;
+    max-width: 900px;
+    background: #18182a;
+    border-radius: 16px;
+    border: 1px solid #2a2a4a;
+    overflow: auto;
+    max-height: 90vh;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: #8a8ab0;
+    cursor: pointer;
+}
+.close:hover { color: #fff; }
+
+/* Модалка скриншотов */
+#screenshotsModal .modal-content { max-width: 800px; align-items: center; gap: 16px; }
+#screenshotsModal img { max-height: 70vh; object-fit: contain; }
+
+/* Модалка дисков */
+#discModal .modal-content { max-width: 600px; }
+#discModal img { max-height: 70vh; object-fit: contain; }
+
+/* Модалка достижений */
+#achievementModal .modal-content { max-width: 800px; }
+@media (max-width: 600px) {
+    #achievementModal .modal-content { max-width: 95%; padding: 12px; }
 }
 
-@media (max-width: 600px) {
-    #achievementModal .modal-content {
-        max-width: 95%;
-        padding: 12px;
-    }
+#achievementModal .modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+#achievementModal .modal-content::-webkit-scrollbar-track {
+    background: #1a1a2e;
+    border-radius: 8px;
+}
+#achievementModal .modal-content::-webkit-scrollbar-thumb {
+    background: #2a2a4a;
+    border-radius: 5px;
+}
+#achievementModal .modal-content::-webkit-scrollbar-thumb:hover {
+    background: #483d8b;
 }
 
 #achievementGrid {
@@ -950,132 +562,50 @@ button:active {
     gap: 16px;
     justify-content: center;
     padding: 10px 0;
-    flex: 1;
 }
 
 /* ====================================================
-   СКРОЛЛ ДЛЯ МОДАЛКИ ДОСТИЖЕНИЙ
+   НАВИГАЦИЯ (диски, боссы, скриншоты)
    ==================================================== */
-#achievementModal .modal-content::-webkit-scrollbar {
-    width: 8px;
-}
-
-#achievementModal .modal-content::-webkit-scrollbar-track {
-    background: #1a1a2e;
-    border-radius: 8px;
-}
-
-#achievementModal .modal-content::-webkit-scrollbar-thumb {
-    background: #2a2a4a;
-    border-radius: 5px;
-}
-
-#achievementModal .modal-content::-webkit-scrollbar-thumb:hover {
-    background: #483d8b;
-}
-
-/* Чтобы работал колёсико мыши */
-#achievementModal .modal-content {
-    max-height: 80vh;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-}
-
-/*стиль иконок консолей*/
-
-.platform-icon {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-    margin-right: 4px;
-    filter: invert(1);
-}
-body.light .platform-icon {
-    filter: none;
-}
-
-#bossModal .modal-content {
-    margin: 5vh auto;
-    max-height: 90vh;
-    overflow: auto;
-}
-
-.platform-icon.ps2,
-.platform-icon.ps3,
-.platform-icon.ps4,
-.platform-icon.psp,
-.platform-icon.wii_u {
-    width: 40px;
-    height: 40px;
-}
-
-/* ====================================================
-   ЦВЕТНЫЕ ПОДЛОЖКИ ДЛЯ ТРОФЕЕВ
-   ==================================================== */
-.ach-item {
+.disc-nav, .boss-nav, .screenshots-nav {
+    margin-top: 16px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 150px;
-    text-align: center;
-    padding: 8px;
-    border-radius: 12px;
-    transition: background 0.3s;
+    gap: 20px;
+}
+.disc-nav button, .boss-nav button, .screenshots-nav button {
+    background: #2a2a4a;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+.disc-nav button:hover, .boss-nav button:hover, .screenshots-nav button:hover {
+    background: #4a3a8a;
 }
 
-/* Бронза */
-.ach-item[data-type="B"] {
-    background: #3d2a1a;
-    border: 2px solid #8b6b4a;
+/* ====================================================
+   МАНУАЛ
+   ==================================================== */
+.manual-link {
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.1);
 }
-
-/* Серебро */
-.ach-item[data-type="S"] {
-    background: #737373;
-    border: 2px solid #8a8aa0;
-}
-
-/* Золото */
-.ach-item[data-type="G"] {
-    background: #cfb53b;
-    border: 2px solid #efa94a;
-}
-
-/* Платина */
-.ach-item[data-type="P"] {
-    background: #1f75fe;
-    border: 2px solid #6ac8f0;
-}
-
-.ach-icon {
-    width: 110px;
-    height: 110px;
-    object-fit: contain;
-    border-radius: 8px;
-    background: #1a1a2e;
-    padding: 4px;
-}
-
-.ach-name {
+.manual-link button {
+    padding: 6px 20px;
     font-size: 13px;
+    border: 1px solid #2a2a4a;
+    background: #111128;
     color: #e0e0e0;
-    margin-top: 4px;
-    word-break: break-word;
 }
+.manual-link button:hover { background: #3a2b7a; }
+.manual-link button:disabled { opacity: 0.3; cursor: not-allowed; }
 
-.ach-date {
-    font-size: 12px;
-    color: #8c964f;
-    margin-top: 2px;
-    font-family: monospace;
-}
-
-.ach-time {
-    font-size: 11px;
-    color: #bec7a9;
-    font-family: monospace;
-}
-
+/* ====================================================
+   ДОСТИЖЕНИЯ
+   ==================================================== */
 .ach-sort {
     display: flex;
     gap: 8px;
@@ -1086,14 +616,7 @@ body.light .platform-icon {
     border-radius: 12px;
     background: rgba(255,255,255,0.05);
 }
-
-.ach-sort span {
-    color: #aaa;
-    font-size: 13px;
-    display: flex;
-    align-items: center;
-}
-
+.ach-sort span { color: #aaa; font-size: 13px; display: flex; align-items: center; }
 .ach-sort button {
     background: #2a2a4a;
     color: #e0e0e0;
@@ -1104,31 +627,85 @@ body.light .platform-icon {
     cursor: pointer;
     transition: 0.2s;
 }
-
-.ach-sort button:hover {
-    background: #4a3a8a;
-    color: #fff;
-}
-
+.ach-sort button:hover,
 .ach-sort button.active {
     background: #4a3a8a;
     color: #fff;
-    border: 1px solid #6a5acd;
 }
+.ach-sort button.active { border: 1px solid #6a5acd; }
+
+.ach-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 12px;
+    transition: background 0.3s;
+}
+.ach-item[data-type="B"] { background: #3d2a1a; border: 2px solid #8b6b4a; }
+.ach-item[data-type="S"] { background: #737373; border: 2px solid #8a8aa0; }
+.ach-item[data-type="G"] { background: #cfb53b; border: 2px solid #efa94a; }
+.ach-item[data-type="P"] {
+    background: #1f75fe;
+    border: 2px solid #6ac8f0;
+    animation: platinumPulse 4s ease-in-out infinite;
+    position: relative;
+    overflow: visible !important;
+}
+.ach-item[data-type="P"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, transparent 30%, rgba(255,255,255,0.15) 50%, transparent 70%);
+    pointer-events: none;
+    border-radius: 12px;
+    z-index: 0;
+}
+@keyframes platinumPulse {
+    0% { box-shadow: 0 0 8px rgba(200,180,240,0.15); }
+    50% { box-shadow: 0 0 30px rgba(252,252,238,0.5); }
+    100% { box-shadow: 0 0 8px rgba(200,180,240,0.15); }
+}
+
+.ach-item.locked .ach-icon {
+    filter: grayscale(1) brightness(0.1) contrast(0.8);
+    opacity: 0.3;
+}
+.ach-item.locked .ach-name { color: #555; font-style: italic; }
+.ach-item.locked .ach-date,
+.ach-item.locked .ach-time { color: #333; }
+
+.ach-icon {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #1a1a2e;
+    padding: 4px;
+}
+.ach-name { font-size: 13px; color: #e0e0e0; margin-top: 4px; word-break: break-word; }
+.ach-date { font-size: 12px; color: #8c964f; margin-top: 2px; font-family: monospace; }
+.ach-time { font-size: 11px; color: #bec7a9; font-family: monospace; }
 
 /* ====================================================
    ТУЛТИП ДЛЯ ДОСТИЖЕНИЙ
    ==================================================== */
 .ach-tooltip {
     position: relative;
+    z-index: 10;
     display: inline-block;
     cursor: help;
+    pointer-events: auto;
 }
-
 .ach-tooltip .tooltip-text {
     visibility: hidden;
     width: 250px;
-    background: rgba(26, 26, 46, 0.80);
+    background: rgba(26,26,46,0.80);
     color: #e0e0e0;
     text-align: center;
     border: 1px solid #4a3a8a;
@@ -1137,16 +714,15 @@ body.light .platform-icon {
     font-size: 13px;
     line-height: 1.4;
     position: absolute;
-    z-index: 10;
+    z-index: 9999;
     bottom: 110%;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
-	word-wrap: break-word;
+    word-wrap: break-word;
 }
-
 .ach-tooltip .tooltip-text::after {
     content: '';
     position: absolute;
@@ -1157,12 +733,10 @@ body.light .platform-icon {
     border-style: solid;
     border-color: #4a3a8a transparent transparent transparent;
 }
-
 .ach-tooltip:hover .tooltip-text {
     visibility: visible;
     opacity: 1;
 }
-
 @media (max-width: 768px) {
     .ach-tooltip .tooltip-text {
         width: 180px;
@@ -1171,101 +745,22 @@ body.light .platform-icon {
     }
 }
 
-/* Затемнение для неполученных трофеев */
-.ach-item.locked .ach-icon {
-    filter: grayscale(1) brightness(0.1) contrast(0.8);
-    opacity: 0.3;
+/* ====================================================
+   ПЛАТФОРМЫ (иконки консолей)
+   ==================================================== */
+.platform-icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 4px;
+    filter: invert(1);
 }
-
-.ach-item.locked .ach-name {
-    color: #555;
-    font-style: italic;
-}
-
-.ach-item.locked .ach-date,
-.ach-item.locked .ach-time {
-    color: #333;
-}
-
-/* Платиновый блик — свет бежит по иконке */
-/*.ach-item[data-type="P"] .ach-icon-wrapper {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.ach-item[data-type="P"] .ach-icon-wrapper::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg,
-        transparent 0%,
-        rgba(255, 255, 255, 0.5) 50%,
-        transparent 100%
-    );
-    animation: lightSweep 2.5s ease-in-out infinite;
-    pointer-events: none;
-}
-
-@keyframes lightSweep {
-    0% { left: -100%; }
-    100% { left: 100%; }
-}*/
-
-.ach-item[data-type="P"] {
-    position: relative;
-    overflow: hidden;
-}
-
-/* Блик под иконкой — на фоне */
-/*.ach-item[data-type="P"]::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg,
-        transparent 0%,
-        rgba(255, 255, 255, 0.4) 50%,
-        transparent 100%
-    );
-    animation: lightSweep 3s ease-in-out infinite;
-    pointer-events: none;
-    border-radius: 12px;
-    z-index: 0;
-}*/
-
-/* Иконка — поверх блика */
-/*.ach-item[data-type="P"] .ach-icon-wrapper,
-.ach-item[data-type="P"] .ach-icon {
-    position: relative;
-    z-index: 1;
-}
-
-@keyframes lightSweep {
-    0% { left: -100%; }
-    100% { left: 100%; }
-}*/
-
-.ach-item[data-type="P"] {
-    animation: platinumPulse 4s ease-in-out infinite;
-    border-radius: 12px;
-    /* фон не трогаем — он остаётся от data-type */
-}
-
-@keyframes platinumPulse {
-    0% {
-        box-shadow: 0 0 8px rgba(200, 180, 240, 0.15);
-    }
-    50% {
-        box-shadow: 0 0 30px rgba(252, 252, 238, 0.7);
-    }
-    100% {
-        box-shadow: 0 0 10px rgba(200, 180, 240, 0.15);
-    }
+body.light .platform-icon { filter: none; }
+.platform-icon.ps2,
+.platform-icon.ps3,
+.platform-icon.ps4,
+.platform-icon.psp,
+.platform-icon.wii_u {
+    width: 40px;
+    height: 40px;
 }
