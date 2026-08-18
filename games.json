@@ -1,0 +1,4434 @@
+[
+  {
+    "id": 2,
+    "title": "Jade Cocoon",
+    "platform": "PS1",
+    "year": 2000,
+    "cover": "media/covers/jade_cocoon_cover/jade_cocoon_cover_f.webp",
+    "backCover": "media/covers/jade_cocoon_cover/jade_cocoon_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/jade_cocoon.pdf",
+    "disc": "media/covers/jade_cocoon_cover/jade_cocoon_cover_disc.webp",
+    "screenshots": [],
+    "passed": false,
+    "platinum": false
+  },
+  {
+    "id": 3,
+    "title": "Alundra",
+    "platform": "PS1",
+    "year": 1998,
+    "cover": "media/covers/alundra_cover/alundra_cover_f.webp",
+    "backCover": "media/covers/alundra_cover/alundra_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/alundra.pdf",
+    "disc": "media/covers/alundra_cover/alundra_cover_disc.webp",
+    "screenshots": [],
+    "passed": false,
+    "platinum": false
+  },
+  {
+    "id": 1784475739213,
+    "title": "Disco Elysium",
+    "platform": "PC",
+    "year": 2019,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/632470/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/632470/logo.png",
+    "screenshots": [
+      "media/covers/discoelysium_cover/screenshots/discoelysium_cover1.webp",
+      "media/covers/discoelysium_cover/screenshots/discoelysium_cover2.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": "632470"
+  },
+  {
+    "id": 1784477469845,
+    "title": "Psychonauts",
+    "platform": "PC",
+    "year": 2005,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/3830/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/3830/logo.png",
+    "screenshots": [
+      "media/covers/psychonayts_cover/screnshots/psychonayts_cover.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": "3830"
+  },
+  {
+    "id": 1784477539831,
+    "title": "Dirge of Cerberus: Final Fantasy VII",
+    "platform": "PS2",
+    "year": 2006,
+    "cover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_f.webp",
+    "backCover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps2/dirgeofcerberus.pdf",
+    "disc": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_disc.webp",
+    "screenshots": [
+      "media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_1.webp",
+      "media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_2.webp",
+      "media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_3.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477600544,
+    "title": "Tomb Raider II: Starring Lara Croft",
+    "platform": "PS1",
+    "year": 1997,
+    "cover": "media/covers/tomb_raider2_cover/tomb_raider2_cover_f.webp",
+    "backCover": "media/covers/tomb_raider2_cover/tomb_raider2_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/tomb_raider2.pdf",
+    "disc": "media/covers/tomb_raider2_cover/tomb_raider2_cover_disc.webp",
+    "screenshots": [
+      "media/covers/tomb_raider2_cover/screnshots/tomb_raider2_cover_1.webp",
+      "media/covers/tomb_raider2_cover/screnshots/tomb_raider2_cover_2.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477649841,
+    "title": "Disney's Pocahontas",
+    "platform": "Sega",
+    "year": 1996,
+    "cover": "media/covers/disneys_pocahontas_cover/disneys_pocahontas_f.webp",
+    "backCover": "media/covers/disneys_pocahontas_cover/disneys_pocahontas_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/disneys_pocahontas.pdf",
+    "disc": "media/covers/disneys_pocahontas_cover/disneys_pocahontas_disc.webp",
+    "screenshots": [
+      "media/covers/disneys_pocahontas_cover/screnshots/disneys_pocahontas_cover.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477814358,
+    "title": "Tomb Raider: Unfinished Business",
+    "platform": "PS1",
+    "year": 1998,
+    "cover": "media/covers/tombraidergold_cover/tombraidergold_f.webp",
+    "backCover": "media/covers/tombraidergold_cover/tombraidergold_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/tombraidergold.pdf",
+    "disc": "media/covers/tombraidergold_cover/tombraidergold_disc.webp",
+    "screenshots": [
+      "media/covers/tombraidergold_cover/screnshots/tombraidergold_cover.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784477909441,
+    "title": "Kingdom: Classic",
+    "platform": "PC",
+    "year": 2015,
+    "cover": "media/covers/kingdom_classic_cover/kingdom_classic_cover_f.webp",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/368230/logo.png",
+    "manual": "",
+    "disc": "",
+    "screenshots": [
+      "media/covers/kingdom_classic_cover/screnshots/kingdom_classic_cover.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": "368230"
+  },
+  {
+    "id": 1784477930753,
+    "title": "Shadow Tactics: Blades of the Shogun",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/418240/logo.png",
+    "manual": "",
+    "disc": "",
+    "screenshots": [
+      "media/covers/shadow_tactics_blades_of_the_shogun_cover/screnshots/shadow_tactics_blades_of_the_shogun_cover_1.webp",
+      "media/covers/shadow_tactics_blades_of_the_shogun_cover/screnshots/shadow_tactics_blades_of_the_shogun_cover_2.webp"
+    ],
+    "platform": "PC",
+    "year": 2016,
+    "cover": "media/covers/shadow_tactics_blades_of_the_shogun_cover/shadow_tactics_blades_of_the_shogun_cover_f.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": "418240"
+  },
+  {
+    "id": 1784477971340,
+    "title": "Final Fantasy VII",
+    "platform": "PS1",
+    "year": 1997,
+    "cover": "media/covers/final_fantasy_7_cover/final_fantasy_7_cover_f.webp",
+    "backCover": "media/covers/final_fantasy_7_cover/final_fantasy_7_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/final_fantasy_7.pdf",
+    "disc": [
+      "media/covers/final_fantasy_7_cover/final_fantasy_7_cover_disc_1.webp",
+      "media/covers/final_fantasy_7_cover/final_fantasy_7_cover_disc_2.webp",
+      "media/covers/final_fantasy_7_cover/final_fantasy_7_cover_disc_3.webp"
+    ],
+    "screenshots": [
+      "media/covers/final_fantasy_7_cover/screnshots/final_fantasy_7_cover.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478027636,
+    "title": "Tomb Raider",
+    "platform": "PS1",
+    "year": 1996,
+    "cover": "media/covers/tombraider_cover/tombraider_cover_f.webp",
+    "backCover": "media/covers/tombraider_cover/tombraider_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/tombraider.pdf",
+    "disc": "media/covers/tombraider_cover/tombraider_cover_disc.webp",
+    "screenshots": [
+      "media/covers/tombraider_cover/screnshots/tombraider_cover_1.webp",
+      "media/covers/tombraider_cover/screnshots/tombraider_cover_2.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478134271,
+    "title": "Syphon Filter",
+    "platform": "PS1",
+    "year": 2000,
+    "cover": "media/covers/syphon_filter_cover/syphon_filter_cover_f.webp",
+    "backCover": "media/covers/syphon_filter_cover/syphon_filter_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter.pdf",
+    "disc": "media/covers/syphon_filter_cover/syphon_filter_cover_disc.webp",
+    "screenshots": [
+      "media/covers/syphon_filter_cover/screnshots/syphon_filter_cover.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478097782,
+    "title": "Syphon Filter 2",
+    "platform": "PS1",
+    "year": 1999,
+    "cover": "media/covers/syphon_filter_2_cover/syphon_filter_2_f.webp",
+    "backCover": "media/covers/syphon_filter_2_cover/syphon_filter_2_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter_2.pdf",
+    "disc": [
+      "media/covers/syphon_filter_2_cover/syphon_filter_2_disc1.webp",
+      "media/covers/syphon_filter_2_cover/syphon_filter_2_disc2.webp"
+    ],
+    "screenshots": [
+      "media/covers/syphon_filter_2_cover/screnshots/syphon_filter_2.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478179297,
+    "title": "Comix Zone",
+    "platform": "Sega",
+    "year": 1995,
+    "cover": "media/covers/comixzone_cover/comixzone_f.webp",
+    "backCover": "media/covers/comixzone_cover/comixzone_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/comixzone.pdf",
+    "disc": "media/covers/comixzone_cover/comixzone_disc.webp",
+    "screenshots": [
+      "media/covers/comixzone_cover/screnshots/comixzone.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478211170,
+    "title": "Syphon Filter 3",
+    "platform": "PS1",
+    "year": 2001,
+    "cover": "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_f.webp",
+    "backCover": "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter_3.pdf",
+    "disc": "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_disc.webp",
+    "screenshots": [
+      "media/covers/syphon_filter_3_cover/screnshots/syphon_filter_3_cover.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784478285179,
+    "title": "Darksiders",
+    "platform": "PC",
+    "year": 2010,
+    "cover": "media/covers/darksiders_cover/darksiders_cover_f.webp",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/50620/logo.png",
+    "manual": "",
+    "disc": "",
+    "screenshots": [
+      "media/covers/darksiders_cover/screnshots/darksiders_cover1.webp",
+      "media/covers/darksiders_cover/screnshots/darksiders_cover2.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": "50620"
+  },
+  {
+    "id": 1784478337357,
+    "title": "The Witcher",
+    "platform": "PC",
+    "year": 2007,
+    "cover": "media/covers/the_witcher_cover/the_witcher_cover_f.webp",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/20900/logo.png",
+    "manual": "",
+    "disc": "",
+    "screenshots": [
+      "media/covers/the_witcher_cover/screnshots/the_witcher_cover1.webp",
+      "media/covers/the_witcher_cover/screnshots/the_witcher_cover2.webp",
+      "media/covers/the_witcher_cover/screnshots/the_witcher_cover3.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": "20900"
+  },
+  {
+    "id": 1784478395903,
+    "title": "Darksiders III",
+    "platform": "PC",
+    "year": 2021,
+    "cover": "media/covers/darksiders_III_cover/darksiders_III_cover_f.webp",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/606280/logo.png",
+    "manual": "",
+    "disc": "",
+    "screenshots": [
+      "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover1.webp",
+      "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover2.webp",
+      "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover3.webp",
+      "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover4.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": "606280"
+  },
+  {
+    "id": 1784479227430,
+    "title": "Bayonetta",
+    "platform": "PC",
+    "year": 2014,
+    "cover": "media/covers/bayonetta_cover/bayonetta_cover_f.webp",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/460790/logo.png",
+    "manual": "",
+    "disc": "",
+    "screenshots": [
+      "media/covers/bayonetta_cover/screnshots/bayonetta_cover1.webp",
+      "media/covers/bayonetta_cover/screnshots/bayonetta_cover2.webp",
+      "media/covers/bayonetta_cover/screnshots/bayonetta_cover3.webp",
+      "media/covers/bayonetta_cover/screnshots/bayonetta_cover4.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": "460790"
+  },
+  {
+    "id": 1784479267224,
+    "title": "Prince of Persia: The Two Thrones",
+    "platform": "PC",
+    "year": 2005,
+    "cover": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_f.webp",
+    "backCover": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_b.webp",
+    "manual": "",
+    "disc": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_disc.webp",
+    "screenshots": [
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover1.webp",
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover2.webp",
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover3.webp",
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover4.webp",
+      "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover5.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784479532352,
+    "title": "Donkey Kong Country: Tropical Freeze",
+    "platform": "Wii u",
+    "year": 2014,
+    "cover": "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_f.webp",
+    "backCover": "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/donkeykongcountrytropicalfreeze.pdf",
+    "disc": "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_disc.webp",
+    "screenshots": [
+      "media/covers/donkeykongcountrytropicalfreeze_cover/screnshots/donkeykongcountrytropicalfreeze_cover1.webp",
+      "media/covers/donkeykongcountrytropicalfreeze_cover/screnshots/donkeykongcountrytropicalfreeze_cover2.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784479571560,
+    "title": "Yoshi's Woolly World",
+    "platform": "Wii u",
+    "year": 2015,
+    "cover": "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_f.webp",
+    "backCover": "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/yoshiswoolyworld.pdf",
+    "disc": "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_disc.webp",
+    "screenshots": [
+      "media/covers/yoshiswoolyworld_cover/screnshots/yoshiswoolyworld_cover1.webp",
+      "media/covers/yoshiswoolyworld_cover/screnshots/yoshiswoolyworld_cover2.webp",
+      "media/covers/yoshiswoolyworld_cover/screnshots/yoshiswoolyworld_cover3.webp",
+      "media/covers/yoshiswoolyworld_cover/screnshots/yoshiswoolyworld_cover4.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1784479620970,
+    "title": "Demon's Souls",
+    "platform": "PS3",
+    "year": 2009,
+    "cover": "media/covers/demon_souls_cover/demon_souls_cover_f.webp",
+    "backCover": "media/covers/demon_souls_cover/demon_souls_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/demon_souls.pdf",
+    "disc": [
+      "media/covers/demon_souls_cover/demon_souls_cover_disc1.webp",
+      "media/covers/demon_souls_cover/demon_souls_cover_disc2.webp"
+    ],
+    "screenshots": [
+      "media/covers/demon_souls_cover/screnshots/demon_souls_cover1.webp",
+      "media/covers/demon_souls_cover/screnshots/demon_souls_cover2.webp",
+      "media/covers/demon_souls_cover/screnshots/demon_souls_cover3.webp",
+      "media/covers/demon_souls_cover/screnshots/demon_souls_cover4.webp",
+      "media/covers/demon_souls_cover/screnshots/demon_souls_cover5.webp",
+      "media/covers/demon_souls_cover/screnshots/demon_souls_cover6.webp",
+      "media/covers/demon_souls_cover/screnshots/demon_souls_cover7.webp",
+      "media/covers/demon_souls_cover/screnshots/demon_souls_cover8.webp"
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785494562274,
+    "title": "The Witcher 2: Assassins of Kings",
+    "platform": "PC",
+    "year": 2011,
+    "cover": "media/covers/the_witcher_2_cover/the_witcher_2_cover_f.webp",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/20920/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/the_witcher_2_cover/screnshots/the_witcher_2_cover1.webp",
+      "media/covers/the_witcher_2_cover/screnshots/the_witcher_2_cover2.webp",
+      "media/covers/the_witcher_2_cover/screnshots/the_witcher_2_cover3.webp",
+      "media/covers/the_witcher_2_cover/screnshots/the_witcher_2_cover4.webp",
+      "media/covers/the_witcher_2_cover/screnshots/the_witcher_2_cover5.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "20920"
+  },
+  {
+    "id": 1785503467535,
+    "title": "ELDEN RING",
+    "platform": "PC",
+    "year": 2022,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/1245620/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/elden_ring_cover/screnshots/elden_ring_cover1.webp",
+      "media/covers/elden_ring_cover/screnshots/elden_ring_cover2.webp",
+      "media/covers/elden_ring_cover/screnshots/elden_ring_cover3.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "1245620"
+  },
+  {
+    "id": 1785505753023,
+    "title": "Shadow's of the damned",
+    "platform": "PS3",
+    "year": 2011,
+    "cover": "media/covers/shadows_of_the_damned_cover/shadows_of_the_damned_cover_f.webp",
+    "backCover": "media/covers/shadows_of_the_damned_cover/shadows_of_the_damned_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/shadows_of_the_damned.pdf",
+    "discs": [
+      "media/covers/shadows_of_the_damned_cover/shadows_of_the_damned_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover1.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover2.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover3.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover4.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover5.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover6.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover7.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover8.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover9.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover10.webp",
+      "media/covers/shadows_of_the_damned_cover/screnshots/shadows_of_the_damned_cover11.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785507357902,
+    "title": "Assassin's Creed",
+    "platform": "PC",
+    "year": 2008,
+    "cover": "media/covers/assassins_creed_cover/assassins_creed_cover_f.webp",
+    "backCover": "media/covers/assassins_creed_cover/assassins_creed_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/assassins_creed .pdf",
+    "discs": [
+      "media/covers/assassins_creed_cover/assassins_creed_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover1.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover2.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover3.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover4.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover5.webp",
+      "media/covers/assassins_creed_cover/screnshots/assassins_creed_cover6.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785508244789,
+    "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "platform": "PC",
+    "year": 2022,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1361510/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/1361510/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover1.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover2.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover3.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover4.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover5.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover6.webp",
+      "media/covers/teenage_mutant_ninja_turtles_shredders_revenge_cover/screnshots/teenage_mutant_ninja_turtles_shredders_revenge_cover7.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": true,
+    "steamId": "1361510"
+  },
+  {
+    "id": 1785508517462,
+    "title": "Darksiders Genesis",
+    "platform": "PC",
+    "year": 2019,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/710920/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/710920/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/darksiders_genesis_cover/screnshots/darksiders_genesis_cover1.webp",
+      "media/covers/darksiders_genesis_cover/screnshots/darksiders_genesis_cover2.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "710920"
+  },
+  {
+    "id": 1785671466513,
+    "title": "Silent Hill",
+    "platform": "PS1",
+    "year": 1999,
+    "cover": "media/covers/silent_hill_cover/silent_hill_cover_f.webp",
+    "backCover": "media/covers/silent_hill_cover/silent_hill_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/silent_hill.pdf",
+    "discs": [
+      "media/covers/silent_hill_cover/silent_hill_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover1.webp",
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover2.webp",
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover3.webp",
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover4.webp",
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover5.webp",
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover6.webp",
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover7.webp",
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover8.webp",
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover9.webp",
+      "media/covers/silent_hill_cover/screnshots/silent_hill_cover10.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785755719438,
+    "title": "Eternal Sonata",
+    "platform": "PS3",
+    "year": 2008,
+    "cover": "media/covers/eternal_sonata_cover/eternal_sonata_cover_f.webp",
+    "backCover": "media/covers/eternal_sonata_cover/eternal_sonata_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/eternal_sonata.pdf",
+    "discs": [
+      "media/covers/eternal_sonata_cover/eternal_sonata_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover1.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover2.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover3.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover4.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover7.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover8.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover9.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover10.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover11.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover12.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover13.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover14.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover15.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover16.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover17.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover18.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover19.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover20.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover21.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover22.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover23.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover24.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover25.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover26.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover27.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover28.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover29.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover30.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover31.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover32.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover33.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover34.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover35.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover36.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover37.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover38.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover39.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover40.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover41.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover42.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover43.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover44.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover45.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover46.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover47.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover48.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover49.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover50.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover51.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover52.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover53.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover54.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover55.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover56.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover57.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover58.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover59.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover60.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover61.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover62.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover63.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover64.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover65.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover66.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover67.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover68.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover69.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover70.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover71.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover72.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover73.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover74.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover75.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover76.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover77.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover78.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover79.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover80.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover81.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover82.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover83.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover84.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover85.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover86.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover87.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover88.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover89.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover90.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover91.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover92.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover93.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover94.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover95.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover96.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover97.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover98.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover99.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover100.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover101.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover102.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover103.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover104.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover105.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover106.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover107.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover108.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover109.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover110.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover111.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover112.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover113.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover114.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover115.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover116.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover117.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover118.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover119.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover120.webp",
+      "media/covers/eternal_sonata_cover/screnshots/eternal_sonata_cover121.webp"
+    ],
+    "bosses": [
+      "media/covers/eternal_sonata_cover/boss/boss1.webp",
+      "media/covers/eternal_sonata_cover/boss/boss2.webp",
+      "media/covers/eternal_sonata_cover/boss/boss3.webp",
+      "media/covers/eternal_sonata_cover/boss/boss4.webp",
+      "media/covers/eternal_sonata_cover/boss/boss5.webp",
+      "media/covers/eternal_sonata_cover/boss/boss6.webp",
+      "media/covers/eternal_sonata_cover/boss/boss7.webp",
+      "media/covers/eternal_sonata_cover/boss/boss8.webp",
+      "media/covers/eternal_sonata_cover/boss/boss9.webp",
+      "media/covers/eternal_sonata_cover/boss/boss10.webp",
+      "media/covers/eternal_sonata_cover/boss/boss11.webp",
+      "media/covers/eternal_sonata_cover/boss/boss12.webp",
+      "media/covers/eternal_sonata_cover/boss/boss13.webp",
+      "media/covers/eternal_sonata_cover/boss/boss14.webp",
+      "media/covers/eternal_sonata_cover/boss/boss15.webp"
+    ],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785856648285,
+    "title": "Ori and The Blind Forest",
+    "platform": "PC",
+    "year": 2015,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/387290/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/387290/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/ori_and_the_blind_forest_cover/screnshots/ori_and_the_blind_forest_cover1.webp",
+      "media/covers/ori_and_the_blind_forest_cover/screnshots/ori_and_the_blind_forest_cover2.webp",
+      "media/covers/ori_and_the_blind_forest_cover/screnshots/ori_and_the_blind_forest_cover3.webp",
+      "media/covers/ori_and_the_blind_forest_cover/screnshots/ori_and_the_blind_forest_cover4.webp",
+      "media/covers/ori_and_the_blind_forest_cover/screnshots/ori_and_the_blind_forest_cover5.webp",
+      "media/covers/ori_and_the_blind_forest_cover/screnshots/ori_and_the_blind_forest_cover6.webp",
+      "media/covers/ori_and_the_blind_forest_cover/screnshots/ori_and_the_blind_forest_cover7.webp",
+      "media/covers/ori_and_the_blind_forest_cover/screnshots/ori_and_the_blind_forest_cover8.webp",
+      "media/covers/ori_and_the_blind_forest_cover/screnshots/ori_and_the_blind_forest_cover9.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "387290"
+  },
+  {
+    "id": 1785858142167,
+    "title": "Hard Corps: Uprising, Contra",
+    "platform": "PS3",
+    "year": 2011,
+    "cover": "media/covers/hard_corps_uprising_cover/hard_corps_uprising_cover_f.webp",
+    "backCover": "media/covers/default_back.jpg",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover1.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover2.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover3.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover4.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover5.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover6.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover7.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover8.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover9.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover10.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover11.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover12.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover13.webp",
+      "media/covers/hard_corps_uprising_cover/screnshots/hard_corps_uprising_cover14.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1785858879162,
+    "title": "Battle RAM!",
+    "platform": "PC",
+    "year": 2023,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1262060/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/1262060/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/battle_ram_cover/screnshots/battle_ram_cover1.webp",
+      "media/covers/battle_ram_cover/screnshots/battle_ram_cover2.webp",
+      "media/covers/battle_ram_cover/screnshots/battle_ram_cover3.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "1262060"
+  },
+  {
+    "id": 1785931341989,
+    "title": "Marc Ecko’s Getting Up: Contents Under Pressure",
+    "platform": "PC",
+    "year": 2006,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/260190/capsule_616x353.jpg",
+    "backCover": "https://shared.fastly.steamstatic.com/community_assets/images/apps/260190/0d09ed3d9151812f7d0c433fbefd892575cc8da9.jpg",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/getting_up_cover/screnshots/getting_up_cover1.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover2.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover3.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover4.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover5.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover6.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover7.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover8.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover9.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover10.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover11.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover12.webp",
+      "media/covers/getting_up_cover/screnshots/getting_up_cover13.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "260190"
+  },
+  {
+    "id": 1785932642513,
+    "title": "Trine Enchanted Edition",
+    "platform": "PC",
+    "year": 2009,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/35700/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/35700/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/trine_enchanted_edition_cover/screnshots/trine_enchanted_edition_cover1.webp",
+      "media/covers/trine_enchanted_edition_cover/screnshots/trine_enchanted_edition_cover2.webp",
+      "media/covers/trine_enchanted_edition_cover/screnshots/trine_enchanted_edition_cover3.webp",
+      "media/covers/trine_enchanted_edition_cover/screnshots/trine_enchanted_edition_cover4.webp",
+      "media/covers/trine_enchanted_edition_cover/screnshots/trine_enchanted_edition_cover5.webp",
+      "media/covers/trine_enchanted_edition_cover/screnshots/trine_enchanted_edition_cover6.webp",
+      "media/covers/trine_enchanted_edition_cover/screnshots/trine_enchanted_edition_cover7.webp",
+      "media/covers/trine_enchanted_edition_cover/screnshots/trine_enchanted_edition_cover8.webp",
+      "media/covers/trine_enchanted_edition_cover/screnshots/trine_enchanted_edition_cover9.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "35700"
+  },
+  {
+    "id": 1786105765320,
+    "title": "Code Vein",
+    "platform": "PC",
+    "year": 2019,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/678960/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/678960/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/code_vein_cover/screnshots/code_vein_cover1.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover2.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover3.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover4.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover5.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover6.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover7.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover8.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover9.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover10.webp",
+      "media/covers/code_vein_cover/screnshots/code_vein_cover11.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "678960"
+  },
+  {
+    "id": 1786111200019,
+    "title": "Driver: San Francisco",
+    "platform": "PS3",
+    "year": 2011,
+    "cover": "media/covers/driver_san_francisco_cover/driver_san_francisco_cover_f.webp",
+    "backCover": "media/covers/driver_san_francisco_cover/driver_san_francisco_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/driver_san_francisco.pdf",
+    "discs": [
+      "media/covers/driver_san_francisco_cover/driver_san_francisco_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover1.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover2.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover3.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover4.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover5.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover6.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover7.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover8.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover9.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover10.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover11.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover12.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover13.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover14.webp",
+      "media/covers/driver_san_francisco_cover/screnshots/driver_san_francisco_cover15.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1786275885481,
+    "title": "Trine 2: Complete Story",
+    "platform": "PC",
+    "year": 2013,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/35720/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/35720/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/trine_2_cover/screnshots/trine_2_cover1.webp",
+      "media/covers/trine_2_cover/screnshots/trine_2_cover2.webp",
+      "media/covers/trine_2_cover/screnshots/trine_2_cover3.webp",
+      "media/covers/trine_2_cover/screnshots/trine_2_cover4.webp",
+      "media/covers/trine_2_cover/screnshots/trine_2_cover5.webp",
+      "media/covers/trine_2_cover/screnshots/trine_2_cover6.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "35720"
+  },
+  {
+    "id": 1786277953944,
+    "title": "Silent Hill 2",
+    "platform": "PS2",
+    "year": 2001,
+    "cover": "media/covers/silent_hill_2_cover/silent_hill_2_cover_f.webp",
+    "backCover": "media/covers/silent_hill_2_cover/silent_hill_2_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps2/silent_hill_2.pdf",
+    "discs": [
+      "media/covers/silent_hill_2_cover/silent_hill_2_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover1.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover2.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover3.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover4.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover5.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover6.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover7.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover8.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover9.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover10.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover11.webp",
+      "media/covers/silent_hill_2_cover/screnshots/silent_hill_2_cover12.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1786279429347,
+    "title": "Hitman: Codename 47",
+    "platform": "PC",
+    "year": 2007,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/6900/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/6900/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/hitman_codename_47_cover/screnshots/hitman_codename_47_coverr1.webp",
+      "media/covers/hitman_codename_47_cover/screnshots/hitman_codename_47_coverr2.webp",
+      "media/covers/hitman_codename_47_cover/screnshots/hitman_codename_47_coverr3.webp",
+      "media/covers/hitman_codename_47_cover/screnshots/hitman_codename_47_coverr4.webp",
+      "media/covers/hitman_codename_47_cover/screnshots/hitman_codename_47_coverr5.webp",
+      "media/covers/hitman_codename_47_cover/screnshots/hitman_codename_47_coverr6.webp",
+      "media/covers/hitman_codename_47_cover/screnshots/hitman_codename_47_coverr7.webp",
+      "media/covers/hitman_codename_47_cover/screnshots/hitman_codename_47_coverr8.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "6900"
+  },
+  {
+    "id": 1786279813635,
+    "title": "BioShock",
+    "platform": "PC",
+    "year": 2007,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/7670/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/7670/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/bioshock_cover/screnshots/bioshock_cover1.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover2.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover3.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover4.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover5.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover6.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover7.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover8.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover9.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover10.webp",
+      "media/covers/bioshock_cover/screnshots/bioshock_cover11.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "7670"
+  },
+  {
+    "id": 1786456977994,
+    "title": "God of War - Chains of Olympus",
+    "platform": "PSP",
+    "year": 2008,
+    "cover": "media/covers/god_of_war_chains_of_olympus_cover/god_of_war_chains_of_olympus_cover_f.webp",
+    "backCover": "media/covers/god_of_war_chains_of_olympus_cover/god_of_war_chains_of_olympus_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps2/god_of_war_chains_of_olympus.pdf",
+    "discs": [
+      "media/covers/god_of_war_chains_of_olympus_cover/god_of_war_chains_of_olympus_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/god_of_war_chains_of_olympus_cover/screnshots/god_of_war_chains_of_olympus_cover1.webp",
+      "media/covers/god_of_war_chains_of_olympus_cover/screnshots/god_of_war_chains_of_olympus_cover2.webp",
+      "media/covers/god_of_war_chains_of_olympus_cover/screnshots/god_of_war_chains_of_olympus_cover3.webp",
+      "media/covers/god_of_war_chains_of_olympus_cover/screnshots/god_of_war_chains_of_olympus_cover4.webp",
+      "media/covers/god_of_war_chains_of_olympus_cover/screnshots/god_of_war_chains_of_olympus_cover5.webp",
+      "media/covers/god_of_war_chains_of_olympus_cover/screnshots/god_of_war_chains_of_olympus_cover6.webp",
+      "media/covers/god_of_war_chains_of_olympus_cover/screnshots/god_of_war_chains_of_olympus_cover7.webp",
+      "media/covers/god_of_war_chains_of_olympus_cover/screnshots/god_of_war_chains_of_olympus_cover8.webp",
+      "media/covers/god_of_war_chains_of_olympus_cover/screnshots/god_of_war_chains_of_olympus_cover9.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1786459263632,
+    "title": "Hue",
+    "platform": "PC",
+    "year": 2016,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/383270/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/383270/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/hue_cover/screnshots/hue_cover1.webp",
+      "media/covers/hue_cover/screnshots/hue_cover2.webp",
+      "media/covers/hue_cover/screnshots/hue_cover3.webp",
+      "media/covers/hue_cover/screnshots/hue_cover4.webp",
+      "media/covers/hue_cover/screnshots/hue_cover5.webp",
+      "media/covers/hue_cover/screnshots/hue_cover6.webp",
+      "media/covers/hue_cover/screnshots/hue_cover7.webp",
+      "media/covers/hue_cover/screnshots/hue_cover8.webp",
+      "media/covers/hue_cover/screnshots/hue_cover9.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "383270"
+  },
+  {
+    "id": 1786459783166,
+    "title": "Guacamelee! Super Turbo Championship Edition",
+    "platform": "PC",
+    "year": 2014,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/275390/library_600x900.jpg",
+    "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/275390/logo.png",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover1.webp",
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover2.webp",
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover3.webp",
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover4.webp",
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover5.webp",
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover6.webp",
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover7.webp",
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover8.webp",
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover9.webp",
+      "media/covers/guacamelee_cover/screnshots/guacamelee_cover10.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": "275390"
+  },
+  {
+    "id": 1786601387572,
+    "title": "Metroid: Zero Mission",
+    "platform": "GBA",
+    "year": 2004,
+    "cover": "media/covers/metroid_zero_mission_cover/metroid_zero_mission_cover_f.webp",
+    "backCover": "media/covers/metroid_zero_mission_cover/metroid_zero_mission_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/metroid_zero_mission.pdf",
+    "discs": [
+      "media/covers/metroid_zero_mission_cover/metroid_zero_mission_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover1.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover2.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover3.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover4.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover5.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover6.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover7.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover8.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover9.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover10.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover11.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover12.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover13.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover14.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover15.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover16.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover17.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover18.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover19.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover20.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover21.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover22.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover23.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover24.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover25.webp",
+      "media/covers/metroid_zero_mission_cover/screnshots/metroid_zero_mission_cover26.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1786603397331,
+    "title": "Diablo",
+    "platform": "PS1",
+    "year": 1997,
+    "cover": "media/covers/diablo_cover/diablo_cover_f.webp",
+    "backCover": "media/covers/diablo_cover/diablo_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/diablo.pdf",
+    "discs": [
+      "media/covers/diablo_cover/diablo_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/diablo_cover/screnshots/diablo_cover1.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover2.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover3.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover4.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover5.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover6.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover7.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover8.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover9.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover10.webp",
+      "media/covers/diablo_cover/screnshots/diablo_cover11.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": true,
+    "steamId": null
+  },
+  {
+    "id": 1786604703586,
+    "title": "Spyro the Dragon",
+    "platform": "PS1",
+    "year": 1998,
+    "cover": "media/covers/spyro_the_dragon_cover/spyro_the_dragon_cover_f.webp",
+    "backCover": "media/covers/spyro_the_dragon_cover/spyro_the_dragon_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/spyro_the_dragon.pdf",
+    "discs": [
+      "media/covers/spyro_the_dragon_cover/spyro_the_dragon_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/spyro_the_dragon_cover/screnshots/spyro_the_dragon_cover1.webp",
+      "media/covers/spyro_the_dragon_cover/screnshots/spyro_the_dragon_cover2.webp",
+      "media/covers/spyro_the_dragon_cover/screnshots/spyro_the_dragon_cover3.webp",
+      "media/covers/spyro_the_dragon_cover/screnshots/spyro_the_dragon_cover4.webp",
+      "media/covers/spyro_the_dragon_cover/screnshots/spyro_the_dragon_cover5.webp",
+      "media/covers/spyro_the_dragon_cover/screnshots/spyro_the_dragon_cover6.webp",
+      "media/covers/spyro_the_dragon_cover/screnshots/spyro_the_dragon_cover7.webp",
+      "media/covers/spyro_the_dragon_cover/screnshots/spyro_the_dragon_cover8.webp",
+      "media/covers/spyro_the_dragon_cover/screnshots/spyro_the_dragon_cover9.webp"
+    ],
+    "bosses": [],
+    "achievements": [],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1786609204481,
+    "title": "Majin and the Forsaken Kingdom",
+    "platform": "PS3",
+    "npwrId": "NPWR01558_00",
+    "year": 2010,
+    "cover": "media/covers/majin_and_the_forsaken_kingdom_cover/majin_and_the_forsaken_kingdom_cover_f.webp",
+    "backCover": "media/covers/majin_and_the_forsaken_kingdom_cover/majin_and_the_forsaken_kingdom_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/majin_and_the_forsaken_kingdom.pdf",
+    "discs": [
+      "media/covers/majin_and_the_forsaken_kingdom_cover/majin_and_the_forsaken_kingdom_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover1.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover2.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover3.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover4.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover5.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover6.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover7.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover8.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover9.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover10.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover11.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover12.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover13.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover14.webp",
+      "media/covers/majin_and_the_forsaken_kingdom_cover/screnshots/majin_and_the_forsaken_kingdom_cover15.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "Отлично!",
+        "description": "Вы собрали все призы игры Мадзин. Забытое Королевство™!",
+        "type": "P",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 13:46:26",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Маздин-очиститель",
+        "description": "Маздин получает силу очищения",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-30 21:17:45",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Великое здоровье",
+        "description": "Здоровье Маздина достигает возможного максимума",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-05-31 20:19:10",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Великая мощь",
+        "description": "Сила Маздина достигает возможного максимума",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-05-31 19:57:37",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Великая сила ветра",
+        "description": "Сила ветра Маздина достигает возможного максимума",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-05-29 20:13:35",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Великая сила молнии",
+        "description": "Сила молнии Маздина достигает возможного максимума",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-05-30 20:01:12",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "Великая сила огня",
+        "description": "Сила огня Маздина достигает возможного максимума",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-05-30 19:47:59",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Великая сила очищения",
+        "description": "Сила очищения Мадзина достигает возможного максимума",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:07:35",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "Тёмный охотник",
+        "description": "Победите 100 врагов",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-24 10:03:51",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Неповторимый",
+        "description": "Победите 500 врагов",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-05-31 20:21:54",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "Мастер ловушек",
+        "description": "Победите более 30 врагов, поставив на них ловушки",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 13:46:25",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "Охотник за сокровищами",
+        "description": "Откройте все сундуки с сокровищами",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:05:34",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "Бессмертный",
+        "description": "Маздин оживил вас не менее 3 раз.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:28:15",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "Болтун",
+        "description": "Поговорите с Маздином не менее 100 раз.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-24 21:38:05",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "Страж Маздина",
+        "description": "Спасите Маздина из беды не менее 10 раз.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-29 19:55:12",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "Спасение Мадзина",
+        "description": "Вы спасли Мадзина",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-31 22:20:40",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Побег из Темного замка",
+        "description": "Вы убежали из Темного замка",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-17 20:21:54",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Капракан побежден",
+        "description": "Вы победили Капракана",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-24 14:43:05",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Б'алам побежден",
+        "description": "Вы победили Б'алама",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-26 21:25:12",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Тлалок побежден",
+        "description": "Вы победили Тлалока",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-28 21:37:32",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "Иш-Таб побеждена",
+        "description": "Вы победили Иш-Таб",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-31 20:52:40",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Победа над Темным предком",
+        "description": "Вы победили Темного предка",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 12:26:56",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Мир в К'умаркае",
+        "description": "Добрались до хорошей концовки",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 12:42:54",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Повелитель Мадзина",
+        "description": "Отдали Мадзину более 500 приказов",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-28 19:36:05",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Мастер исцеления",
+        "description": "Накормите Мадзина 10 синими плодами.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-25 21:21:32",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Мадзин-ветер",
+        "description": "Мадзин получает силу ветра",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-24 09:24:47",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "Мадзин-молния",
+        "description": "Мадзин получает силу молнии",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-26 20:29:03",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Мадзин-пламя",
+        "description": "Мадзин получает силу огня",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-28 21:04:03",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "Рыцарь Мадзина",
+        "description": "Спасите Мадзина из беды не менее 30 раз.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 07:37:28",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "Порабощенный Тьмой",
+        "description": "Получите статус \"Морок\" не менее 10 раз.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-26 20:06:04",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "Безудержный",
+        "description": "Атакуйте врагов со щитами не менее 100 раз.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-26 20:45:25",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Мастер скрытности",
+        "description": "Победите 50 врагов скрытыми атаками",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-31 21:57:41",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "Мастер комбинаций",
+        "description": "Победите 300 врагов атаками-комбинациями",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:40:33",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "Мастер связок",
+        "description": "Победите 50 и более врагов атаками-связками",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:33:46",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "Мастер боя",
+        "description": "Победите 5 или более врагов сразу, используя атаку-связку или атаку-комбинацию.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:23:18",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "Бог ветра",
+        "description": "Победите более 10 врагов атакой-связкой с ветром",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:36:04",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP035.webp"
+      },
+      {
+        "name": "Бог молнии",
+        "description": "Победите более 10 врагов атакой-связкой с молнией",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:21:46",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP036.webp"
+      },
+      {
+        "name": "Бог огня",
+        "description": "Победите более 10 врагов атакой-связкой с огнем",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:47:36",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP037.webp"
+      },
+      {
+        "name": "Бог очищения",
+        "description": "Победите более 10 врагов атакой-связкой с очищением",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:48:49",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP038.webp"
+      },
+      {
+        "name": "Фанат переодеваний",
+        "description": "Соберите 3 полных комплекта одежды",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-29 18:43:46",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP039.webp"
+      },
+      {
+        "name": "Мастер переодеваний",
+        "description": "Соберите всю одежду",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 09:05:42",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP040.webp"
+      },
+      {
+        "name": "Смельчак",
+        "description": "Поднимите уровень дружбы и уровень Тепеу до максимума",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-06-01 11:43:37",
+        "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP041.webp"
+      }
+    ],
+    "passed": true,
+    "platinum": true,
+    "steamId": null
+  },
+  {
+    "id": 1786609816470,
+    "title": "A Boy and His Blob",
+    "platform": "PS3",
+    "npwrId": "NPWR09311_00",
+    "year": 2009,
+    "cover": "media/covers/a_boy_and_his_blob_cover/a_boy_and_his_blob_cover_f.webp",
+    "backCover": "media/covers/default_back.jpg",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover1.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover2.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover3.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover4.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover5.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover6.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover7.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover8.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover9.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover10.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover11.webp",
+      "media/covers/a_boy_and_his_blob_cover/screnshots/a_boy_and_his_blob_cover12.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "Лес пройден",
+        "description": "Пройти мир Леса",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 16:27:12",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Пещеры пройдены",
+        "description": "Пройти мир Пещер",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-16 22:33:50",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Боболения пройдена",
+        "description": "Пройти мир Боболении",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-19 20:46:36",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Цитадель пройдена",
+        "description": "Пройти мир Цитадели",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-22 21:00:53",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Игра завершена",
+        "description": "Побить последнего босса",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-23 07:52:41",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Начинающий искатель сокровищ",
+        "description": "Собрать 30 сундуков с сокровищами",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 16:21:24",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "Опытный искатель сокровищ",
+        "description": "Собрать 60 сундуков с сокровищами",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-17 08:00:05",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Эксперт по поиску сокровищ",
+        "description": "Собрать 90 сундуков с сокровищами",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-19 20:01:35",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Мастер поиска сокровищ",
+        "description": "Собрать 120 сундуков с сокровищами",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-23 07:37:28",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Легкий завтрак",
+        "description": "Скормить блобу по одной желейке каждого вида",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-22 22:02:51",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Заблокировать и загрузить",
+        "description": "Превратиться в меха в первый раз",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-22 22:01:23",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Проявление любви",
+        "description": "Обнять блоба 5 раз",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 09:14:47",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "Испытания в Лесу завершены",
+        "description": "Пройти все испытания в мире Леса",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-23 21:20:37",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Испытания в Пещерах завершены",
+        "description": "Пройти все испытания в мире Пещер",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-17 08:18:42",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "Испытания в Блоболонии завершены",
+        "description": "Пройти все испытания в мире Блоболонии",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-19 22:57:15",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Испытания в Цитадели завершены",
+        "description": "Пройти все испытания в мире Цитадели",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-23 20:53:02",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Спаситель Блоболонии (Цитадель 2)",
+        "description": "Спасти всех плененных блогов в Цитадели 2 уровня",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-23 21:35:47",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Спаситель Блоболонии (Цитадель 3)",
+        "description": "Спасти всех плененных блогов в Цитадели 3 уровня",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-23 21:47:58",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Спаситель Блоболонии (Цитадель 5)",
+        "description": "Спасти всех плененных блогов в Цитадели 5 уровня",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-23 21:58:51",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "Спаситель Блоболонии (Цитадель 6)",
+        "description": "Спасти всех плененных блогов в Цитадели 6 уровня",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-23 22:28:51",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Спаситель Блоболонии (Цитадель 7)",
+        "description": "Спасти всех плененных блогов в Цитадели 7 уровня",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-23 23:04:02",
+        "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP020.webp"
+      }
+    ],
+    "passed": true,
+    "platinum": true,
+    "steamId": null
+  },
+  {
+    "id": 1786610847391,
+    "title": "Asura’s Wrath",
+    "platform": "PS3",
+    "npwrId": "NPWR02376_00",
+    "year": 2012,
+    "cover": "media/covers/asuras_wrath_cover/asuras_wrath_cover_f.webp",
+    "backCover": "media/covers/asuras_wrath_cover/asuras_wrath_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/asuras_wrath.pdf",
+    "discs": [
+      "media/covers/asuras_wrath_cover/asuras_wrath_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover1.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover2.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover3.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover4.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover5.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover6.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover7.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover8.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover9.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover10.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover11.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover12.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover13.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover14.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover15.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover16.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover17.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover18.webp",
+      "media/covers/asuras_wrath_cover/screnshots/asuras_wrath_cover19.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "Enlightenmen",
+        "description": "Acquire all ASURA'S WRATH trophies.",
+        "type": "P",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Suffering",
+        "description": "Complete Part I: Suffering.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-08 21:20:04",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Rebirth",
+        "description": "Complete Part II: Rebirth.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-10 21:46:18",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Karma",
+        "description": "Complete Part III: Karma.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 14:57:57",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "The Truth Hurts",
+        "description": "Uncover the truth.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-13 21:01:25",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Fighter",
+        "description": "Complete all episodes on Normal or higher.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "Wamior",
+        "description": "Complete all episodes on Hard.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Demigod",
+        "description": "Complete all episodes with at least an A rank on Normal.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Shinkoku Soldier",
+        "description": "Complete all episodes with an S rank on Normal.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Guardian General",
+        "description": "Complete all episodes with at least an A rank on Hard.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Deity",
+        "description": "Complete all episodes with an S rank on Hard.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Mortal",
+        "description": "Achieve a D rank or higher on any episode.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-07 22:03:55",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "Anger Management",
+        "description": "Activate Burst for the first time in Episode 1.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-07 21:52:32",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "The Six-Amed Man",
+        "description": "Grow a few extra limbs in Episode 5.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-08 20:26:38",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "Heads Will Roll",
+        "description": "Completely lose it in Episode 12.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-10 21:40:24",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Rebel with a Cause",
+        "description": "Do what you think is right in Episode 13.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 12:08:27",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Denied",
+        "description": "Get scolded by your former master in Episode 10.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-10 20:53:04",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "It Takes Two",
+        "description": "Defeat Deus with Yasha in Episode 17.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 14:10:39",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "A Cry of Anger",
+        "description": "Activate Burst 50 times.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 13:42:32",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "A Roar of Fury",
+        "description": "Activate Burst 100 times.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Hit'Em Hard",
+        "description": "Defeat 100 enemies with a special attack.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "Hit'Em Harder",
+        "description": "Defeat 300 enemies with a special attack.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Can't Touch This",
+        "description": "Perform 50 counterattacks.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 12:16:53",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "Can't Touch That",
+        "description": "Perform 100 counterattacks.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-13 20:42:30",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "They Don't Stand a Chance",
+        "description": "Defeat 50 enemies while in Unlimited Mode.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-09 21:33:24",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "Unstoppable Force",
+        "description": "Defeat 100 enemies while in Unlimited Mode.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-13 19:27:03",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "Taking Out the Trash",
+        "description": "Defeat 300 enemies with heavy attacks and/or lock-on fire.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 13:51:15",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "Quick on the Draw",
+        "description": "Achieve 70 EXCELLENT synchronic impact rankings.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 14:27:34",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "Lightning Reflexes",
+        "description": "Achieve 150 EXCELLENT synchronic impact rankings.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "Be the Fist",
+        "description": "Achieve an overall synchronic rate average of 80% on any difficulty.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-13 21:01:50",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "Pain Is Universal",
+        "description": "Accumulate a total of 10000 in damage.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-09 21:25:23",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Too Legit to Quit",
+        "description": "Continue the game after falling in battle.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-13 20:12:32",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "Look Ma, No Eyes!",
+        "description": "Complete the game with the Blind Master gauge equipped.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "Who Needs Health?",
+        "description": "Complete the game with the Mortal gauge equipped.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "CG Collector",
+        "description": "Get all the CG art.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-13 21:01:44",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "Art Appreciator",
+        "description": "Get all the illustrations.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-13 21:01:44",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP035.webp"
+      },
+      {
+        "name": "Movie Buff",
+        "description": "Get all the movies and interludes.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-13 21:01:44",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP036.webp"
+      },
+      {
+        "name": "The Whole Nine",
+        "description": "Get all the gauges.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP037.webp"
+      },
+      {
+        "name": "Ka-ching!",
+        "description": "Accumulate a total of 120000 Battle points.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-05-11 14:58:04",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP038.webp"
+      },
+      {
+        "name": "View of the Valley",
+        "description": "Continue to stare at the hot spring attendant's assets.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP039.webp"
+      },
+      {
+        "name": "Like a Fish",
+        "description": "Consume more alcohol than you should.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-10 20:52:09",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP040.webp"
+      },
+      {
+        "name": "Sometimes I Feel Like...",
+        "description": "Find all the peeping Doji at the hot spring.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP041.webp"
+      },
+      {
+        "name": "Shut Up, Wyzen!",
+        "description": "Intemput Wyzen's monologue.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-08 20:16:45",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP042.webp"
+      },
+      {
+        "name": "Shut Up, Kalrow!",
+        "description": "Intemput Kalrow's monologue.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-09 21:35:28",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP043.webp"
+      },
+      {
+        "name": "Shut Up, Augus!",
+        "description": "Intemput Augus' monologue.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-10 21:06:22",
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP044.webp"
+      },
+      {
+        "name": "Daddy's Angry",
+        "description": "Defy the supreme being in Episode 19.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP045.webp"
+      },
+      {
+        "name": "A Friend in Need",
+        "description": "Protect your brother-in-law in Episode 20.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP046.webp"
+      },
+      {
+        "name": "How Do Ya Like Me Now?",
+        "description": "Receive a parting gift in Episode 21.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP047.webp"
+      },
+      {
+        "name": "Blaze of Glory",
+        "description": "Put an end to your wrath once and for all.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP048.webp"
+      },
+      {
+        "name": "Nirvana",
+        "description": "Complete Part IV: Nirvana.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP049.webp"
+      },
+      {
+        "name": "Gaea's Champion",
+        "description": "Complete all episodes in Part IV with an S rank on Hard.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP050.webp"
+      },
+      {
+        "name": "A Rebuttal of Fists",
+        "description": "Complete all missions in Lost Episode 1.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP051.webp"
+      },
+      {
+        "name": "An Everlasting Clash",
+        "description": "Complete all missions in Lost Episode 2.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/asuras_wrath_cover/achivments/TROP052.webp"
+      }
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1786706574985,
+    "title": "Sly Cooper and the Thievius Raccoonus",
+    "platform": "PS3",
+    "npwrId": "NPWR01435_00",
+    "year": 2011,
+    "cover": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/sly_cooper_and_the_thievius_raccoonus_cover_f.webp",
+    "backCover": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/sly_cooper_and_the_thievius_raccoonus_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/sly_cooper_and_the_thievius_raccoonus.pdf",
+    "discs": [
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/sly_cooper_and_the_thievius_raccoonus_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover1.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover2.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover3.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover4.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover5.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover6.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover7.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover8.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover9.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover10.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover11.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover12.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover13.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover14.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover15.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover16.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover17.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover18.webp",
+      "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/screnshots/sly_cooper_and_the_thievius_raccoonus_cover19.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "True Thievius Raccoonus",
+        "description": "Unlock all trophies for Sly Cooper's first outing",
+        "type": "P",
+        "status": "Получен",
+        "obtainment_time": "2024-06-10 21:18:50",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Foxy Lady",
+        "description": "Collect a police file from Camelita",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-04 00:57:28",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Coin Collector",
+        "description": "Collect a single coin",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-04 00:53:02",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Coin Recycler",
+        "description": "Collect 60 coins",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-24 11:16:20",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Coins, Coins Everywhere!",
+        "description": "Collect 99 coins",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-24 11:21:57",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Snowy Blueprints",
+        "description": "Collect some snowy blueprints",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-10 18:49:27",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "Programmers Can Do Anything",
+        "description": "Collect some watery blueprints",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 19:09:04",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "French bulldog style",
+        "description": "Collect a blueprint from Muggshot",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-05 21:45:05",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Top Of The Morning",
+        "description": "Learn Rob McCooper's Explosive Hat Technique",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 20:35:30",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Sucker Punched!",
+        "description": "Enter the world of Sly Cooper!",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-04 00:51:26",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Slytunkhamen Approves",
+        "description": "Upgrade your shadow",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-08 13:21:54",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Run like an Egyptian",
+        "description": "Learn Slytunkhamen's secret move",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-08 13:00:44",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "Dive Bomb",
+        "description": "Learn Drake Cooper's Fast Attack Dive",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 07:57:10",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Slow Slacker",
+        "description": "Upgrade your slow motion technique",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-08 12:12:11",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "Take It Slow",
+        "description": "Learn Dev Cooperinda's Slow Motion Jump",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 19:25:28",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Now Ya See Me",
+        "description": "Learn Sir Andrew Cooper's Thief Replica Technique",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-06 07:45:11",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Coin Sucker",
+        "description": "Learn Karen Cooper's Coin Magnet Technique",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 20:10:57",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Spikes Suck",
+        "description": "Learn Sir Augustine of Cooper's Briefly Defy Gravity Technique",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-08 13:53:52",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Singing Gator",
+        "description": "Collect a voodoo blueprint",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-07 20:34:37",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "Freeze, You're It",
+        "description": "Learn B.F. Cooper's Speed Up the Clock Technique",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 21:26:12",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Waterlogged",
+        "description": "Learn Suzanne Cooper's Water Safety Technique",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-05 22:07:22",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "Frog Legs",
+        "description": "Defeat Sir Raleigh the Frog",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 20:06:03",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Giving The Dog A Bone",
+        "description": "Defeat Muggshot",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-06 07:58:28",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "Dance, Dance, Ruby",
+        "description": "Defeat Mz. Ruby",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-08 13:00:37",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "Pandas Aren't Always Cute",
+        "description": "Defeat Panda King",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-10 19:48:08",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "Time Stopper",
+        "description": "Max out all slow motion techniques",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-08 12:12:18",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "Learn The Ropes",
+        "description": "Start out on your Cooper adventure",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-24 11:12:40",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "Pug Gambling",
+        "description": "Enter Muggshot's territory",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 20:16:37",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "Complete Darkness",
+        "description": "Max out all shadow techniques",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-08 13:22:01",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "Bayou Lily",
+        "description": "Enter the Voodoo swamp",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-06 08:04:53",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "Meeting The Ancestors",
+        "description": "Find all the blueprints",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-06-10 18:49:34",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Clash Of The Clockwork",
+        "description": "Track down Clockwerk",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-10 21:08:28",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "Greedy Raccoon",
+        "description": "Open all vaults",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-06-10 21:18:49",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "Oh No He Didn't",
+        "description": "Defeat Clockwerk",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-06-10 21:08:36",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "Bottle Hoarder",
+        "description": "Collect all clue bottles in any level",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 07:56:27",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "Nimble Like A Thief",
+        "description": "Find all the dive moves",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-06-04 19:43:50",
+        "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP035.webp"
+      }
+    ],
+    "passed": true,
+    "platinum": true,
+    "steamId": null
+  },
+  {
+    "id": 1786707798118,
+    "title": "Grand Theft Auto IV",
+    "platform": "PS3",
+    "npwrId": "NPWR00132_00",
+    "year": 2008,
+    "cover": "media/covers/gta_4_cover/gta_4_cover_f.webp",
+    "backCover": "media/covers/gta_4_cover/gta_4_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/gta_4.pdf",
+    "discs": [
+      "media/covers/gta_4_cover/gta_4_cover_disc1.webp",
+      "media/covers/gta_4_cover/gta_4_cover_disc2.webp"
+    ],
+    "screenshots": [
+      "media/covers/gta_4_cover/screnshots/gta_4_cover1.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover2.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover3.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover4.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover5.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover6.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover7.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover8.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover9.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover10.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover11.webp",
+      "media/covers/gta_4_cover/screnshots/gta_4_cover12.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "Taking A Liberty",
+        "description": "Sony for taking liberties with your time.",
+        "type": "P",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Off The Boat",
+        "description": "You have completed the first mission.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-12 22:10:51",
+        "icon": "media/covers/gta_4_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "One Hundred And Eighty",
+        "description": "You scored 180 with 3 darts.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Pool Shark",
+        "description": "You beat a friend at pool.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "King of QUB3D",
+        "description": "You beat the high score in QUB3D.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Finish Him",
+        "description": "You completed 10 melee counters in 4 minutes.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "Genetically Superior",
+        "description": "You came first in 20 singleplayer street races.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Wheelie Rider",
+        "description": "You completed a 500 foot wheelie on a motorbike.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Goggle Bobble",
+        "description": "You got a turkey in 10-pin bowling.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Driving Mr. Bellic",
+        "description": "You unlocked the special ability of Roman's taxi.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-28 22:20:24",
+        "icon": "media/covers/gta_4_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Rolled Over",
+        "description": "You managed 5 car rolls in a row from one crash.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Walk Free",
+        "description": "You successfully lost a 4 star wanted rating.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-05 21:19:30",
+        "icon": "media/covers/gta_4_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "Courier Service",
+        "description": "You completed all 10 package delivery jobs.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-18 20:19:30",
+        "icon": "media/covers/gta_4_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Retail Therapy",
+        "description": "You unlocked the special ability of buying guns from Little Jacob.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "Chain Reaction",
+        "description": "You exploded 10 vehicles in 10 seconds.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "One Man Amy",
+        "description": "You survived a 6 star wanted level for a full 5 minutes.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Lowest Point",
+        "description": "You completed the mission \"Roman's Sorrow\".",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-08 08:25:32",
+        "icon": "media/covers/gta_4_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Order Fulfilled",
+        "description": "You completed all 10 Exotic Export orders.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Manhunt",
+        "description": "You completed the most wanted side mission.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "Cleaned The Mean Streets",
+        "description": "You caught 20 criminals through the police computer.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Fed The Fish",
+        "description": "You completed the mission \"Uncle Wad\".",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-02 19:35:09",
+        "icon": "media/covers/gta_4_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "It'll Cost Ya",
+        "description": "You made a taxi trip from one island to another without skipping.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Sightseer",
+        "description": "You have taken all variations of the helicopter tours of Liberty City.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "Warm Coffee",
+        "description": "You were invited into your girlfriend's house.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-21 21:07:04",
+        "icon": "media/covers/gta_4_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "That's How We Roll!",
+        "description": "You unlocked the special ability of Brucie's helicopter ride.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "Half Million",
+        "description": "You have amassed a fortune of $500,000.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "Impossible Trinity",
+        "description": "You completed the mission \"Museum Piece\".",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-16 21:38:39",
+        "icon": "media/covers/gta_4_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "Full Exploration",
+        "description": "You unlocked all the islands.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-15 11:07:23",
+        "icon": "media/covers/gta_4_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "You Got The Message",
+        "description": "You delivered all 30 cars ordered through text message.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "Dare Devil",
+        "description": "You completed all the unique stunt jumps.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "Assassin's Creed",
+        "description": "You completed all 9 assassin missions.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Endangered Species",
+        "description": "You collected every hidden package in the game.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "Under The Radar",
+        "description": "You flew under all the main bridges in the game.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "Dial B For Bomb",
+        "description": "You unlocked the special ability of Packie's car bomb placement.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "Gracefully Taken",
+        "description": "You completed the mission \"I'll Take Her\".",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-18 20:39:58",
+        "icon": "media/covers/gta_4_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "Liberty City (5)",
+        "description": "Your friends all like you above 90%.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP035.webp"
+      },
+      {
+        "name": "No More Strangers",
+        "description": "You've met all the random characters.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP036.webp"
+      },
+      {
+        "name": "That Special Someone",
+        "description": "You completed the mission \"That Special Someone\".",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-21 20:00:22",
+        "icon": "media/covers/gta_4_cover/achivments/TROP037.webp"
+      },
+      {
+        "name": "You Won!",
+        "description": "You have completed the story.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-21 22:54:47",
+        "icon": "media/covers/gta_4_cover/achivments/TROP038.webp"
+      },
+      {
+        "name": "Liberty City Minute",
+        "description": "You finished the story in less than 30 hours.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP039.webp"
+      },
+      {
+        "name": "Key To The City",
+        "description": "You completed GTA IV to 100%.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP040.webp"
+      },
+      {
+        "name": "Teamplayer",
+        "description": "You killed 5 opposing team members.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP041.webp"
+      },
+      {
+        "name": "Cut Your Teeth",
+        "description": "You were successfully promoted up a rank in multiplayer.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP042.webp"
+      },
+      {
+        "name": "Join The Midnight Club",
+        "description": "You won a multiplayer race without damaging your vehicle too much.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP043.webp"
+      },
+      {
+        "name": "Fly The Co-op",
+        "description": "You completed \"Deal Breaker\", \"Hangman's NOOSE\" and \"Bomb da Base II\" in time.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP044.webp"
+      },
+      {
+        "name": "Taking It For The Team",
+        "description": "You were on the winning team in all multiplayer team games.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP045.webp"
+      },
+      {
+        "name": "Top Of The Food Chain",
+        "description": "You successfully killed 20 players with a pistol in a deathmatch.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP046.webp"
+      },
+      {
+        "name": "Top The Midnight Club",
+        "description": "You won 20 different multiplayer standard races.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP047.webp"
+      },
+      {
+        "name": "Wanted",
+        "description": "You achieved the highest personal rank possible in multiplayer.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP048.webp"
+      },
+      {
+        "name": "Auf Wiedersehen Petrovic",
+        "description": "You won in all variations of multiplayer games.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP049.webp"
+      },
+      {
+        "name": "Let Sleeping Rockstars Lie",
+        "description": "You killed a Rockstar in multiplayer.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP050.webp"
+      },
+      {
+        "name": "TLAD: One Percenter",
+        "description": "Help Billy get his bike back. (The Lost and Damned)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP051.webp"
+      },
+      {
+        "name": "TLAD: The Lost Boy",
+        "description": "Become leader of The Lost. (The Lost and Damned)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP052.webp"
+      },
+      {
+        "name": "TLAD: Easy Rider",
+        "description": "Finish the story. (The Lost and Damned)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP053.webp"
+      },
+      {
+        "name": "TLAD: Get Good Wood",
+        "description": "In the bike races, whack off 69 bikers with a bat. (The Lost and Damned)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP054.webp"
+      },
+      {
+        "name": "TLAD: Full Chat",
+        "description": "Build Terry and Clay's toughness to 100%. (The Lost and Damned)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP055.webp"
+      },
+      {
+        "name": "TBoTG: Gone Down",
+        "description": "Complete all base jumps. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP056.webp"
+      },
+      {
+        "name": "TBoTG: Diamonds Forever",
+        "description": "Complete the Trinity. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP057.webp"
+      },
+      {
+        "name": "TBoS: Four Play",
+        "description": "Hit a flag with a golf ball four times. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP058.webp"
+      },
+      {
+        "name": "TBoTG: Bear Fight",
+        "description": "Win the L.C. Cage Fighters championship. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP059.webp"
+      },
+      {
+        "name": "TBoTG: Catch the Bus",
+        "description": "Dance perfectly in both Tony's nightclubs. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP060.webp"
+      },
+      {
+        "name": "TBoTG: Snow Queen",
+        "description": "Complete 25 drug wars. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP061.webp"
+      },
+      {
+        "name": "TBGT: Adrenaline Junkie",
+        "description": "Freefall for the longest possible time. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP062.webp"
+      },
+      {
+        "name": "TBGT: Maestro",
+        "description": "Finish the Ballad. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP063.webp"
+      },
+      {
+        "name": "TBOT: Past the Velvet Rope",
+        "description": "Score 80% or above in all missions. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP064.webp"
+      },
+      {
+        "name": "TBGT: Gold Star",
+        "description": "Score 100% in all missions. (The Ballad of Gay Tony)",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/gta_4_cover/achivments/TROP065.webp"
+      }
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1786708990654,
+    "title": "Dead or Alive 5",
+    "platform": "PS3",
+    "npwrId": "NPWR07998_00",
+    "year": 2012,
+    "cover": "media/covers/dead_or_alive_5_cover/dead_or_alive_5_cover_f.webp",
+    "backCover": "media/covers/dead_or_alive_5_cover/dead_or_alive_5_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/dead_or_alive_5.pdf",
+    "discs": [
+      "media/covers/dead_or_alive_5_cover/dead_or_alive_5_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover1.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover2.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover3.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover4.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover5.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover6.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover7.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover8.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover9.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover10.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover11.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover12.webp",
+      "media/covers/dead_or_alive_5_cover/screnshots/dead_or_alive_5_cover13.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "DOA5 Last Round Master",
+        "description": "Unlock all trophies.",
+        "type": "P",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Fighting Entertainment",
+        "description": "Have your first fight outside of Training or Versus modes.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-16 19:48:14",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Rivals",
+        "description": "Register a fighter in your Fighter List.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Rival Rumble",
+        "description": "Fight online.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Roval Rampage",
+        "description": "Fight online 10 times.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "DOA5 Last Round Is My Life",
+        "description": "Fight online 100 times.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "My Fight, My Rules",
+        "description": "Create your own online lobby.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Get out there and Fight!",
+        "description": "Play a Lobby match.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Fighting For Real",
+        "description": "Play a Ranked match.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Gesundheit!",
+        "description": "Trigger the Special Danger Zone in The Show.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Tango Kilo November",
+        "description": "Trigger the Special Danger Zone in Hot Zone.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Catch and Release",
+        "description": "Trigger the Special Danger Zone in Sky City Tokyo.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "You Asked for It!",
+        "description": "Set \"Throwdowns\" to \"Accept\" and have a Throwdown in Versus, Arcade, or Free Training mode.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Anybody, Anytime, Anywhere",
+        "description": "Set \"Throwdowns\" to \"Accept\" and have 10 Throwdowns in Versus, Arcade, or Free Training mode.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "Arcade (Solo) Cleared",
+        "description": "Clear 1 course in Arcade (solo) mode.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-13 08:21:53",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Arcade (Tag) Cleared",
+        "description": "Clear 1 course in Arcade (tag) mode.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Time Attack (Solo) Cleared",
+        "description": "Clear 1 course in Time Attack (solo) mode.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Time Attack (Tag) Cleared",
+        "description": "Clear 1 course in Time Attack (tag) mode.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Survival (Solo) Cleared",
+        "description": "Clear 1 course in Survival (solo) mode.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "Survival (Tag) Cleared",
+        "description": "Clear 1 course in Survival (tag) mode.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Redding Fighter",
+        "description": "Fight a Versus (solo) match.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-05 22:49:21",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "You're It",
+        "description": "Fight a Versus (tag) match.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Training Hard",
+        "description": "Play Free Training mode for 1 hour.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "Exercise Newbie",
+        "description": "Complete all moves for a character in Command Training.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "Your Education Begins Now",
+        "description": "Play in Tutorial.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-18 21:43:53",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "A Fighter is Born",
+        "description": "Complete all lessons in Tutorial.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "A New Challenger Appears!",
+        "description": "Played in Combo Challenge.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "Unchallenged Champion",
+        "description": "Complete all lessons for a character in Combo Challenge.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "On the Edge of Your Seat",
+        "description": "Play Spectator mode.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-05 23:21:48",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "Fighter, Know Thyself",
+        "description": "View your results in Fight Record.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-05 23:17:48",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "Ahhh, Memories",
+        "description": "View your photos in the Album.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Say Cheese!",
+        "description": "Take a photo in Spectator mode.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-18 21:40:35",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "How Do I Fight?",
+        "description": "Display the Move List.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "How Do I Fight Like a Pro?",
+        "description": "Display the Move Details.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "A Fight to Remember",
+        "description": "Save a replay.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "Turn it Up",
+        "description": "Change the background music settings.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP035.webp"
+      },
+      {
+        "name": "Who's Got Popcorn?",
+        "description": "Watch a movie.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-05 23:17:30",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP036.webp"
+      },
+      {
+        "name": "Safety First",
+        "description": "Turn Danger Zones off on the Stage Select screen.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-18 22:49:18",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP037.webp"
+      },
+      {
+        "name": "Power in Numbers",
+        "description": "Have a Team Fight.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP038.webp"
+      },
+      {
+        "name": "First Tag Team",
+        "description": "Fight a tag match.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-05-18 21:20:57",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP039.webp"
+      },
+      {
+        "name": "The Power of Two",
+        "description": "Do 10 different character-specific tag throws.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP040.webp"
+      },
+      {
+        "name": "Blow 'Em Away",
+        "description": "Successfully land a Power Blow.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP041.webp"
+      },
+      {
+        "name": "We Have Liftoff!",
+        "description": "Successfully deliver a Power Launcher.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP042.webp"
+      },
+      {
+        "name": "Change of Power",
+        "description": "Press H+P+K during a Power Blow to tag in a partner and deliver a Tag Power Blow.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP043.webp"
+      },
+      {
+        "name": "Down You Go",
+        "description": "Successfully attack during a Cliffhanger.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP044.webp"
+      },
+      {
+        "name": "Cliffhanger Comeback",
+        "description": "Successfully block an opponent's attack during a Cliffhanger.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP045.webp"
+      },
+      {
+        "name": "I Read Every Move",
+        "description": "Win without taking any damage.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-05-18 23:01:26",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP046.webp"
+      },
+      {
+        "name": "Failure Teaches Success",
+        "description": "See 8 characters' losing poses.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-23 10:58:50",
+        "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP047.webp"
+      }
+    ],
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1786804048511,
+    "title": "Assassin's Creed II",
+    "platform": "PS3",
+    "npwrId": "NPWR00894_00",
+    "year": 2009,
+    "cover": "media/covers/assassins_creed_2_cover/assassins_creed_2_cover_f.webp",
+    "backCover": "media/covers/assassins_creed_2_cover/assassins_creed_2_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/assassins_creed_2.pdf",
+    "discs": [
+      "media/covers/assassins_creed_2_cover/assassins_creed_2_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover1.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover2.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover3.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover4.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover5.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover6.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover7.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover8.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover9.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover10.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover11.webp",
+      "media/covers/assassins_creed_2_cover/screnshots/assassins_creed_2_cover12.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "Мастер-ассасин",
+        "description": "Открыть все трофеи.",
+        "type": "P",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 22:26:27",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Рождение ассасиана",
+        "description": "Возродиться как Эдио Аудиторе да Фиренец.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-20 22:24:55",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Арриведерчи, \"Абстерго\"",
+        "description": "Вырваться из \"Абстерго\".",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-20 22:29:48",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Добро пожаловать в \"Анимус 2.0\"",
+        "description": "Войти в \"Анимус 2.0\".",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-23 19:26:16",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Предательство",
+        "description": "Завершить участок ДНК 1.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-24 19:30:16",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Месть",
+        "description": "Завершить участок ДНК 2.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-25 19:38:59",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "Смерть сына",
+        "description": "Завершить участок ДНК 3.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-26 19:42:54",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Кровавое воскресенье",
+        "description": "Завершить участок ДНК 4.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 10:41:25",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Гробовщик",
+        "description": "Найти гробницу ассасиана в катакомбах под Санта-Мария-делла-Новелла.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 09:37:40",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Заговорщики",
+        "description": "Завершить участок ДНК 5.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-30 08:06:17",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Неожиданное приключение",
+        "description": "Завершить участок ДНК 6.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-02 21:04:11",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Эффект просачивания",
+        "description": "Завершить обучение и снова войти в \"Анимус\".",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-02 21:38:51",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "Венецианский купец",
+        "description": "Завершить участок ДНК 7.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-03 21:09:39",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Неприступный дворец",
+        "description": "Завершить участок ДНК 8.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 11:17:32",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "Маскарад",
+        "description": "Завершить участок ДНК 9.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 13:42:24",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Человек Бьянки",
+        "description": "Завершить участок ДНК 10.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 19:47:15",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Пророк",
+        "description": "Завершить участок ДНК 11.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 21:26:55",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Сокровищница",
+        "description": "Завершить участок ДНК 14.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 22:11:33",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Возвращение старого друга",
+        "description": "Выбраться из убежища.",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 22:26:26",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "Мифотворец",
+        "description": "Найти 8 статуэток в Монтериджоне.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-25 20:37:54",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Изрядный эрудит",
+        "description": "Открыть все 20 файлов Объекта-16.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 15:47:15",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "Санитар улиц",
+        "description": "Спрятать 5 трупов в стоге сена.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-26 21:30:30",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Крылатый ужас",
+        "description": "Пнуть стражичка во время полета на летучей машине.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 11:03:35",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "Гроза песочницы",
+        "description": "Ошеломить 4 стражичков одновременно, бросив им песок в лицо.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 13:21:14",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "Доктор Смерть",
+        "description": "Убить отравленного персонажа, напав на него с воздуха.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 12:44:49",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "Неприкасаемый",
+        "description": "Убить 10 врагов, не выходя из боя и не получив ни одного ранения.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 10:26:23",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "Клептоман",
+        "description": "Украсить 1 000 флоринов.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-24 19:05:09",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "Молния",
+        "description": "Пробежать 100 метров.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-24 19:08:01",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "Мясорубка",
+        "description": "Используя длинное оружие, зарубить, сбив с ног, 5 стражников одновременно.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 11:30:46",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "Гладиатор из Венеции",
+        "description": "Найти гробницу ассасиана в Санта-Мария-делла-Визитационе.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 12:20:58",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "Отсюда твой дом видно!",
+        "description": "Найти гробницу ассасиана в Торре-Гросса.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-30 07:50:59",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Славься имя твое",
+        "description": "Найти гробницу ассасиана в соборе св. Марка.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 14:03:08",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "Побег из тюрьмы",
+        "description": "Найти гробницу ассасиана в крепости Рокка-ди-Равальдино.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-30 19:54:12",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "Певчий",
+        "description": "Найти гробницу ассасиана в Санта-Мария-дель-Фьоре.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 10:04:03",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "Наемный убийца",
+        "description": "Совершить убийство по заказу Лоренцо Великолепного.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 10:53:19",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "Дамский угодник",
+        "description": "Защитить честь женщины.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-23 20:48:52",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP035.webp"
+      },
+      {
+        "name": "Безумная гонка",
+        "description": "Выиграть гонку с ворами.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-23 21:11:36",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP036.webp"
+      },
+      {
+        "name": "Честь семьи",
+        "description": "Побывать в каждом городе в капошоне Аудиторе.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 21:02:03",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP037.webp"
+      },
+      {
+        "name": "Мастер на все руки",
+        "description": "Улучшить здание в крепости.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-26 19:50:49",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP038.webp"
+      },
+      {
+        "name": "Прекрасный вид",
+        "description": "Синхронизировать 10 точек обзора.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-24 20:19:23",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP039.webp"
+      },
+      {
+        "name": "Затяжной прыжок",
+        "description": "Совершить прыжок веры с вершины флорентийской кампании Джотто.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-23 20:41:37",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP040.webp"
+      },
+      {
+        "name": "Почтальон",
+        "description": "Задержать курьера Борджиа.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 10:48:48",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP041.webp"
+      },
+      {
+        "name": "Вершина айсберга",
+        "description": "Найти спрятанный символ с помощью \"орлиного зрения\".",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-24 19:49:38",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP042.webp"
+      },
+      {
+        "name": "Ключ к отдаче",
+        "description": "Открыть один из файлов Объекта-16.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-24 19:53:47",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP043.webp"
+      },
+      {
+        "name": "Ценитель живописи",
+        "description": "Купить картину из Флоренции и Венеции.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-02 22:04:09",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP044.webp"
+      },
+      {
+        "name": "Правитель Монтериджони",
+        "description": "Довести крепость до уровня 80%.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-02 21:49:58",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP045.webp"
+      },
+      {
+        "name": "Черное и белое",
+        "description": "Окрасить одежду в цвета слоновой кости и черного дерева.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-30 19:35:24",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP046.webp"
+      },
+      {
+        "name": "Памяти Петручко",
+        "description": "Собрать все перья.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 20:45:37",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP047.webp"
+      },
+      {
+        "name": "Любитель клубники",
+        "description": "Потратить 5 000 флоринов на проституток.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 10:55:28",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP048.webp"
+      },
+      {
+        "name": "Народный герой",
+        "description": "Бросить на землю более 300 флоринов.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-24 22:20:03",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP049.webp"
+      },
+      {
+        "name": "Предупреждение",
+        "description": "Собрать все спрятанные лезвия, сумки с предметами и улучшения брони.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-04 15:17:52",
+        "icon": "media/covers/assassins_creed_2_cover/achivments/TROP050.webp"
+      }
+    ],
+    "passed": true,
+    "platinum": true,
+    "steamId": null
+  },
+  {
+    "id": 1786806311724,
+    "title": "Resident Evil HD Remaster",
+    "platform": "PS3",
+	"npwrId": "NPWR07057_00",
+    "year": 2015,
+    "cover": "media/covers/resident_evil_hd_cover/resident_evil_hd_cover_f.webp",
+    "backCover": "media/covers/resident_evil_hd_cover/resident_evil_hd_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/resident_evil_hd.pdf",
+    "discs": [
+      "media/covers/resident_evil_hd_cover/resident_evil_hd_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover1.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover2.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover3.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover4.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover5.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover6.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover7.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover8.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover9.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover10.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover11.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover12.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover13.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover14.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover15.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover16.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover17.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover18.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover19.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover20.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover21.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover22.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover23.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover24.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover25.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover26.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover27.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover28.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover29.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover30.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover31.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover32.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover33.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover34.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover35.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover36.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover37.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover38.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover39.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover40.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover41.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover42.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover44.webp",
+      "media/covers/resident_evil_hd_cover/screnshots/resident_evil_hd_cover43.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "Platinum Splatting 'Em!",
+        "description": "Earn all trophies.",
+        "type": "P",
+        "status": "Получен",
+        "obtainment_time": "2024-07-30 19:54:12",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Like Taking Candy from a Baby",
+        "description": "Finish the game on Very Easy difficulty or higher.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-16 23:23:50",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Not in the Mood to Die",
+        "description": "Finish the game on Easy difficulty or higher.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-16 23:23:55",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Take that, Zombies!",
+        "description": "Finish the game on Normal difficulty or higher.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-20 07:41:28",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Oh, the Horror",
+        "description": "Finish the game on Hard difficulty.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-22 07:40:36",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "We're in This Together",
+        "description": "Finish the game with Jill and Chris.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 17:12:51",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "The Survival Horror",
+        "description": "Finish the game in Real Survival mode.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-25 20:52:05",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Ghost of a Chance",
+        "description": "Finish the game in Invisible Enemy mode.",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 12:27:05",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Not Just Any Object",
+        "description": "Obtain the Stone & Metal Object using Chris.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 15:15:05",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Herbicide",
+        "description": "Defeat Plant 42 using Chris.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 15:44:01",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Written Word is Dead",
+        "description": "Obtain the \"Last Book Vol. 2\" using Chris.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 16:01:58",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "An End to a Poor Girl's Misery",
+        "description": "Defeat Lisa Trevor using Chris.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 16:48:43",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "You da Man, Chris",
+        "description": "Finish the game using Chris.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 17:11:28",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Grave Digger",
+        "description": "Defeat a Crimson Head prototype 1 using Jill.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-06 21:36:59",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "The Key Master",
+        "description": "Obtain the Helmet Key using Jill.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-12 02:44:34",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Giant Snake Got Nothin'",
+        "description": "Defeat Yawn using Jill.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-15 00:22:55",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Where the Magic Happens",
+        "description": "Break into the laboratory using Jill.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-16 01:48:30",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Alpha Team's Finest",
+        "description": "Finish the game using Jill.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-16 23:20:51",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Get Used To It",
+        "description": "Die for the first time.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-20 22:47:31",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "First Kills Are Special",
+        "description": "Defeat a zombie.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-22 23:41:52",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Not Taking Any Chances",
+        "description": "Burn up a zombie.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-25 22:57:03",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "Who's the Hunter Now?",
+        "description": "Defeat a Hunter.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-14 22:55:23",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Bravo, Rebecca",
+        "description": "Save Chris using Rebecca.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 22:42:13",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "What a Great Guy",
+        "description": "Save Jill using Barry.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-17 08:11:36",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "Delaying the Inevitable",
+        "description": "Save Richard with a serum.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-29 14:16:04",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "That Was Nice of You",
+        "description": "Save Rebecca from a Hunter.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 16:12:55",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "Trust Him",
+        "description": "Save Barry from Lisa Trevor.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-16 01:37:41",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "Sorry I Made You Wait",
+        "description": "Save Jill from confinement using Chris.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-30 19:31:39",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "Sony About the Wait",
+        "description": "Save Chris from confinement using Jill.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-16 23:10:44",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "The Nightmare Ends",
+        "description": "Finish the game saving Rebecca and Jill using Chris.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-30 19:42:19",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "I'm a Member of S.T.A.R.S.",
+        "description": "Finish the game saving Chris and Barry using Jill.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-16 23:37:58",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Every Man for Himself",
+        "description": "Finish the game without saving anyone using Chris.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-30 19:54:11",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "Every Woman for Herself",
+        "description": "Finish the game without saving anyone using Jill.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-18 20:27:32",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "Seeing Red",
+        "description": "Defeat a Crimson Head.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-28 21:05:15",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "Not Waiting to Exhale",
+        "description": "Survive your first encounter with Yawn.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-05 19:03:27",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "Deep Sixed",
+        "description": "Defeat mother Neptune.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-12 02:02:22",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP035.webp"
+      },
+      {
+        "name": "Spider Sense",
+        "description": "Defeat Black Tiger.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-15 23:34:32",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP036.webp"
+      },
+      {
+        "name": "Don't Stop Running",
+        "description": "Finish the game in three hours.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-20 07:41:23",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP037.webp"
+      },
+      {
+        "name": "Racing and Pacing",
+        "description": "Finish the game in five hours.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-18 20:30:36",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP038.webp"
+      },
+      {
+        "name": "CQC FTW",
+        "description": "Finish the game using only your knife (no lighter, Defensive Items, and stomping zombie heads).",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-23 21:24:43",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP039.webp"
+      },
+      {
+        "name": "Ink is for Squids",
+        "description": "Finish the game without saving.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 17:12:46",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP040.webp"
+      },
+      {
+        "name": "Break Out the Marshmallows!",
+        "description": "Bum up two zombies at the same time with the lighter.",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-06-28 23:03:36",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP041.webp"
+      },
+      {
+        "name": "Starsenal",
+        "description": "Obtain all weapons (must load grenade launcher with all shell types).",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 16:22:40",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP042.webp"
+      },
+      {
+        "name": "Passion for Fashion",
+        "description": "Obtain all costumes.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-27 12:27:18",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP043.webp"
+      },
+      {
+        "name": "Every Nook and Cranny",
+        "description": "Visit all places on all maps.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-22 19:51:21",
+        "icon": "media/covers/resident_evil_hd_cover/achivments/TROP044.webp"
+      }
+    ],
+    "passed": true,
+    "platinum": true,
+    "steamId": null
+  }
+]
