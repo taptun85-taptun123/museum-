@@ -7,7 +7,7 @@
     "cover": "media/covers/jade_cocoon_cover/jade_cocoon_cover_f.webp",
     "backCover": "media/covers/jade_cocoon_cover/jade_cocoon_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/jade_cocoon.pdf",
-    "disc": "media/covers/jade_cocoon_cover/jade_cocoon_cover_disc.webp",
+    "discs": "media/covers/jade_cocoon_cover/jade_cocoon_cover_disc.webp",
     "screenshots": [],
     "passed": false,
     "platinum": false
@@ -20,7 +20,7 @@
     "cover": "media/covers/alundra_cover/alundra_cover_f.webp",
     "backCover": "media/covers/alundra_cover/alundra_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/alundra.pdf",
-    "disc": "media/covers/alundra_cover/alundra_cover_disc.webp",
+    "discs": "media/covers/alundra_cover/alundra_cover_disc.webp",
     "screenshots": [],
     "passed": false,
     "platinum": false
@@ -62,7 +62,7 @@
     "cover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_f.webp",
     "backCover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps2/dirgeofcerberus.pdf",
-    "disc": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_disc.webp",
+    "discs": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_disc.webp",
     "screenshots": [
       "media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_1.webp",
       "media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_2.webp",
@@ -80,7 +80,7 @@
     "cover": "media/covers/tomb_raider2_cover/tomb_raider2_cover_f.webp",
     "backCover": "media/covers/tomb_raider2_cover/tomb_raider2_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/tomb_raider2.pdf",
-    "disc": "media/covers/tomb_raider2_cover/tomb_raider2_cover_disc.webp",
+    "discs": "media/covers/tomb_raider2_cover/tomb_raider2_cover_disc.webp",
     "screenshots": [
       "media/covers/tomb_raider2_cover/screnshots/tomb_raider2_cover_1.webp",
       "media/covers/tomb_raider2_cover/screnshots/tomb_raider2_cover_2.webp"
@@ -97,7 +97,7 @@
     "cover": "media/covers/disneys_pocahontas_cover/disneys_pocahontas_f.webp",
     "backCover": "media/covers/disneys_pocahontas_cover/disneys_pocahontas_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/disneys_pocahontas.pdf",
-    "disc": "media/covers/disneys_pocahontas_cover/disneys_pocahontas_disc.webp",
+    "discs": "media/covers/disneys_pocahontas_cover/disneys_pocahontas_disc.webp",
     "screenshots": [
       "media/covers/disneys_pocahontas_cover/screnshots/disneys_pocahontas_cover.webp"
     ],
@@ -113,7 +113,7 @@
     "cover": "media/covers/tombraidergold_cover/tombraidergold_f.webp",
     "backCover": "media/covers/tombraidergold_cover/tombraidergold_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/tombraidergold.pdf",
-    "disc": "media/covers/tombraidergold_cover/tombraidergold_disc.webp",
+    "discs": "media/covers/tombraidergold_cover/tombraidergold_disc.webp",
     "screenshots": [
       "media/covers/tombraidergold_cover/screnshots/tombraidergold_cover.webp"
     ],
@@ -129,7 +129,7 @@
     "cover": "media/covers/kingdom_classic_cover/kingdom_classic_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/368230/logo.png",
     "manual": "",
-    "disc": "",
+    "discs": "",
     "screenshots": [
       "media/covers/kingdom_classic_cover/screnshots/kingdom_classic_cover.webp"
     ],
@@ -142,7 +142,7 @@
     "title": "Shadow Tactics: Blades of the Shogun",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/418240/logo.png",
     "manual": "",
-    "disc": "",
+    "discs": "",
     "screenshots": [
       "media/covers/shadow_tactics_blades_of_the_shogun_cover/screnshots/shadow_tactics_blades_of_the_shogun_cover_1.webp",
       "media/covers/shadow_tactics_blades_of_the_shogun_cover/screnshots/shadow_tactics_blades_of_the_shogun_cover_2.webp"
@@ -182,7 +182,7 @@
     "cover": "media/covers/tombraider_cover/tombraider_cover_f.webp",
     "backCover": "media/covers/tombraider_cover/tombraider_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/tombraider.pdf",
-    "disc": "media/covers/tombraider_cover/tombraider_cover_disc.webp",
+    "discs": "media/covers/tombraider_cover/tombraider_cover_disc.webp",
     "screenshots": [
       "media/covers/tombraider_cover/screnshots/tombraider_cover_1.webp",
       "media/covers/tombraider_cover/screnshots/tombraider_cover_2.webp"
@@ -199,7 +199,7 @@
     "cover": "media/covers/syphon_filter_cover/syphon_filter_cover_f.webp",
     "backCover": "media/covers/syphon_filter_cover/syphon_filter_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter.pdf",
-    "disc": "media/covers/syphon_filter_cover/syphon_filter_cover_disc.webp",
+    "discs": "media/covers/syphon_filter_cover/syphon_filter_cover_disc.webp",
     "screenshots": [
       "media/covers/syphon_filter_cover/screnshots/syphon_filter_cover.webp"
     ],
@@ -215,7 +215,7 @@
     "cover": "media/covers/syphon_filter_2_cover/syphon_filter_2_f.webp",
     "backCover": "media/covers/syphon_filter_2_cover/syphon_filter_2_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter_2.pdf",
-    "disc": [
+    "discs": [
       "media/covers/syphon_filter_2_cover/syphon_filter_2_disc1.webp",
       "media/covers/syphon_filter_2_cover/syphon_filter_2_disc2.webp"
     ],
@@ -234,7 +234,7 @@
     "cover": "media/covers/comixzone_cover/comixzone_f.webp",
     "backCover": "media/covers/comixzone_cover/comixzone_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/comixzone.pdf",
-    "disc": "media/covers/comixzone_cover/comixzone_disc.webp",
+    "discs": "media/covers/comixzone_cover/comixzone_disc.webp",
     "screenshots": [
       "media/covers/comixzone_cover/screnshots/comixzone.webp"
     ],
@@ -250,7 +250,7 @@
     "cover": "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_f.webp",
     "backCover": "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter_3.pdf",
-    "disc": "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_disc.webp",
+    "discs": "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_disc.webp",
     "screenshots": [
       "media/covers/syphon_filter_3_cover/screnshots/syphon_filter_3_cover.webp"
     ],
@@ -266,7 +266,7 @@
     "cover": "media/covers/darksiders_cover/darksiders_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/50620/logo.png",
     "manual": "",
-    "disc": "",
+    "discs": "",
     "screenshots": [
       "media/covers/darksiders_cover/screnshots/darksiders_cover1.webp",
       "media/covers/darksiders_cover/screnshots/darksiders_cover2.webp"
@@ -283,7 +283,7 @@
     "cover": "media/covers/the_witcher_cover/the_witcher_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/20900/logo.png",
     "manual": "",
-    "disc": "",
+    "discs": "",
     "screenshots": [
       "media/covers/the_witcher_cover/screnshots/the_witcher_cover1.webp",
       "media/covers/the_witcher_cover/screnshots/the_witcher_cover2.webp",
@@ -301,7 +301,7 @@
     "cover": "media/covers/darksiders_III_cover/darksiders_III_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/606280/logo.png",
     "manual": "",
-    "disc": "",
+    "discs": "",
     "screenshots": [
       "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover1.webp",
       "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover2.webp",
@@ -320,7 +320,7 @@
     "cover": "media/covers/bayonetta_cover/bayonetta_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/460790/logo.png",
     "manual": "",
-    "disc": "",
+    "discs": "",
     "screenshots": [
       "media/covers/bayonetta_cover/screnshots/bayonetta_cover1.webp",
       "media/covers/bayonetta_cover/screnshots/bayonetta_cover2.webp",
@@ -339,7 +339,7 @@
     "cover": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_f.webp",
     "backCover": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_b.webp",
     "manual": "",
-    "disc": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_disc.webp",
+    "discs": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_disc.webp",
     "screenshots": [
       "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover1.webp",
       "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover2.webp",
@@ -359,7 +359,7 @@
     "cover": "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_f.webp",
     "backCover": "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/donkeykongcountrytropicalfreeze.pdf",
-    "disc": "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_disc.webp",
+    "discs": "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_disc.webp",
     "screenshots": [
       "media/covers/donkeykongcountrytropicalfreeze_cover/screnshots/donkeykongcountrytropicalfreeze_cover1.webp",
       "media/covers/donkeykongcountrytropicalfreeze_cover/screnshots/donkeykongcountrytropicalfreeze_cover2.webp"
@@ -376,7 +376,7 @@
     "cover": "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_f.webp",
     "backCover": "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/yoshiswoolyworld.pdf",
-    "disc": "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_disc.webp",
+    "discs": "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_disc.webp",
     "screenshots": [
       "media/covers/yoshiswoolyworld_cover/screnshots/yoshiswoolyworld_cover1.webp",
       "media/covers/yoshiswoolyworld_cover/screnshots/yoshiswoolyworld_cover2.webp",
@@ -395,7 +395,7 @@
     "cover": "media/covers/demon_souls_cover/demon_souls_cover_f.webp",
     "backCover": "media/covers/demon_souls_cover/demon_souls_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/demon_souls.pdf",
-    "disc": [
+    "discs": [
       "media/covers/demon_souls_cover/demon_souls_cover_disc1.webp",
       "media/covers/demon_souls_cover/demon_souls_cover_disc2.webp"
     ],
