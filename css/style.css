@@ -750,6 +750,7 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
    БАННЕР ДОСТИЖЕНИЙ — ПЛАВНОЕ ПОЯВЛЕНИЕ
    ==================================================== */
 .trophy-banner {
+	min-height: 220px;
     opacity: 0;
     transform: translateY(5px);
     animation: fadeInUp 2.8s ease forwards;
