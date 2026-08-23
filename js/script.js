@@ -155,6 +155,7 @@ function addGame() {
         id: Date.now(),
         title,
         platform: document.getElementById('gamePlatform').value,
+        npwrId: "",
         year: parseInt(document.getElementById('gameYear').value) || 0,
         cover: document.getElementById('gameCover').value.trim().replace(/\\/g, '/') || 'media/covers/default.webp',
         backCover: document.getElementById('gameBackCover').value.trim().replace(/\\/g, '/') || 'media/covers/default_back.jpg',
@@ -165,6 +166,7 @@ function addGame() {
         achievements: document.getElementById('gameAchievements').value.split(',').map(s => s.trim()).filter(Boolean)
             .map(item => { const p = item.split('|').map(s => s.trim()); return p.length === 2 ? { name: p[0], icon: p[1].replace(/\\/g, '/') } : null; })
             .filter(Boolean),
+        trophyBanner: "",
         passed: false,
         platinum: false,
         steamId: null
@@ -454,7 +456,22 @@ function closeAchievements() { closeModal('achievementModal'); }
 
 function renderAchievements() {
     const container = document.getElementById('achievementGrid');
-    container.innerHTML = currentAchievements.map(a => {
+    if (!container) return;
+
+    const game = games.find(g => g.id === currentGameId);
+
+    // Управление баннером
+    const img = document.getElementById('trophyBannerImg');
+    const banner = document.getElementById('trophyBanner');
+    if (game && game.trophyBanner) {
+        img.src = game.trophyBanner;
+        banner.style.display = 'block';
+    } else {
+        banner.style.display = 'none';
+    }
+
+    // Рендер трофеев
+    let achievementsHTML = currentAchievements.map(a => {
         const parts = a.obtainment_time ? a.obtainment_time.split(' ') : ['—', ''];
         const isLocked = a.status !== "Получен";
         return `
@@ -469,7 +486,23 @@ function renderAchievements() {
             </div>
         `;
     }).join('');
+
+    container.innerHTML = achievementsHTML;
 }
+	
+	    // Баннер после списка
+  /*  let bannerHTML = '';
+    if (game && game.trophyBanner) {
+        bannerHTML = `
+            <div class="trophy-banner">
+                <img src="${game.trophyBanner}" alt="Баннер достижений" />
+            </div>
+        `;
+    }
+
+    container.innerHTML = achievementsHTML + bannerHTML;
+}
+*/
 
 function sortAchievements(mode) {
     sortMode = mode;
