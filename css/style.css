@@ -745,6 +745,44 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     }
 }
 
+
+/* ====================================================
+   БАННЕР ДОСТИЖЕНИЙ — ПЛАВНОЕ ПОЯВЛЕНИЕ
+   ==================================================== */
+.trophy-banner {
+    opacity: 0;
+    transform: translateY(5px);
+    animation: fadeInUp 2.8s ease forwards;
+    animation-delay: 0.5s;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 24px;
+    margin-bottom: 16px;
+	text-align: center;
+}
+
+.trophy-banner img {
+    margin: 0 auto;
+    max-height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(5px);
+        filter: blur(8px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
 /* ====================================================
    ПЛАТФОРМЫ (иконки консолей)
    ==================================================== */
