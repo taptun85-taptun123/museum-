@@ -7,7 +7,9 @@
     "cover": "media/covers/jade_cocoon_cover/jade_cocoon_cover_f.webp",
     "backCover": "media/covers/jade_cocoon_cover/jade_cocoon_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/jade_cocoon.pdf",
-    "discs":["media/covers/jade_cocoon_cover/jade_cocoon_cover_disc.webp"],
+    "discs": [
+      "media/covers/jade_cocoon_cover/jade_cocoon_cover_disc.webp"
+    ],
     "screenshots": [],
     "passed": false,
     "platinum": false
@@ -20,7 +22,9 @@
     "cover": "media/covers/alundra_cover/alundra_cover_f.webp",
     "backCover": "media/covers/alundra_cover/alundra_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/alundra.pdf",
-    "discs": ["media/covers/alundra_cover/alundra_cover_disc.webp"],
+    "discs": [
+      "media/covers/alundra_cover/alundra_cover_disc.webp"
+    ],
     "screenshots": [],
     "passed": false,
     "platinum": false
@@ -62,7 +66,9 @@
     "cover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_f.webp",
     "backCover": "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps2/dirgeofcerberus.pdf",
-    "discs": ["media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_disc.webp"],
+    "discs": [
+      "media/covers/dirgeofcerberus_cover/dirgeofcerberus_cover_disc.webp"
+    ],
     "screenshots": [
       "media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_1.webp",
       "media/covers/dirgeofcerberus_cover/screenshots/dirgeofcerberus_cover_2.webp",
@@ -80,7 +86,9 @@
     "cover": "media/covers/tomb_raider2_cover/tomb_raider2_cover_f.webp",
     "backCover": "media/covers/tomb_raider2_cover/tomb_raider2_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/tomb_raider2.pdf",
-    "discs": ["media/covers/tomb_raider2_cover/tomb_raider2_cover_disc.webp"],
+    "discs": [
+      "media/covers/tomb_raider2_cover/tomb_raider2_cover_disc.webp"
+    ],
     "screenshots": [
       "media/covers/tomb_raider2_cover/screnshots/tomb_raider2_cover_1.webp",
       "media/covers/tomb_raider2_cover/screnshots/tomb_raider2_cover_2.webp"
@@ -97,7 +105,9 @@
     "cover": "media/covers/disneys_pocahontas_cover/disneys_pocahontas_f.webp",
     "backCover": "media/covers/disneys_pocahontas_cover/disneys_pocahontas_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/disneys_pocahontas.pdf",
-    "discs": ["media/covers/disneys_pocahontas_cover/disneys_pocahontas_disc.webp"],
+    "discs": [
+      "media/covers/disneys_pocahontas_cover/disneys_pocahontas_disc.webp"
+    ],
     "screenshots": [
       "media/covers/disneys_pocahontas_cover/screnshots/disneys_pocahontas_cover.webp"
     ],
@@ -113,7 +123,9 @@
     "cover": "media/covers/tombraidergold_cover/tombraidergold_f.webp",
     "backCover": "media/covers/tombraidergold_cover/tombraidergold_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/tombraidergold.pdf",
-    "discs": ["media/covers/tombraidergold_cover/tombraidergold_disc.webp"],
+    "discs": [
+      "media/covers/tombraidergold_cover/tombraidergold_disc.webp"
+    ],
     "screenshots": [
       "media/covers/tombraidergold_cover/screnshots/tombraidergold_cover.webp"
     ],
@@ -129,7 +141,7 @@
     "cover": "media/covers/kingdom_classic_cover/kingdom_classic_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/368230/logo.png",
     "manual": "",
-    "discs": [""],
+    "discs": [],
     "screenshots": [
       "media/covers/kingdom_classic_cover/screnshots/kingdom_classic_cover.webp"
     ],
@@ -142,7 +154,7 @@
     "title": "Shadow Tactics: Blades of the Shogun",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/418240/logo.png",
     "manual": "",
-    "discs": [""],
+    "discs": [],
     "screenshots": [
       "media/covers/shadow_tactics_blades_of_the_shogun_cover/screnshots/shadow_tactics_blades_of_the_shogun_cover_1.webp",
       "media/covers/shadow_tactics_blades_of_the_shogun_cover/screnshots/shadow_tactics_blades_of_the_shogun_cover_2.webp"
@@ -182,7 +194,9 @@
     "cover": "media/covers/tombraider_cover/tombraider_cover_f.webp",
     "backCover": "media/covers/tombraider_cover/tombraider_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/tombraider.pdf",
-    "discs": ["media/covers/tombraider_cover/tombraider_cover_disc.webp"],
+    "discs": [
+      "media/covers/tombraider_cover/tombraider_cover_disc.webp"
+    ],
     "screenshots": [
       "media/covers/tombraider_cover/screnshots/tombraider_cover_1.webp",
       "media/covers/tombraider_cover/screnshots/tombraider_cover_2.webp"
@@ -199,7 +213,9 @@
     "cover": "media/covers/syphon_filter_cover/syphon_filter_cover_f.webp",
     "backCover": "media/covers/syphon_filter_cover/syphon_filter_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter.pdf",
-    "discs": ["media/covers/syphon_filter_cover/syphon_filter_cover_disc.webp"],
+    "discs": [
+      "media/covers/syphon_filter_cover/syphon_filter_cover_disc.webp"
+    ],
     "screenshots": [
       "media/covers/syphon_filter_cover/screnshots/syphon_filter_cover.webp"
     ],
@@ -234,7 +250,9 @@
     "cover": "media/covers/comixzone_cover/comixzone_f.webp",
     "backCover": "media/covers/comixzone_cover/comixzone_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/comixzone.pdf",
-    "discs": ["media/covers/comixzone_cover/comixzone_disc.webp"],
+    "discs": [
+      "media/covers/comixzone_cover/comixzone_disc.webp"
+    ],
     "screenshots": [
       "media/covers/comixzone_cover/screnshots/comixzone.webp"
     ],
@@ -250,7 +268,9 @@
     "cover": "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_f.webp",
     "backCover": "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/syphon_filter_3.pdf",
-    "discs": ["media/covers/syphon_filter_3_cover/syphon_filter_3_cover_disc.webp"],
+    "discs": [
+      "media/covers/syphon_filter_3_cover/syphon_filter_3_cover_disc.webp"
+    ],
     "screenshots": [
       "media/covers/syphon_filter_3_cover/screnshots/syphon_filter_3_cover.webp"
     ],
@@ -266,7 +286,7 @@
     "cover": "media/covers/darksiders_cover/darksiders_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/50620/logo.png",
     "manual": "",
-    "discs": [""],
+    "discs": [],
     "screenshots": [
       "media/covers/darksiders_cover/screnshots/darksiders_cover1.webp",
       "media/covers/darksiders_cover/screnshots/darksiders_cover2.webp"
@@ -283,7 +303,7 @@
     "cover": "media/covers/the_witcher_cover/the_witcher_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/20900/logo.png",
     "manual": "",
-    "discs": [""],
+    "discs": [],
     "screenshots": [
       "media/covers/the_witcher_cover/screnshots/the_witcher_cover1.webp",
       "media/covers/the_witcher_cover/screnshots/the_witcher_cover2.webp",
@@ -301,7 +321,7 @@
     "cover": "media/covers/darksiders_III_cover/darksiders_III_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/606280/logo.png",
     "manual": "",
-    "discs": [""],
+    "discs": [],
     "screenshots": [
       "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover1.webp",
       "media/covers/darksiders_III_cover/screnshots/darksiders_III_cover2.webp",
@@ -320,7 +340,7 @@
     "cover": "media/covers/bayonetta_cover/bayonetta_cover_f.webp",
     "backCover": "https://steamcdn-a.akamaihd.net/steam/apps/460790/logo.png",
     "manual": "",
-    "discs": [""],
+    "discs": [],
     "screenshots": [
       "media/covers/bayonetta_cover/screnshots/bayonetta_cover1.webp",
       "media/covers/bayonetta_cover/screnshots/bayonetta_cover2.webp",
@@ -339,7 +359,9 @@
     "cover": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_f.webp",
     "backCover": "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_b.webp",
     "manual": "",
-    "discs": ["media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_disc.webp"],
+    "discs": [
+      "media/covers/princeofpersia_twothrones_cover/princeofpersia_twothrones_cover_disc.webp"
+    ],
     "screenshots": [
       "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover1.webp",
       "media/covers/princeofpersia_twothrones_cover/screnshots/princeofpersia_twothrones_cover2.webp",
@@ -359,7 +381,9 @@
     "cover": "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_f.webp",
     "backCover": "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/donkeykongcountrytropicalfreeze.pdf",
-    "discs": ["media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_disc.webp"],
+    "discs": [
+      "media/covers/donkeykongcountrytropicalfreeze_cover/donkeykongcountrytropicalfreeze_disc.webp"
+    ],
     "screenshots": [
       "media/covers/donkeykongcountrytropicalfreeze_cover/screnshots/donkeykongcountrytropicalfreeze_cover1.webp",
       "media/covers/donkeykongcountrytropicalfreeze_cover/screnshots/donkeykongcountrytropicalfreeze_cover2.webp"
@@ -376,7 +400,9 @@
     "cover": "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_f.webp",
     "backCover": "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_b.webp",
     "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps1/yoshiswoolyworld.pdf",
-    "discs": ["media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_disc.webp"],
+    "discs": [
+      "media/covers/yoshiswoolyworld_cover/yoshiswoolyworld_cover_disc.webp"
+    ],
     "screenshots": [
       "media/covers/yoshiswoolyworld_cover/screnshots/yoshiswoolyworld_cover1.webp",
       "media/covers/yoshiswoolyworld_cover/screnshots/yoshiswoolyworld_cover2.webp",
@@ -1590,6 +1616,7 @@
         "icon": "media/covers/majin_and_the_forsaken_kingdom_cover/achivments/TROP041.webp"
       }
     ],
+    "trophyBanner": "media/covers/majin_and_the_forsaken_kingdom_cover/ICON0.webp",
     "passed": true,
     "platinum": true,
     "steamId": null
@@ -1789,6 +1816,7 @@
         "icon": "media/covers/a_boy_and_his_blob_cover/achivments/TROP020.webp"
       }
     ],
+    "trophyBanner": "media/covers/a_boy_and_his_blob_cover/ICON0.webp",
     "passed": true,
     "platinum": true,
     "steamId": null
@@ -2253,6 +2281,7 @@
         "icon": "media/covers/asuras_wrath_cover/achivments/TROP052.webp"
       }
     ],
+    "trophyBanner": "media/covers/asuras_wrath_cover/ICON0.webp",
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -2581,6 +2610,7 @@
         "icon": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/achivments/TROP035.webp"
       }
     ],
+    "trophyBanner": "media/covers/sly_cooper_and_the_thievius_raccoonus_cover/ICON0.webp",
     "passed": true,
     "platinum": true,
     "steamId": null
@@ -3143,6 +3173,7 @@
         "icon": "media/covers/gta_4_cover/achivments/TROP065.webp"
       }
     ],
+    "trophyBanner": "media/covers/gta_4_cover/ICON0.webp",
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -3561,6 +3592,7 @@
         "icon": "media/covers/dead_or_alive_5_cover/achivments/TROP047.webp"
       }
     ],
+    "trophyBanner": "media/covers/dead_or_alive_5_cover/ICON0.webp",
     "passed": true,
     "platinum": false,
     "steamId": null
@@ -4002,6 +4034,7 @@
         "icon": "media/covers/assassins_creed_2_cover/achivments/TROP050.webp"
       }
     ],
+    "trophyBanner": "media/covers/assassins_creed_2_cover/ICON0.webp",
     "passed": true,
     "platinum": true,
     "steamId": null
@@ -4010,7 +4043,7 @@
     "id": 1786806311724,
     "title": "Resident Evil HD Remaster",
     "platform": "PS3",
-	"npwrId": "NPWR07057_00",
+    "npwrId": "NPWR07057_00",
     "year": 2015,
     "cover": "media/covers/resident_evil_hd_cover/resident_evil_hd_cover_f.webp",
     "backCover": "media/covers/resident_evil_hd_cover/resident_evil_hd_cover_b.webp",
@@ -4427,6 +4460,1043 @@
         "icon": "media/covers/resident_evil_hd_cover/achivments/TROP044.webp"
       }
     ],
+    "trophyBanner": "media/covers/resident_evil_hd_cover/ICON0.webp",
+    "passed": true,
+    "platinum": true,
+    "steamId": null
+  },
+  {
+    "id": 1787064344439,
+    "title": "Tales of Graces f",
+    "platform": "PS3",
+    "npwrId": "NPWR03410_00",
+    "year": 2010,
+    "cover": "media/covers/tales_of_graces_f_cover/tales_of_graces_f_cover_f.webp",
+    "backCover": "media/covers/tales_of_graces_f_cover/tales_of_graces_f_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/tales_of_graces_f.pdf",
+    "discs": [
+      "media/covers/tales_of_graces_f_cover/tales_of_graces_f_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover1.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover2.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover3.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover4.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover5.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover6.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover7.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover8.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover9.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover10.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover11.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover12.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover13.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover14.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover15.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover16.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover17.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover18.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover19.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover20.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover21.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover22.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover23.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover24.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover25.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover26.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover27.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover28.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover29.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover30.webp",
+      "media/covers/tales_of_graces_f_cover/screnshots/tales_of_graces_f_cover31.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "True Grace",
+        "description": "Acquired all trophies. Amazing!",
+        "type": "P",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Title Fighter (20 Titles)",
+        "description": "Acquired 20 different titles for Abel.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-10 21:45:18",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Title Holder (50 Titles)",
+        "description": "Acquired 50 different titles for Abel.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-01 21:31:35",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Title Master (100 Titles)",
+        "description": "Acquired 100 different titles for Abel.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "First Flower (20 Titles)",
+        "description": "Acquired 20 different titles for Sophie.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-12 21:13:16",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Full Flower (50 Titles)",
+        "description": "Acquired 50 different titles for Sophie.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-04 21:11:22",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "Flower Power (100 Titles)",
+        "description": "Acquired 100 different titles for Sophie.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Entitled (20 titles)",
+        "description": "Acquired 20 different titles for Hubert.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-06 21:01:52",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Emboldened (50 titles)",
+        "description": "Acquired 50 different titles for Hubert.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-13 21:40:05",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Empowered (100 titles)",
+        "description": "Acquired 100 different titles for Hubert.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Openhearted (20 titles)",
+        "description": "Acquired 20 different titles for Cheia.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-13 11:14:10",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Wholehearted (50 titles)",
+        "description": "Acquired 50 different titles for Cheia.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-14 19:27:37",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "Lionhearted (100 titles)",
+        "description": "Acquired 100 different titles for Cheia.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Training Captain (20 titles)",
+        "description": "Acquired 20 different titles for Malik.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-16 19:47:40",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "Captain First Class (50 titles)",
+        "description": "Acquired 50 different titles for Malik.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-11 21:16:15",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Captain Ephinea (100 titles)",
+        "description": "Acquired 100 different titles for Malik.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Sobriquetian (20 titles)",
+        "description": "Acquired 20 different titles for Pascal.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-13 11:28:24",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Appellatrix (50 titles)",
+        "description": "Acquired 50 different titles for Pascal.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-11 20:17:56",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Epitheliologist (100 titles)",
+        "description": "Acquired 100 different titles for Pascal.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "Richard the Radiant (20 Titles)",
+        "description": "Acquired 20 different titles for Richard.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Richard the Righteous (50 Titles)",
+        "description": "Acquired 50 different titles for Richard.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "Richard the Redeemed (80 Titles)",
+        "description": "Acquired 80 different titles for Richard.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Childhood's End",
+        "description": "Completed Chapter 1.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-07 21:52:13",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "The Lord of Lhant",
+        "description": "Completed Chapter 2.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-12 07:57:44",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "A Throne Reclaimed",
+        "description": "Completed Chapter 3.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-13 22:09:42",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "The Sands of Stratha",
+        "description": "Completed Chapter 4.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-07-31 18:54:38",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "The Infiltration of Fendel",
+        "description": "Completed Chapter 5.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-09 21:38:55",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "The Other Side of the Sky",
+        "description": "Completed Chapter 6.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-10 18:20:38",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "The Fallen Eden",
+        "description": "Completed Chapter 7.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-12 18:42:38",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "A Pact Fulfilled",
+        "description": "Completed Chapter 8.",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-08-14 21:45:19",
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "Lineage & Legacies",
+        "description": "Completed Chapter 9. Next up: the Zhonecage! What? Look to the skits for a hint!",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Gagonged!",
+        "description": "Defeated the Rockgagong.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "Who Were Those Guys, Again?",
+        "description": "Defeated Veigue, Reala, and Amber.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "Tema-nated",
+        "description": "Defeated Solomus and the Tema Ten.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "One with Oblivion",
+        "description": "Defeated Lambda Theos. Impressive!",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "A Gentleman Triumph",
+        "description": "Defeated a true Gentleman. Good show!",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP035.webp"
+      },
+      {
+        "name": "Game Clear: Moderate",
+        "description": "Completed the game on the Moderate difficulty setting.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP036.webp"
+      },
+      {
+        "name": "Game Clear: Hard",
+        "description": "Completed the game on the Hard difficulty setting.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP037.webp"
+      },
+      {
+        "name": "Battle Cry: Evil",
+        "description": "Completed the game on the Evil difficulty setting.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP038.webp"
+      },
+      {
+        "name": "Game Clear: Chaos",
+        "description": "Completed the game on the Chaos difficulty setting.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP039.webp"
+      },
+      {
+        "name": "Byce in 60 Seconds",
+        "description": "Defeated that jerk with the claw in a minute or less.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP040.webp"
+      },
+      {
+        "name": "Queen Slime in 60 Seconds",
+        "description": "Defeated the ruler of all oozes in a minute or less.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP041.webp"
+      },
+      {
+        "name": "Richard in 60 Seconds",
+        "description": "Defeated the friend who betrayed you in a minute or less.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP042.webp"
+      },
+      {
+        "name": "Dispatchers in 60 Seconds",
+        "description": "Defeated the monsters Richard sicced on you in a minute or less.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP043.webp"
+      },
+      {
+        "name": "Kurt in 60 Seconds",
+        "description": "Ended your fateful battle with Kurt in a minute or less.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP044.webp"
+      },
+      {
+        "name": "Polycarpus in 60 Seconds",
+        "description": "Defeated the guardian of the ruins in a minute or less.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP045.webp"
+      },
+      {
+        "name": "Lambda in 60 Seconds",
+        "description": "Defeated the materialized Lambda in a minute or less.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP046.webp"
+      },
+      {
+        "name": "Lambda Angelus in 60 Seconds",
+        "description": "Defeated Lambda in the final battle in a minute or less.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP047.webp"
+      },
+      {
+        "name": "Fodra Queen in 60 Seconds",
+        "description": "Defeated the Fodra Queen in a minute or less.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP048.webp"
+      },
+      {
+        "name": "Mixer Maxed",
+        "description": "Maxed out your Eleth Mixer by boosting its eleth capacity to 9999.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/tales_of_graces_f_cover/achivments/TROP049.webp"
+      }
+    ],
+    "trophyBanner": "media/covers/tales_of_graces_f_cover/ICON0.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1787480916912,
+    "title": "Pid",
+    "platform": "PS3",
+    "npwrId": "NPWR03315_00",
+    "year": 2012,
+    "cover": "media/covers/pid_cover/pid_cover_f.webp",
+    "backCover": "media/covers/pid_cover/pid_cover_b.webp",
+    "manual": "",
+    "discs": [],
+    "screenshots": [
+      "media/covers/pid_cover/screnshots/pid_cover1.webp",
+      "media/covers/pid_cover/screnshots/pid_cover2.webp",
+      "media/covers/pid_cover/screnshots/pid_cover3.webp",
+      "media/covers/pid_cover/screnshots/pid_cover4.webp",
+      "media/covers/pid_cover/screnshots/pid_cover5.webp",
+      "media/covers/pid_cover/screnshots/pid_cover6.webp",
+      "media/covers/pid_cover/screnshots/pid_cover7.webp",
+      "media/covers/pid_cover/screnshots/pid_cover8.webp",
+      "media/covers/pid_cover/screnshots/pid_cover9.webp",
+      "media/covers/pid_cover/screnshots/pid_cover10.webp",
+      "media/covers/pid_cover/screnshots/pid_cover11.webp",
+      "media/covers/pid_cover/screnshots/pid_cover12.webp",
+      "media/covers/pid_cover/screnshots/pid_cover13.webp",
+      "media/covers/pid_cover/screnshots/pid_cover14.webp",
+      "media/covers/pid_cover/screnshots/pid_cover15.webp",
+      "media/covers/pid_cover/screnshots/pid_cover16.webp",
+      "media/covers/pid_cover/screnshots/pid_cover17.webp",
+      "media/covers/pid_cover/screnshots/pid_cover18.webp",
+      "media/covers/pid_cover/screnshots/pid_cover19.webp",
+      "media/covers/pid_cover/screnshots/pid_cover20.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "Bothersome guest",
+        "description": "Defeat the Butler Orlando.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-15 19:59:05",
+        "icon": "media/covers/pid_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Little guest",
+        "description": "Enter the entourage HQ.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-18 21:33:40",
+        "icon": "media/covers/pid_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Goodbye little guest",
+        "description": "Complete the game.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 00:06:28",
+        "icon": "media/covers/pid_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "You call this a challenge?",
+        "description": "Complete game on hard difficulty.",
+        "type": "G",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/pid_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Young Cartographer",
+        "description": "Find a secret constellation.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-02 22:35:41",
+        "icon": "media/covers/pid_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Master Cartographer",
+        "description": "Find and collect all secret constellations.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/pid_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "The first memory",
+        "description": "Collect 1 secret souvenir.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-02 21:24:31",
+        "icon": "media/covers/pid_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Memory Collector",
+        "description": "Collect 5 secret souvenirs.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/pid_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Bag lady",
+        "description": "Complete the game with all 12 secret souvenirs.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/pid_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Junior Explorer",
+        "description": "Find 10 secret areas.",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-18 20:51:10",
+        "icon": "media/covers/pid_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Senior Explorer",
+        "description": "Find 30 secret areas.",
+        "type": "B",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/pid_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Master Explorer",
+        "description": "Find 60 secret areas.",
+        "type": "S",
+        "status": "Не получен",
+        "obtainment_time": null,
+        "icon": "media/covers/pid_cover/achivments/TROP011.webp"
+      }
+    ],
+    "trophyBanner": "media/covers/pid_cover/ICON0.webp",
+    "passed": true,
+    "platinum": false,
+    "steamId": null
+  },
+  {
+    "id": 1787484660637,
+    "title": "Captain America: Super Soldier",
+    "platform": "PS3",
+    "npwrId": "NPWR01556_00",
+    "year": 2011,
+    "cover": "media/covers/captain_america_super_soldier_cover/captain_america_super_soldier_cover_f.webp",
+    "backCover": "media/covers/captain_america_super_soldier_cover/captain_america_super_soldier_cover_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps3/captain_america_super_soldier.pdf",
+    "discs": [
+      "media/covers/captain_america_super_soldier_cover/captain_america_super_soldier_cover_disc.webp"
+    ],
+    "screenshots": [
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover1.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover2.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover3.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover4.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover5.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover6.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover7.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover8.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover9.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover10.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover11.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover12.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover13.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover14.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover15.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover16.webp",
+      "media/covers/captain_america_super_soldier_cover/screnshots/captain_america_super_soldier_cover17.webp"
+    ],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "The First Avenger",
+        "description": "Complete all Trophies",
+        "type": "P",
+        "status": "Получен",
+        "obtainment_time": "2024-08-30 20:39:44",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Grace Under Pressure",
+        "description": "Achieved perfect timing x 5 while platforming",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 19:07:33",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Back to Basics",
+        "description": "101 Grunts defeated",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-08-24 21:29:12",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Snipe Hunt",
+        "description": "25 Snipers defeated",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 20:33:13",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Who's the Bully Now?",
+        "description": "101 advanced enemies defeated",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-08-30 19:50:22",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "And They All Fall Down",
+        "description": "4 Enemies KO'd with a single Focused Shield Throw",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-27 20:05:40",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "Unfriendly Fire",
+        "description": "10 Enemies defeated with a weaponized enemy",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 18:47:21",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "There Goes The Neighborhood",
+        "description": "All AA cannons destroyed",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 21:22:49",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "Snap Together Soldiers",
+        "description": "1st Enemy Schematic collected",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 19:26:59",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "Deconstruction",
+        "description": "All Enemy Schematics collected",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-30 20:38:15",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Sewer Rat",
+        "description": "All 12 Sewer entrances used",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 20:45:53",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Need a Head?",
+        "description": "50 Statues destroyed",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-28 20:40:18",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "Hello God? It's Me. Zemo",
+        "description": "1st Zemo Diary collected",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 19:17:05",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Two Hands and a Sword",
+        "description": "All Zemo Diaries collected",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 19:40:43",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "24 Frames a Second",
+        "description": "Found a Zola Reel",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 19:24:37",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Slide Show Symphony",
+        "description": "All Zola Reels collected",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 21:29:42",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "He Hates These Cans!",
+        "description": "Caused 500 objects to explode",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-28 21:04:47",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Beautiful Mind",
+        "description": "13 Enigma Keypads decrypted",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-27 20:18:36",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Peaches 'n Cream",
+        "description": "5 successful C3 placements",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-24 21:35:04",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "Put a Ring On It",
+        "description": "3 mortar strikes successfully directed",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 21:18:09",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Calling the Folks",
+        "description": "5 HQ Radios located and used",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-24 21:52:33",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "Eggman",
+        "description": "50 Ceramic Eggs collected",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 20:37:05",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Four Score and Seven",
+        "description": "1776 Intel Points collected",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 19:41:13",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "Star Spangled Superhero",
+        "description": "25000 Intel Points collected",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-08-30 18:44:52",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "Trench Foot",
+        "description": "Completed Prologue: Come and See",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-06-28 21:48:21",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "Just Stood There",
+        "description": "Completed 1st Chapter: Stand Alone Together",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 19:18:23",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "Overdue Notice",
+        "description": "Completed 2nd Chapter: The Flemish Farm",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 19:38:22",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "Trojan Splinters",
+        "description": "Completed 3rd Chapter: The Wooden Horse",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 21:14:05",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "Send a Post Card",
+        "description": "Completed 4th Chapter: Secret Journey",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-22 21:22:42",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "Fully Operational",
+        "description": "Completed 5th Chapter: The Big Red One",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-24 21:36:44",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "Existential Dilemma",
+        "description": "Completed 6th Chapter: Camus and the Fly",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-27 19:56:56",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Real Men Read Ulysses",
+        "description": "Completed 7th Chapter: Icarus and Daedalus",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-27 20:31:12",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "Down in the Lab",
+        "description": "Completed 8th Chapter: To Have and Have Not",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-27 20:59:56",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "Touchdown",
+        "description": "Completed 9th Chapter: The Longest Yard",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-28 21:01:22",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "Taming of the Shrew",
+        "description": "Completed 10th Chapter: Keep Your Powder Dry",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-28 21:45:03",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "Pleasant Stroll",
+        "description": "Completed 11th Chapter: They Were Expendable",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 19:42:36",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP035.webp"
+      },
+      {
+        "name": "Train to Catch",
+        "description": "Completed 12th Chapter: Red Ball Express",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 19:56:55",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP036.webp"
+      },
+      {
+        "name": "Unnatural Resources",
+        "description": "Completed 13th Chapter: The Small Back Room",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 20:16:52",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP037.webp"
+      },
+      {
+        "name": "High and Low",
+        "description": "Completed 14th Chapter: Hell is for Heroes",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 20:30:39",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP038.webp"
+      },
+      {
+        "name": "Holding the High Note",
+        "description": "Completed 15th Chapter: When Trumpets Fade",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 20:53:27",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP039.webp"
+      },
+      {
+        "name": "Tank Me Later",
+        "description": "Completed 16th Chapter: Church On Time",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 21:25:26",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP040.webp"
+      },
+      {
+        "name": "Science and Spirit",
+        "description": "Completed 17th Chapter: The First of the Few",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 21:34:14",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP041.webp"
+      },
+      {
+        "name": "The Big Sleepover",
+        "description": "Completed 18th Chapter: Went the Day Well?",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 22:00:12",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP042.webp"
+      },
+      {
+        "name": "To Your Credit",
+        "description": "Viewed the Credits to completion",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 21:59:19",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP043.webp"
+      },
+      {
+        "name": "Testing Waters",
+        "description": "1 Challenge Mode completed",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 22:06:07",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP044.webp"
+      },
+      {
+        "name": "Tourist",
+        "description": "All Challenge Modes completed",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-30 20:17:42",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP045.webp"
+      },
+      {
+        "name": "Window Shopper",
+        "description": "All Challenge Modes unlocked",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 20:59:27",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP046.webp"
+      },
+      {
+        "name": "Begin a Trend",
+        "description": "1st Gold awarded in a Challenge Mode",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-29 22:06:14",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP047.webp"
+      },
+      {
+        "name": "Freedom on a Roll",
+        "description": "50% Golds awarded in Challenge Mode",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-30 19:41:53",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP048.webp"
+      },
+      {
+        "name": "Can't Stand Any Higher",
+        "description": "100% Golds awarded in Challenge Mode",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2024-08-30 20:17:49",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP049.webp"
+      },
+      {
+        "name": "Pow. Right in the Kisser!",
+        "description": "Performed 50 Crippling Strikes",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2024-08-30 20:39:43",
+        "icon": "media/covers/captain_america_super_soldier_cover/achivments/TROP050.webp"
+      }
+    ],
+    "trophyBanner": "media/covers/captain_america_super_soldier_cover/ICON0.webp",
     "passed": true,
     "platinum": true,
     "steamId": null
