@@ -53,25 +53,30 @@ function updateTrackName() {
 
 async function toggleMusic() {
     const btn = document.getElementById('playBtn');
+	const icon = btn.querySelector('img');
     if (isPlaying) {
         audio.pause();
-        btn.textContent = '▶';
+        if (icon) icon.src = 'media/icons/play.png';
         isPlaying = false;
         return;
     }
-    if (!audio.src) {
+    if (!audio.src && tracks.length) {
         currentTrackIndex = Math.floor(Math.random() * tracks.length);
         loadTrack(currentTrackIndex);
     }
+    if (!tracks.length) {
+        alert('Нет доступных треков');
+        return;
+    }
     try {
         await audio.play();
-        btn.textContent = '⏸';
+        if (icon) icon.src = 'media/icons/pause.png';
         isPlaying = true;
     } catch {
         setTimeout(async () => {
             try {
                 await audio.play();
-                btn.textContent = '⏸';
+                if (icon) icon.src = 'media/icons/pause.png';
                 isPlaying = true;
             } catch {}
         }, 500);
@@ -79,7 +84,7 @@ async function toggleMusic() {
 }
 
 function nextTrack() {
-	clearTimeout(trackLoadTimeout);
+    clearTimeout(trackLoadTimeout);
     if (!tracks.length) return;
     currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
     loadTrack(currentTrackIndex);
@@ -158,7 +163,7 @@ function addGame() {
         npwrId: "",
         year: parseInt(document.getElementById('gameYear').value) || 0,
         cover: document.getElementById('gameCover').value.trim().replace(/\\/g, '/') || 'media/covers/default.webp',
-        backCover: document.getElementById('gameBackCover').value.trim().replace(/\\/g, '/') || 'media/covers/default_back.jpg',
+        backCover: document.getElementById('gameBackCover').value.trim().replace(/\\/g, '/') || 'media/covers/default_back.webp',
         manual: document.getElementById('gameManual').value.trim().replace(/\\/g, '/') || '',
         discs: document.getElementById('gameDiscs').value.split(',').map(s => s.trim().replace(/\\/g, '/')).filter(Boolean),
         screenshots: document.getElementById('gameScreenshots').value.split(',').map(s => s.trim().replace(/\\/g, '/')).filter(Boolean),
@@ -166,7 +171,7 @@ function addGame() {
         achievements: document.getElementById('gameAchievements').value.split(',').map(s => s.trim()).filter(Boolean)
             .map(item => { const p = item.split('|').map(s => s.trim()); return p.length === 2 ? { name: p[0], icon: p[1].replace(/\\/g, '/') } : null; })
             .filter(Boolean),
-        trophyBanner: "",
+		trophyBanner: "",	
         passed: false,
         platinum: false,
         steamId: null
@@ -230,7 +235,7 @@ function renderGames(list = null) {
             <div class="cover" onclick="this.classList.toggle('flipped')">
                 <div class="cover-inner">
                     <div class="cover-front"><img src="${game.cover || 'media/covers/default.webp'}" alt="${game.title}" /></div>
-                    <div class="cover-back"><img src="${game.backCover || 'media/covers/default_back.jpg'}" alt="Задняя сторона" /></div>
+                    <div class="cover-back"><img src="${game.backCover || 'media/covers/default_back.webp'}" alt="Задняя сторона" /></div>
                 </div>
             </div>
             <div class="title"><span class="glow-text">${game.title}</span></div>
@@ -449,10 +454,17 @@ function openAchievements(id) {
     currentAchievements = [...game.achievements];
     sortMode = 'dateAsc';
     renderAchievements();
+    // Сброс активных кнопок сортировки
+    document.querySelectorAll('.ach-sort button').forEach(btn => btn.classList.remove('active'));
+    const firstBtn = document.querySelector('.ach-sort button');
+    if (firstBtn) firstBtn.classList.add('active');
     openModal('achievementModal');
 }
 
-function closeAchievements() { closeModal('achievementModal'); }
+function closeAchievements() {
+    closeModal('achievementModal');
+    currentAchievements = [];
+}
 
 function renderAchievements() {
     const container = document.getElementById('achievementGrid');
@@ -471,7 +483,7 @@ function renderAchievements() {
     }
 
     // Рендер трофеев
-    let achievementsHTML = currentAchievements.map(a => {
+    const achievementsHTML = currentAchievements.map(a => {
         const parts = a.obtainment_time ? a.obtainment_time.split(' ') : ['—', ''];
         const isLocked = a.status !== "Получен";
         return `
@@ -489,20 +501,6 @@ function renderAchievements() {
 
     container.innerHTML = achievementsHTML;
 }
-	
-	    // Баннер после списка
-  /*  let bannerHTML = '';
-    if (game && game.trophyBanner) {
-        bannerHTML = `
-            <div class="trophy-banner">
-                <img src="${game.trophyBanner}" alt="Баннер достижений" />
-            </div>
-        `;
-    }
-
-    container.innerHTML = achievementsHTML + bannerHTML;
-}
-*/
 
 function sortAchievements(mode) {
     sortMode = mode;
@@ -590,4 +588,52 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     });
+});
+
+// ============================================================
+// ВИДЕО ДИНОЗАВРА
+// ============================================================
+window.addEventListener('load', () => {
+    const video = document.querySelector('.dino-video');
+    const poster = document.querySelector('.dino-poster');
+    if (!video || !poster) return;
+
+    // Выбираем файл: мобильный или обычный
+    const isMobile = window.innerWidth < 768;
+    video.src = isMobile ? 'media/dino_mobile.webm' : 'media/dino_no_bg.webm';
+    video.load();
+
+    // Затемнение
+    const overlay = document.createElement('div');
+    overlay.style.cssText = 'position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0); pointer-events:none; z-index:1; transition:background 0.4s;';
+    document.body.appendChild(overlay);
+
+    let darkOnce = false;
+
+    // Скрываем постер только когда видео РЕАЛЬНО показывает кадр
+    video.addEventListener('playing', function onPlaying() {
+        // Проверяем, что кадр действительно отрисован
+        if (video.currentTime > 0 && video.videoWidth > 0) {
+            poster.style.display = 'none';
+        } else {
+            // Если ещё нет — ждём следующего кадра
+            requestAnimationFrame(() => {
+                if (video.currentTime > 0 && video.videoWidth > 0) {
+                    poster.style.display = 'none';
+                }
+            });
+        }
+
+        // Затемнение — один раз, на пике рыка
+        if (!darkOnce) {
+            darkOnce = true;
+            setTimeout(() => overlay.style.background = 'rgba(0,0,0,0.85)', 2650);
+            setTimeout(() => overlay.style.background = 'rgba(0,0,0,0)', 3500);
+        }
+
+        video.removeEventListener('playing', onPlaying);
+    });
+
+    // Запускаем воспроизведение
+    video.play().catch(() => {});
 });

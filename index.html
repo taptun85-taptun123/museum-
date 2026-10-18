@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Мой музей игр</title>
     <link rel="stylesheet" href="css/style.css" />
+	<link rel="preload" href="fonts/roadrage.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="icon" href="media/favicon.ico" type="image/x-icon" />
 </head>
 <body class="dark">
@@ -25,9 +26,24 @@
                 </div>
             </div>
         </div>
+		
+        <div style="position: relative; text-align: center; min-height: 200px; display: flex; align-items: flex-end; justify-content: center;">
+            <img src="media/dino_first_frame.webp" 
+             alt=""
+              class="dino-poster"
+              style="position:absolute; top:0; width:100%; height:100%; object-fit:contain; z-index:1;">
 
-        <h1 class="site-title">🎮 Мой музей игр</h1>
+            <video class="dino-video" muted playsinline preload="none"
+                style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain; z-index:2; pointer-events:none;">
+            </video>
 
+           <h1 class="dino-title" style="position:relative; z-index:3; color: #3695c0;
+            font-size:50px; text-shadow:9px 9px 5px rgba(0,0,0,0.8); margin:0; padding:10px 0;">
+             🎮 МУЗЕЙ ИГР
+           </h1> 
+        </div>
+
+		
         <!-- Форма добавления -->
         <button onclick="toggleAddForm()" class="add-btn">➕</button>
         <div id="addFormContainer" style="display: none;">
@@ -60,16 +76,16 @@
         <div class="top-bar">
             <input type="text" id="searchInput" placeholder="🔍 Поиск игры..." oninput="filterGames()" />
             <div class="music-player">
-                <button id="playBtn" onclick="toggleMusic()">▶</button>
+                <button id="playBtn" class="stone-1" onclick="toggleMusic()"><img src="media/icons/play.png" alt="Играть" class="btn-icon"></button>
                 <span id="trackName">🎵 Трек не выбран</span>
-                <button onclick="nextTrack()">⏭</button>
+                <button class="stone-2" onclick="nextTrack()">⏭</button>
             </div>
         </div>
 
         <!-- Экспорт/Импорт -->
         <div class="actions">
-            <button onclick="exportGames()">💾 Сохранить</button>
-            <button onclick="document.getElementById('importInput').click();">📂 Загрузить</button>
+            <button class="stone-3" onclick="exportGames()">💾 Сохранить</button>
+            <button class="stone-1" onclick="document.getElementById('importInput').click();">📂 Загрузить</button>
             <input type="file" id="importInput" accept=".json" style="display: none;" onchange="importGames(event)" />
         </div>
 
@@ -153,4 +169,4 @@
 
     <script src="js/script.js"></script>
 </body>
-</html>
+</html> 

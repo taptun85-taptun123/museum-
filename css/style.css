@@ -10,90 +10,62 @@
          url('../fonts/diabloexocetcyr-heavy.ttf') format('truetype'),
          url('../fonts/diabloexocetcyr-heavy.svg#diabloexocetcyr-heavy') format('svg');
 }
+@font-face {
+    font-family: 'RoadRage';
+    src: url('../fonts/roadrage.ttf') format('truetype');
+}
 
 /* ====================================================
    БАЗОВЫЕ СТИЛИ
    ==================================================== */
-* { box-sizing: border-box; }
+*,
+*::before,
+*::after { box-sizing: border-box; }
 
 body {
     font-family: 'DiabloExocetCyr-Heavy', sans-serif;
     margin: 0;
     padding: 20px;
     min-height: 100vh;
-    transition: background 0.4s, color 0.4s;
+    transition: background .4s, color .4s;
 }
 
 .container { max-width: 1200px; margin: 0 auto; }
-.site-title { text-align: center; font-size: 40px; margin-bottom: 20px; }
 
 /* ====================================================
-   СЕТКА КАРТОЧЕК
+   СТИЛЬ ШРИФТА НАЗВАНИЯ САЙТА
    ==================================================== */
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+.dino-title {
+    font-family: 'RoadRage', sans-serif;
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+}
+.site-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 /* ====================================================
-   КАРТОЧКА ИГРЫ
+   КАРТОЧКИ И СЕТКА
    ==================================================== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
 .card {
-    flex: 0 1 calc(33.33% - 20px);
-    min-width: 200px;
+    min-width: 0;
     border-radius: 20px;
     padding: 20px 20px 25px;
     text-align: center;
-    transition: background 0.4s, border-color 0.4s;
-}
-
-/* Универсальная кнопка */
-button, .badge, .add-btn, .page-btn,
-.card-actions button, .delete-btn,
-.add-form button, .actions button,
-.music-player button, .manual-link button,
-.disc-nav button, .boss-nav button,
-.screenshots-nav button {
-    font-family: 'DiabloExocetCyr-Heavy', sans-serif;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: transform 0.1s, box-shadow 0.2s, background 0.2s, color 0.2s;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-}
-
-button:active, .badge:active, .add-btn:active, .page-btn:active {
-    transform: scale(0.96);
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-}
-
-/* Карточка — действия */
-.card-actions {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    margin-top: 10px;
-    flex-wrap: wrap;
-}
-.card-actions button {
-    background: var(--btn-bg, #2a2a4a);
-    color: var(--btn-text, #e0e0e0);
-    border: 1px solid var(--border, #3a3a5a);
-    padding: 6px 16px;
-    font-size: 13px;
-}
-
-.delete-btn {
-    background: #3a1a2a;
-    color: #a06a7a;
-    padding: 4px 12px;
-    font-size: 12px;
-    border: none;
+    transition: background .4s, border-color .4s;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
 }
 
 /* Обложка + флип */
@@ -103,18 +75,19 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
     aspect-ratio: 1/1;
     border-radius: 12px;
     overflow: hidden;
-    margin-bottom: 12px;
+    margin: 0 auto 12px;
 }
 .cover-inner {
     position: relative;
     width: 100%;
     height: 100%;
-    transition: transform 0.6s ease;
+    transition: transform .6s ease;
     transform-style: preserve-3d;
 }
 .cover.flipped .cover-inner { transform: rotateY(180deg); }
 
-.cover-front, .cover-back {
+.cover-front,
+.cover-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -130,7 +103,8 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
 .cover-front { z-index: 2; }
 .cover-back { transform: rotateY(180deg); }
 
-.cover-front img, .cover-back img {
+.cover-front img,
+.cover-back img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -154,21 +128,6 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
     margin-bottom: 10px;
 }
 
-.badge {
-    padding: 4px 12px;
-    font-size: 12px;
-    border: none;
-}
-.badge.passed {
-    background: #1a3a2a;
-    color: #8ac0a0;
-}
-.badge.platinum {
-    background: #2a2a4a;
-    color: #c8b0f0;
-}
-
-/* Заголовок игры */
 .title { font-size: 20px; font-weight: 600; }
 
 .glow-text {
@@ -185,14 +144,69 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
 .card:hover .glow-text { background-position: 320% 0; }
 
 /* ====================================================
-   АДАПТАЦИЯ КАРТОЧЕК
+   УНИВЕРСАЛЬНЫЕ КНОПКИ И БЭДЖИ
    ==================================================== */
-@media (max-width: 700px) { .card { flex-basis: calc(50% - 20px); } }
-@media (max-width: 480px) { .card { flex-basis: 100%; } }
+button,
+.badge,
+.add-btn,
+.page-btn,
+.card-actions button,
+.delete-btn,
+.add-form button,
+.actions button,
+.music-player button,
+.manual-link button,
+.disc-nav button,
+.boss-nav button,
+.screenshots-nav button {
+    font-family: 'DiabloExocetCyr-Heavy', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform .1s, box-shadow .2s, background .2s, color .2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border: 1px solid var(--border-color);
+    background: var(--btn-bg);
+    color: var(--btn-text);
+}
 
-/* ====================================================
-   ФОРМА ДОБАВЛЕНИЯ
-   ==================================================== */
+button:active,
+.badge:active,
+.add-btn:active,
+.page-btn:active {
+    transform: scale(.96);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+/* Карточка — действия */
+.card-actions button {
+    padding: 6px 16px;
+    font-size: 13px;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: 1px solid var(--border-color);
+}
+
+.delete-btn {
+    padding: 4px 12px;
+    font-size: 12px;
+    border: none;
+    background: #3a1a2a;
+    color: #a06a7a;
+}
+
+.badge {
+    padding: 4px 12px;
+    font-size: 12px;
+    border: none;
+}
+.badge.passed { background: #1a3a2a; color: #8ac0a0; }
+.badge.platinum { background: #2a2a4a; color: #c8b0f0; }
+
+/* Кнопка добавления */
 .add-btn {
     display: block;
     margin: 0 auto 20px;
@@ -204,6 +218,9 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
 }
 .add-btn:hover { background: #4a3a8a; color: #fff; transform: scale(1.02); }
 
+/* ====================================================
+   ФОРМА ДОБАВЛЕНИЯ
+   ==================================================== */
 #addFormContainer { max-width: 900px; margin: 0 auto 20px; }
 
 .add-form {
@@ -213,30 +230,31 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
     justify-content: center;
     padding: 20px;
     border-radius: 20px;
-    background: #18182a;
-    border: 1px solid #2a2a4a;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
 }
-.add-form input, .add-form select {
+.add-form input,
+.add-form select {
     flex: 1 1 160px;
     min-width: 140px;
     padding: 8px 12px;
     font-size: 14px;
     border-radius: 12px;
-    border: 1px solid #2a2a4a;
-    background: #111128;
-    color: #e0e0e0;
+    border: 1px solid var(--border-color);
+    background: var(--input-bg);
+    color: var(--btn-text);
     outline: none;
 }
 .add-form button {
     padding: 8px 20px;
-    background: #111128;
-    color: #e0e0e0;
-    border: 1px solid #2a2a4a;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: 1px solid var(--border-color);
 }
-.add-form button:hover { background: #4b3a9e; }
+.add-form button:hover { background: #4b3a9e; color: #fff; }
 
 /* ====================================================
-   КНОПКИ ДЕЙСТВИЙ
+   ДЕЙСТВИЯ И ПАГИНАЦИЯ
    ==================================================== */
 .actions {
     display: flex;
@@ -246,16 +264,13 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
     flex-wrap: wrap;
 }
 .actions button {
-    background: #111128;
-    color: #e0e0e0;
-    border: 1px solid #2a2a4a;
     padding: 6px 16px;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: 1px solid var(--border-color);
 }
-.actions button:hover { background: #4b3a9e; }
+.actions button:hover { background: #4b3a9e; color: #fff; }
 
-/* ====================================================
-   ПАГИНАЦИЯ
-   ==================================================== */
 .pagination {
     display: flex;
     justify-content: center;
@@ -266,9 +281,9 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
 .page-btn {
     padding: 4px 10px;
     font-size: 13px;
-    border: 1px solid #2a2a4a;
-    background: #1f1f35;
-    color: #8a8ab0;
+    border: 1px solid var(--border-color);
+    background: var(--page-bg);
+    color: var(--page-text);
 }
 .page-btn.active {
     background: #3a2b7a;
@@ -276,7 +291,12 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
     color: #fff;
 }
 .page-btn:hover { background: #2a2a4a; color: #c8c0f0; }
-.page-ellipsis { display: inline-block; padding: 6px 8px; font-size: 14px; color: #4a4a6a; }
+.page-ellipsis {
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 14px;
+    color: #4a4a6a;
+}
 
 /* ====================================================
    ГИМН
@@ -300,42 +320,40 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.3s;
-    background: rgba(24,24,42,0.7);
+    transition: .3s;
+    background: rgba(24, 24, 42, .7);
     border: 1px solid #2a2a4a;
 }
 .hymn-content {
     max-height: 0;
     opacity: 0;
     overflow: hidden;
-    transition: max-height 0.6s ease, opacity 0.4s ease, padding 0.4s ease;
+    transition: max-height .6s ease, opacity .4s ease, padding .4s ease;
     border-radius: 16px;
     margin-top: 12px;
     padding: 0 24px;
     text-align: center;
     font-size: 18px;
     line-height: 1.8;
-    background: rgba(24,24,42,0.9);
-    border: 1px solid #2a2a4a;
-    color: #d4d0f0;
+    border: 1px solid var(--border-color);
+    background: var(--hymn-bg);
+    color: var(--btn-text);
 }
 .hymn-content.open {
     max-height: 400px;
     opacity: 1;
     padding: 24px;
 }
-
 .glitch { animation: flicker 2.5s infinite; }
 @keyframes flicker {
     0%, 12%, 24%, 100% { opacity: 1; }
-    6% { opacity: 0.3; }
-    18% { opacity: 0.6; }
+    6% { opacity: .3; }
+    18% { opacity: .6; }
 }
 
 /* ====================================================
    ТЕМЫ (ТЁМНАЯ / СВЕТЛАЯ)
    ==================================================== */
-/* Общие для обеих тем */
 .theme-toggle {
     position: fixed;
     top: 25px;
@@ -349,30 +367,14 @@ button:active, .badge:active, .add-btn:active, .page-btn:active {
     justify-content: center;
     cursor: pointer;
     z-index: 2000;
-    transition: 0.3s;
-    background: rgba(24,24,42,0.7);
+    transition: .3s;
+    background: rgba(24, 24, 42, .7);
     border: 1px solid #2a2a4a;
 }
 
 body.dark {
     background: url('../media/dark-bg.webp') no-repeat center/cover fixed;
     color: #e0e0e0;
-}
-body.light {
-    background: url('../media/light-bg.webp') no-repeat center/cover fixed;
-    color: #1a1a2e;
-}
-
-/* Карточки, формы, кнопки — общие правила для обеих тем */
-body.dark .card,
-body.dark .add-form,
-body.light .card,
-body.light .add-form {
-    background: var(--card-bg);
-    border-color: var(--border-color);
-}
-
-body.dark {
     --card-bg: #18182a;
     --border-color: #2a2a4a;
     --input-bg: #111128;
@@ -381,11 +383,13 @@ body.dark {
     --badge-bg: #1f1f35;
     --page-bg: #1f1f35;
     --page-text: #8a8ab0;
-    --hymn-bg: rgba(24,24,42,0.9);
+    --hymn-bg: rgba(24, 24, 42, .9);
     --meta-span-bg: #1f1f35;
     --meta-span-text: #9a9ac0;
 }
 body.light {
+    background: url('../media/light-bg.webp') no-repeat center/cover fixed;
+    color: #1a1a2e;
     --card-bg: #ffffff;
     --border-color: #d0d0d0;
     --input-bg: #f0f0f5;
@@ -394,33 +398,12 @@ body.light {
     --badge-bg: #e8e8f0;
     --page-bg: #e8e8f0;
     --page-text: #1a1a2e;
-    --hymn-bg: rgba(255,255,255,0.9);
+    --hymn-bg: rgba(255, 255, 255, .9);
     --meta-span-bg: #e8e8f0;
     --meta-span-text: #6a6a8a;
 }
 
-/* Применяем переменные */
-body.dark .card,
-body.dark .add-form,
-body.light .card,
-body.light .add-form {
-    background: var(--card-bg);
-    border-color: var(--border-color);
-}
-.add-form input, .add-form select {
-    background: var(--input-bg);
-    color: var(--btn-text);
-}
-.add-form button, .actions button, .music-player button {
-    background: var(--btn-bg);
-    color: var(--btn-text);
-}
-.badge { background: var(--badge-bg); }
-.page-btn {
-    background: var(--page-bg);
-    color: var(--page-text);
-}
-.hymn-content { background: var(--hymn-bg); }
+/* Применяем переменные для элементов */
 .meta span {
     background: var(--meta-span-bg);
     color: var(--meta-span-text);
@@ -436,9 +419,11 @@ body.light .page-btn.active { background: #4a3a8a; border-color: #5a4a9a; color:
 body.light .page-btn:hover { background: #d0d0e0; }
 body.light .page-ellipsis { color: #8a8ab0; }
 body.light .add-form button:hover,
-body.light .actions button:hover { background: #5a4a9a; color: #fff; }
+body.light .actions button:hover,
+body.light .card-actions button:hover,
+body.light .music-player button:hover { background: #5a4a9a; color: #fff; }
 body.light .hymn-toggle,
-body.light .theme-toggle { background: rgba(255,255,255,0.7); border-color: #d0d0d0; }
+body.light .theme-toggle { background: rgba(255, 255, 255, .7); border-color: #d0d0d0; }
 body.light .hymn-content { border-color: #d0d0d0; color: #1a1a2e; }
 
 /* Специфичные для тёмной темы */
@@ -451,9 +436,11 @@ body.dark .page-btn.active { background: #3a2b7a; border-color: #5a4a9a; color: 
 body.dark .page-btn:hover { background: #2a2a4a; color: #c8c0f0; }
 body.dark .page-ellipsis { color: #4a4a6a; }
 body.dark .add-form button:hover,
-body.dark .actions button:hover { background: #4b3a9e; }
+body.dark .actions button:hover,
+body.dark .card-actions button:hover,
+body.dark .music-player button:hover { background: #4b3a9e; color: #fff; }
 body.dark .hymn-toggle,
-body.dark .theme-toggle { background: rgba(24,24,42,0.7); border-color: #2a2a4a; }
+body.dark .theme-toggle { background: rgba(24, 24, 42, .7); border-color: #2a2a4a; }
 body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
 
 /* ====================================================
@@ -474,9 +461,9 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     padding: 10px 16px;
     font-size: 16px;
     border-radius: 30px;
-    border: 1px solid #2a2a4a;
-    background: #111128;
-    color: #e0e0e0;
+    border: 1px solid var(--border-color);
+    background: var(--input-bg);
+    color: var(--btn-text);
     outline: none;
 }
 .music-player {
@@ -485,12 +472,125 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     gap: 10px;
     flex-shrink: 0;
 }
-.music-player button {
-    padding: 6px 16px;
-    font-size: 14px;
-    border: 1px solid #2a2a4a;
+/* Стильные кнопки — база */
+.music-player button,
+.add-btn,
+.actions button {
+    position: relative;
+    width: auto;
+	min-width: 44px;
+    height: 44px;
+    padding: 0 16px;
+	gap: 8px; 
+    border: none;
+    background: #2b2f4f;
+    color: #d9d9d9;
+    font-size: 18px;
+    font-family: inherit;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.6);
+	transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.1s ease;
 }
-.music-player button:hover { background: #4a3a8a; color: #fff; }
+
+/* Вариант 1: скруглён верхний левый + нижний правый */
+.stone-1 {
+    border-radius: 14px 0 10px 0 !important;
+}
+
+/* Вариант 2: скруглён верхний правый + нижний левый */
+.stone-2 {
+    border-radius: 0 10px 0 12px !important;
+}
+
+/* Вариант 3: скруглён только верхний левый */
+.stone-3 {
+    border-radius: 14px 0 0 0 !important;
+}
+
+/* Вариант 4: скруглён только нижний правый */
+.stone-4 {
+    border-radius: 0 0 14px 0 !important;
+}
+
+/* Ховер */
+.music-player button:hover,
+.add-btn:hover,
+.actions button:hover {
+    filter: brightness(1.2);
+	transform: translateY(-2px);
+    box-shadow: 0 0 12px rgba(80, 200, 255, 0.8),
+                0 0 24px rgba(80, 200, 255, 0.4);
+}
+
+/* Нажатие */
+.music-player button:active,
+.add-btn:active,
+.actions button:active {
+    transform: translateY(2px) scale(0.97);
+    filter: brightness(0.85);
+	transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Иконки */
+.music-player button img,
+.add-btn img,
+.actions button img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.music-player button:active,
+.add-btn:active,
+.actions button:active {
+    transform: translateY(2px) scale(0.97);
+    filter: brightness(0.85);
+}
+
+.music-player button:hover,
+.add-btn:hover,
+.actions button:hover {
+    filter: brightness(1.2);
+}
+
+.music-player button:active,
+.add-btn:active,
+.actions button:active {
+    transform: translateY(2px) scale(0.97);
+    filter: brightness(0.85);
+}
+
+/* Трещины поверх кнопки */
+.music-player button::before,
+.add-btn::before,
+.actions button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(115deg, transparent 47%, rgba(115, 131, 24, 0.2) 49%, transparent 50%),
+        linear-gradient(194deg, transparent 62%, rgba(145, 133, 133, 0.3) 63%, transparent 64%),
+        linear-gradient(301deg, transparent 30%, rgba(30, 131, 112, 0.4) 31%, transparent 32%);
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+/* Иконка поверх трещин */
+.music-player button img,
+.add-btn img,
+.actions button img {
+    position: relative;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.9));
+}
 
 /* ====================================================
    МОДАЛЬНЫЕ ОКНА
@@ -503,7 +603,7 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, .8);
 }
 .modal-content {
     position: relative;
@@ -527,34 +627,16 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
 }
 .close:hover { color: #fff; }
 
-/* Модалка скриншотов */
 #screenshotsModal .modal-content { max-width: 800px; align-items: center; gap: 16px; }
 #screenshotsModal img { max-height: 70vh; object-fit: contain; }
-
-/* Модалка дисков */
 #discModal .modal-content { max-width: 600px; }
 #discModal img { max-height: 70vh; object-fit: contain; }
-
-/* Модалка достижений */
 #achievementModal .modal-content { max-width: 800px; }
-@media (max-width: 600px) {
-    #achievementModal .modal-content { max-width: 95%; padding: 12px; }
-}
 
-#achievementModal .modal-content::-webkit-scrollbar {
-    width: 8px;
-}
-#achievementModal .modal-content::-webkit-scrollbar-track {
-    background: #1a1a2e;
-    border-radius: 8px;
-}
-#achievementModal .modal-content::-webkit-scrollbar-thumb {
-    background: #2a2a4a;
-    border-radius: 5px;
-}
-#achievementModal .modal-content::-webkit-scrollbar-thumb:hover {
-    background: #483d8b;
-}
+#achievementModal .modal-content::-webkit-scrollbar { width: 8px; }
+#achievementModal .modal-content::-webkit-scrollbar-track { background: #1a1a2e; border-radius: 8px; }
+#achievementModal .modal-content::-webkit-scrollbar-thumb { background: #2a2a4a; border-radius: 5px; }
+#achievementModal .modal-content::-webkit-scrollbar-thumb:hover { background: #483d8b; }
 
 #achievementGrid {
     display: flex;
@@ -567,23 +649,27 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
 /* ====================================================
    НАВИГАЦИЯ (диски, боссы, скриншоты)
    ==================================================== */
-.disc-nav, .boss-nav, .screenshots-nav {
+.disc-nav,
+.boss-nav,
+.screenshots-nav {
     margin-top: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.disc-nav button, .boss-nav button, .screenshots-nav button {
+.disc-nav button,
+.boss-nav button,
+.screenshots-nav button {
     background: #2a2a4a;
     border: none;
     color: #fff;
     padding: 8px 16px;
     font-size: 18px;
 }
-.disc-nav button:hover, .boss-nav button:hover, .screenshots-nav button:hover {
-    background: #4a3a8a;
-}
+.disc-nav button:hover,
+.boss-nav button:hover,
+.screenshots-nav button:hover { background: #4a3a8a; }
 
 /* ====================================================
    МАНУАЛ
@@ -591,17 +677,17 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
 .manual-link {
     margin-top: 20px;
     padding-top: 12px;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, .1);
 }
 .manual-link button {
     padding: 6px 20px;
     font-size: 13px;
-    border: 1px solid #2a2a4a;
-    background: #111128;
-    color: #e0e0e0;
+    border: 1px solid var(--border-color);
+    background: var(--btn-bg);
+    color: var(--btn-text);
 }
-.manual-link button:hover { background: #3a2b7a; }
-.manual-link button:disabled { opacity: 0.3; cursor: not-allowed; }
+.manual-link button:hover { background: #3a2b7a; color: #fff; }
+.manual-link button:disabled { opacity: .3; cursor: not-allowed; }
 
 /* ====================================================
    ДОСТИЖЕНИЯ
@@ -614,9 +700,14 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     margin-bottom: 16px;
     padding: 8px;
     border-radius: 12px;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, .05);
 }
-.ach-sort span { color: #aaa; font-size: 13px; display: flex; align-items: center; }
+.ach-sort span {
+    color: #aaa;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
 .ach-sort button {
     background: #2a2a4a;
     color: #e0e0e0;
@@ -625,7 +716,7 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     padding: 4px 14px;
     font-size: 12px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: .2s;
 }
 .ach-sort button:hover,
 .ach-sort button.active {
@@ -638,11 +729,11 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
+    width: 130px;
     text-align: center;
     padding: 8px;
     border-radius: 12px;
-    transition: background 0.3s;
+    transition: background .3s;
 }
 .ach-item[data-type="B"] { background: #3d2a1a; border: 2px solid #8b6b4a; }
 .ach-item[data-type="S"] { background: #737373; border: 2px solid #8a8aa0; }
@@ -661,20 +752,20 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, transparent 30%, rgba(255,255,255,0.15) 50%, transparent 70%);
+    background: linear-gradient(135deg, transparent 30%, rgba(255, 255, 255, .15) 50%, transparent 70%);
     pointer-events: none;
     border-radius: 12px;
     z-index: 0;
 }
 @keyframes platinumPulse {
-    0% { box-shadow: 0 0 8px rgba(200,180,240,0.15); }
-    50% { box-shadow: 0 0 30px rgba(252,252,238,0.5); }
-    100% { box-shadow: 0 0 8px rgba(200,180,240,0.15); }
+    0% { box-shadow: 0 0 8px rgba(200, 180, 240, .15); }
+    50% { box-shadow: 0 0 30px rgba(252, 252, 238, .5); }
+    100% { box-shadow: 0 0 8px rgba(200, 180, 240, .15); }
 }
 
 .ach-item.locked .ach-icon {
-    filter: grayscale(1) brightness(0.1) contrast(0.8);
-    opacity: 0.3;
+    filter: grayscale(1) brightness(.1) contrast(.8);
+    opacity: .3;
 }
 .ach-item.locked .ach-name { color: #555; font-style: italic; }
 .ach-item.locked .ach-date,
@@ -705,7 +796,7 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
 .ach-tooltip .tooltip-text {
     visibility: hidden;
     width: 250px;
-    background: rgba(26,26,46,0.80);
+    background: rgba(26, 26, 46, .8);
     color: #e0e0e0;
     text-align: center;
     border: 1px solid #4a3a8a;
@@ -719,7 +810,7 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity .3s;
     pointer-events: none;
     word-wrap: break-word;
 }
@@ -745,24 +836,22 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     }
 }
 
-
 /* ====================================================
-   БАННЕР ДОСТИЖЕНИЙ — ПЛАВНОЕ ПОЯВЛЕНИЕ
+   БАННЕР ДОСТИЖЕНИЙ
    ==================================================== */
 .trophy-banner {
-	min-height: 190px;
+    min-height: 190px;
     opacity: 0;
     transform: translateY(5px);
     animation: fadeInUp 2.8s ease forwards;
-    animation-delay: 0.5s;
+    animation-delay: .3s;
     width: 100%;
     border-radius: 12px;
     overflow: hidden;
     margin-top: 24px;
     margin-bottom: 16px;
-	text-align: center;
+    text-align: center;
 }
-
 .trophy-banner img {
     margin: 0 auto;
     max-height: 220px;
@@ -770,18 +859,9 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     display: block;
     border-radius: 12px;
 }
-
 @keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(5px);
-        filter: blur(8px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-        filter: blur(0);
-    }
+    0% { opacity: 0; transform: translateY(5px); filter: blur(8px); }
+    100% { opacity: 1; transform: translateY(0); filter: blur(0); }
 }
 
 /* ====================================================
@@ -803,3 +883,22 @@ body.light .platform-icon { filter: none; }
     width: 40px;
     height: 40px;
 }
+
+/* ====================================================
+   АДАПТАЦИЯ КАРТОЧЕК
+   ==================================================== */
+@media (max-width: 700px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { #achievementModal .modal-content { max-width: 95%; padding: 12px; } }
+
+
+/* ====================================================
+   СТИЛЬ КНОПОК
+   ==================================================== */
+.btn-icon {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+

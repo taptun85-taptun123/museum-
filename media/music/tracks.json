@@ -1,99 +1,252 @@
 [
     {
         "name": "Томб Райдер",
-        "backup": "",
-        "file": "https://lambda.vgmtreasurechest.com/soundtracks/classical-games-in-concert-2019/qcvfwrsorq/07%20-%20Tomb%20Raider%20%28Live%20from%20Paris%29.mp3"
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/classical-games-in-concert-2019/qcvfwrsorq/07%20-%20Tomb%20Raider%20%28Live%20from%20Paris%29.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105461/2105461.opus",
+		"dur": 325
     },
     {
-        "name": "Getting Up",
-        "backup": "",
-        "file": "https://lambda.vgmtreasurechest.com/soundtracks/marc-eckos-getting-up-contents-under-pressure-ipod-menu-tracks-ps2-windows-xbox-gamerip-2006/yakgkxqnpj/02.%20Welcome%20to%20New%20Radius.mp3"
+        "name": "Геттинг АП",
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/marc-eckos-getting-up-contents-under-pressure-ipod-menu-tracks-ps2-windows-xbox-gamerip-2006/yakgkxqnpj/02.%20Welcome%20to%20New%20Radius.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105460/2105460.opus",
+		"dur": 108
     },
     {
         "name": "Соната",
-        "backup": "",
-        "file": "https://lambda.vgmtreasurechest.com/soundtracks/eternal-sonata-ps3/dpnwtepn/01_Eternal%20Sonata%20%5BTrusty%20Bell%20-%20Chopin%27s%20Dream%5D%20%28Think%20of%20Me%29.mp3"
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/eternal-sonata-ps3/dpnwtepn/01_Eternal%20Sonata%20%5BTrusty%20Bell%20-%20Chopin%27s%20Dream%5D%20%28Think%20of%20Me%29.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105458/2105458.opus",
+		"dur":  82
     },
     {
         "name": "Диабло",
-        "backup": "",
-        "file": "https://lambda.vgmtreasurechest.com/soundtracks/diablo-1998-psx-gamerip/hvfodbuw/06.mp3"
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/diablo-1998-psx-gamerip/hvfodbuw/06.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105449/2105449.opus",
+		"dur": 285
     },
     {
         "name": "Алундра",
-        "backup": "https://files.catbox.moe/82nb1e.mp3",
-        "file": "https://nu.vgmtreasurechest.com/soundtracks/alundra-ps1-gamerip-1997/cqwjgfix/1-06.%20Requiem.mp3"
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/alundra-ps1-gamerip-1997/cqwjgfix/1-06.%20Requiem.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105447/2105447.opus",
+		"dur": 209
     },
 	{
         "name": "Сайлент Хилл 2",
-        "backup": "",
-        "file": "https://nu.vgmtreasurechest.com/soundtracks/silent-hill-2-original-soundtrack/rhoxwqnq/01.%20Theme%20of%20Laura.mp3"
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/silent-hill-2-original-soundtrack/rhoxwqnq/01.%20Theme%20of%20Laura.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105478/2105478.opus",
+		"dur": 203
     },
 	{
         "name": "Диско Элизиум",
-        "backup": "",
-        "file": "https://nu.vgmtreasurechest.com/soundtracks/disco-elysium-windows-gamerip-2021/kynuigix/21.%20Hard%20Core%20Dance.mp3"
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/disco-elysium-windows-gamerip-2021/kynuigix/21.%20Hard%20Core%20Dance.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105477/2105477.opus",
+		"dur": 177
     },
 	{
         "name": "Shadow Tactics",
-        "backup": "",
-        "file": "https://nu.vgmtreasurechest.com/soundtracks/shadow-tactics-blades-of-the-shogun/nzitusfw/01.%20Main%20Theme.mp3"
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/shadow-tactics-blades-of-the-shogun/nzitusfw/01.%20Main%20Theme.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105476/2105476.opus",
+		"dur": 128
     },
 	{
         "name": "Психонавты",
-        "backup": "",
-        "file": "https://lambda.vgmtreasurechest.com/soundtracks/psychonauts/fybmemxd/06.%20Relaxing%20Within%20the%20Campground%20Lodge.mp3"
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/psychonauts/fybmemxd/06.%20Relaxing%20Within%20the%20Campground%20Lodge.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105475/2105475.opus",
+		"dur": 151
     },
 	{
         "name": "Darksiders Genesis",
-        "backup": "",
-        "file": "https://jetta.vgmtreasurechest.com/soundtracks/darksiders-genesis-official-soundtrack/pstpudgv/16.%20The%20Maelstrom.mp3"
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/darksiders-genesis-official-soundtrack/pstpudgv/16.%20The%20Maelstrom.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105474/2105474.opus",
+		"dur": 126
     },
 	{
         "name": "Comix Zone",
-        "backup": "",
-        "file": "https://nu.vgmtreasurechest.com/soundtracks/comix-zone-remastered-2016/juwxaggm/02.%20In%20the%20Zone%20%28Episode%201%2C%20Page%201-1%29.mp3"
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/comix-zone-remastered-2016/juwxaggm/02.%20In%20the%20Zone%20%28Episode%201%2C%20Page%201-1%29.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105469/2105469.opus",
+		"dur": 120
     },
 	
 	{
         "name": "Syphon Filter 3",
-        "backup": "",
-        "file": "https://lambda.vgmtreasurechest.com/soundtracks/syphon-filter-3/fvqpeaos/205%20-%20paradise%20ridge.mp3"
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/syphon-filter-3/fvqpeaos/205%20-%20paradise%20ridge.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105468/2105468.opus",
+		"dur": 291
 	},
 	
 	{
         "name": "Syphon Filter 2",
-        "backup": "",
-        "file": "https://lambda.vgmtreasurechest.com/soundtracks/syphon-filter-2-psx-game-rip/zggpdyit/06%20-%20interstate%2070.mp3"
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/syphon-filter-2-psx-game-rip/zggpdyit/06%20-%20interstate%2070.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105467/2105467.opus",
+		"dur": 255 
 	},
 	
 	{
         "name": "Syphon Filter",
-        "backup": "",
-        "file": "https://vgmtreasurechest.com/soundtracks/syphon-filter/nphuircyqm/01.%20Title%20Screen.mp3"
+        "backup": "https://vgmtreasurechest.com/soundtracks/syphon-filter/nphuircyqm/01.%20Title%20Screen.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105466/2105466.opus",
+		"dur": 43
 	},
 	
 	{
         "name": "Космо-каньон",
-        "backup": "",
-        "file": "https://lambda.vgmtreasurechest.com/soundtracks/final-fantasy-vii-arranged-soundtrack-2016/oeegvkmg/45.%20Cosmo%20Canyon.mp3"
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/final-fantasy-vii-arranged-soundtrack-2016/oeegvkmg/45.%20Cosmo%20Canyon.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105465/2105465.opus",
+		"dur": 212
 	},
 	
 	{
-        "name": "Darksiders",
-        "backup": "",
-        "file": "https://jetta.vgmtreasurechest.com/soundtracks/darksiders-gamerip-2010/tiirldif/085.%20End%20Credits.mp3"
+        "name": "Дарксайдерс",
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/darksiders-gamerip-2010/tiirldif/085.%20End%20Credits.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105464/2105464.opus",
+		"dur": 244
 	},
 	
 	{
-        "name": "Darksiders III",
-        "backup": "",
-        "file": "https://nu.vgmtreasurechest.com/soundtracks/darksiders-3-ost/nbrfzhll/19.%20Maker%27s%20Hideout.mp3"
+        "name": "Дарксайдерс III",
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/darksiders-3-ost/nbrfzhll/19.%20Maker%27s%20Hideout.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105463/2105463.opus",
+		"dur": 140
 	},
 	
 	{
-        "name": "The Witcher",
+        "name": "Ведьмак",
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/the-witcher-the-complete-soundtrack/ldhexakx/005%20Dusk%20of%20a%20Northern%20Kingdom.mp3",
+        "file": "https://files.realrocks.ru/lofi/2105462/2105462.opus",
+		"dur": 274
+	},
+	
+	{
+        "name": "Dirge of Cerberus",
         "backup": "",
-        "file": "https://nu.vgmtreasurechest.com/soundtracks/the-witcher-the-complete-soundtrack/ldhexakx/005%20Dusk%20of%20a%20Northern%20Kingdom.mp3"
+        "file": "https://files.realrocks.ru/lofi/2105835/2105835.opus",
+		"dur": 240
+	},
+	
+	{
+        "name": "Pocahontas",
+        "backup": "https://vgmtreasurechest.com/soundtracks/pocahontas-genesis/xvhzzack/01%20-%20Steady%20As%20The%20Beating%20Drum.mp3",
+        "file": "https://files.realrocks.ru/lofi/2106126/2106126.opus",
+		"dur": 172
+	},
+	
+	{
+        "name": "Kingdom: Classic",
+        "backup": "",
+        "file": "https://files.realrocks.ru/lofi/2106128/2106128.opus",
+		"dur": 162
+	},
+	
+	{
+        "name": "Bayonetta",
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/bayonetta/jeteszwg/1-08.%20Fly%20Me%20To%20The%20Moon%20%28∞%20Climax%20Mix%29.mp3",
+        "file": "https://files.realrocks.ru/lofi/2106277/2106277.opus",
+		"dur": 318 
+	},
+
+	{
+        "name": "Принц. Два трона",
+        "backup": "https://vgmtreasurechest.com/soundtracks/prince-of-persia-the-two-thrones-2005/ajtptxgp/23.%20I%20Still%20Love%20You.mp3",
+        "file": "https://files.realrocks.ru/lofi/2106278/2106278.opus",
+		"dur": 331
+	},
+	
+	{
+        "name": "Donkey Kong: T. F.",
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/donkey-kong-country-tropical-freeze-original-soundtrack/ugxugvig/6-13.%20Grassland%20Groove%20%28Giraffe%29.mp3",
+        "file": "https://files.realrocks.ru/lofi/2106289/2106289.opus",
+		"dur": 196
+	},
+	
+	{
+        "name": "Demon's Souls",
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/demon-s-souls-original-soundtrack-2009/xphrmige/24.%20Return%20to%20Slumber.mp3",
+        "file": "https://files.realrocks.ru/lofi/2106554/2106554.opus",
+		"dur": 263
+	},
+	
+	{
+        "name": "Yoshi's Woolly World",
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/yoshi-s-woolly-world-ost/ghqkbdog/2-31%20Welcome%20to%20Yoshi%27s%20Woolly%20World.mp3",
+        "file": "https://files.realrocks.ru/lofi/2108275/2108275.opus",
+		"dur": 181
+	},
+	
+	{
+        "name": "Ведьмак 2",
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/the-witcher-2-assassins-of-kings-the-complete-soundtrack/tusfvmzm/119%20Credits%20%28The%20End%20Is%20Never%20the%20Same%29.mp3",
+        "file": "https://files.realrocks.ru/lofi/2108276/2108276.opus",
+		"dur": 198
+	},
+	
+	{
+        "name": "ELDEN RING",
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/elden-ring-original-soundtrack/nannczmo/01.%20Elden%20Ring.mp3",
+        "file": "https://files.realrocks.ru/lofi/2108279/2108279.opus",
+		"dur": 98
+	},
+	
+	{
+        "name": "Shadow's of the damned",
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/shadows-of-the-damned/gybkuwwu/09.%20The%20Bird%27s%20Nest.mp3",
+        "file": "https://files.realrocks.ru/lofi/2108287/2108287.opus",
+		"dur": 144
+	},
+	
+	{
+        "name": "Assassin's Creed",
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/assassins-creed-the-original-game-soundtrack-2015/frrmgvko/01.%20City%20Of%20Jerusalem.mp3",
+        "file": "https://files.realrocks.ru/lofi/2108292/2108292.opus",
+		"dur": 191
+	},
+	
+	{
+        "name": "Черепашки ниндзя",
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/teenage-mutant-ninja-turtles-shredder-s-revenge-original-game-soundtrack-2022/ahlgzfbt/28.%20It%27s%20a%20Pizza%20Party%21.mp3",
+        "file": "https://files.realrocks.ru/lofi/2108293/2108293.opus",
+		"dur": 147
+	},
+	
+	{
+        "name": "Silent Hill",
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/silent-hill-complete-soundtrack-ultimate-edition/mkptzpdw/7-03%20-%20Tears%20of....mp3",
+        "file": "https://files.realrocks.ru/lofi/2108300/2108300.opus",
+		"dur": 192
+	},
+	
+	{
+        "name": "Ori and the Blind Forest",
+        "backup": "https://nu.vgmtreasurechest.com/soundtracks/ori-and-the-blind-forest-original-soundtrack/bjrjuuqs/01.%20Ori%2C%20Lost%20In%20the%20Storm%20%28feat%20Aeralie%20Brighton%29.mp3",
+        "file": "https://files.realrocks.ru/lofi/2113421/2113421.opus",
+		"dur": 68
+	},
+	
+	{
+        "name": "HARD CORPS:UPRISING",
+        "backup": "https://lambda.vgmtreasurechest.com/soundtracks/contra-chronicle-vol.1-coupling-with-hard-corps-uprising/kmceluni/1-30%20-%20Jungle_Hard.mp3",
+        "file": "https://files.realrocks.ru/lofi/2113423/2113423.opus",
+		"dur": 114
+	},
+	
+	{
+        "name": "Trine Enchanted Edition",
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/trine-ultimate-collection-complete-series-ost-2019/xbostsik/1-02.%20Academy%20Hallways%20.mp3",
+        "file": "https://files.realrocks.ru/lofi/2113426/2113426.opus",
+		"dur": 255
+	},
+	
+	{
+        "name": "Code Vein",
+        "backup": "https://vgmtreasurechest.com/soundtracks/code-vein-original-soundtrack/yzdqxmvo/08.%20Successor.mp3",
+        "file": "https://files.realrocks.ru/lofi/2113427/2113427.opus",
+		"dur": 121
+	},
+	
+	{
+        "name": "Driver: San Francisco",
+        "backup": "https://jetta.vgmtreasurechest.com/soundtracks/driver-san-francisco-ps3-wii-windows-xbox-360-gamerip-2011/ortrewvm/99.%20Mus%20The%20Prodigy%20World%27s%20On%20Fire.mp3",
+        "file": "https://files.realrocks.ru/lofi/2113428/2113428.opus",
+		"dur": 289
 	}
-]
+
+] 
+ 
