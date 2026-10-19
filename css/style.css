@@ -545,6 +545,53 @@ body.dark .hymn-content { border-color: #2a2a4a; color: #d4d0f0; }
     object-fit: contain;
 }
 
+/* ====================================================
+   НАЗВАНИЕ ТРЕКОВ ДИНАМИЧЕСКИЕ
+   ==================================================== */
+   
+   .track-title-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.track-base {
+	font-size: 18px;
+    color: #c2cea2; /*цвет, пока не играет */
+	color: #666; /* Серый базовый */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.9); /* Тень для базового текста */
+    transition: color 0.3s;
+}
+
+.track-fill {
+	font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    /* Магия: обрезаем по ширине. 0% — не видно, 100% — весь текст закрашен */
+    clip-path: inset(0 100% 0 0); 
+    transition: clip-path 0.1s linear;
+	-webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.3); /* Тонкая обводка */
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% center; }
+    100% { background-position: 200% center; }
+}
+
+.track-fill-gradient {
+    background: linear-gradient(90deg, #44bc26, #2822af, #11997b, #631ea1, #139752);
+    background-size: 200% 150%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Кнопки плеера */
+
 .music-player button:active,
 .add-btn:active,
 .actions button:active {

@@ -11016,5 +11016,397 @@
     "passed": true,
     "platinum": true,
     "steamId": null
+  },
+  {
+    "id": 1792423791166,
+    "title": "Sly 3: Honor Among Thieves",
+    "platform": "PS3",
+    "npwrId": "NPWR01490_00",
+    "year": 2011,
+    "cover": "media/covers/sly_3_cover/sly_3_f.webp",
+    "backCover": "media/covers/sly_3_cover/sly_3_b.webp",
+    "manual": "https://taptun85-taptun123.github.io/taptun_manuals_ps2/sly_3.pdf",
+    "discs": [
+      "media/covers/sly_3_cover/sly_3_disc.webp"
+    ],
+    "screenshots": [],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "Master Thief",
+        "description": "Unlock all trophies for Sly Cooper's final outing... final? Really?",
+        "type": "P",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 21:53:05",
+        "icon": "media/covers/sly_3_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "The Vault",
+        "description": "Complete Prologue",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-14 20:58:01",
+        "icon": "media/covers/sly_3_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Intimate Moments",
+        "description": "Get close to Carmelita",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-15 19:13:26",
+        "icon": "media/covers/sly_3_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Undercover Raccoon",
+        "description": "Use a Sly disguise in Venice",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-15 20:57:26",
+        "icon": "media/covers/sly_3_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Unleash The Guru",
+        "description": "Meet the Guru",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-20 20:16:45",
+        "icon": "media/covers/sly_3_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Scorpion Cleaner",
+        "description": "Dump off the truckload of scorpions",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-20 20:48:02",
+        "icon": "media/covers/sly_3_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "True Friendship",
+        "description": "Slow down Dr. M as Bentley and Murray",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 17:44:00",
+        "icon": "media/covers/sly_3_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Romantic boat ride",
+        "description": "Complete the canal boat chase in Venice",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-15 19:52:38",
+        "icon": "media/covers/sly_3_cover/achivments/TROP007.webp"
+      },
+      {
+        "name": "It's Halloween",
+        "description": "Defeat mask-powered Carmelita",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 10:26:53",
+        "icon": "media/covers/sly_3_cover/achivments/TROP008.webp"
+      },
+      {
+        "name": "I Think She Likes You",
+        "description": "Ask Penelope for help",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 17:41:17",
+        "icon": "media/covers/sly_3_cover/achivments/TROP009.webp"
+      },
+      {
+        "name": "Last Call",
+        "description": "Finish the bar room brawl",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 10:08:37",
+        "icon": "media/covers/sly_3_cover/achivments/TROP010.webp"
+      },
+      {
+        "name": "Vampire Exterminator",
+        "description": "Stop the vampires",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-27 11:22:13",
+        "icon": "media/covers/sly_3_cover/achivments/TROP011.webp"
+      },
+      {
+        "name": "Hug It Out",
+        "description": "Complete Dynamic Duo",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-14 15:27:59",
+        "icon": "media/covers/sly_3_cover/achivments/TROP012.webp"
+      },
+      {
+        "name": "Late Sleeper",
+        "description": "Purchase the Alarm Clock",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-16 19:31:30",
+        "icon": "media/covers/sly_3_cover/achivments/TROP013.webp"
+      },
+      {
+        "name": "The Bends",
+        "description": "Collect Dimitri's diving gear",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-14 16:41:03",
+        "icon": "media/covers/sly_3_cover/achivments/TROP014.webp"
+      },
+      {
+        "name": "Penny Pincher",
+        "description": "Collect 500 coins",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 10:01:15",
+        "icon": "media/covers/sly_3_cover/achivments/TROP015.webp"
+      },
+      {
+        "name": "Raccoon Paraglider",
+        "description": "Obtain the Paraglider",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 20:34:31",
+        "icon": "media/covers/sly_3_cover/achivments/TROP016.webp"
+      },
+      {
+        "name": "Everyone Needs A Foxy Lady",
+        "description": "Carmelita to the rescue again",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 17:52:14",
+        "icon": "media/covers/sly_3_cover/achivments/TROP017.webp"
+      },
+      {
+        "name": "Slytankhamen Approved",
+        "description": "Purchase Shadow Power 2",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 13:28:59",
+        "icon": "media/covers/sly_3_cover/achivments/TROP018.webp"
+      },
+      {
+        "name": "Bentley Plumbing",
+        "description": "Destroy pumps",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-16 19:40:02",
+        "icon": "media/covers/sly_3_cover/achivments/TROP019.webp"
+      },
+      {
+        "name": "Beat Down",
+        "description": "Defeat Octavio",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-09-16 20:09:48",
+        "icon": "media/covers/sly_3_cover/achivments/TROP020.webp"
+      },
+      {
+        "name": "Mayday, Mayday",
+        "description": "Defeat Black Baron",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-09-24 20:47:38",
+        "icon": "media/covers/sly_3_cover/achivments/TROP021.webp"
+      },
+      {
+        "name": "Digging Up A Bone",
+        "description": "Defeat Muggshot",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 20:32:27",
+        "icon": "media/covers/sly_3_cover/achivments/TROP022.webp"
+      },
+      {
+        "name": "Dragon Punch",
+        "description": "Defeat Chinese Dragon",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-09-27 12:33:47",
+        "icon": "media/covers/sly_3_cover/achivments/TROP023.webp"
+      },
+      {
+        "name": "Taking Out The Trash",
+        "description": "Defeat LeFwee",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 14:38:02",
+        "icon": "media/covers/sly_3_cover/achivments/TROP024.webp"
+      },
+      {
+        "name": "Tentacle Terror",
+        "description": "Defeat Crusher",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 13:25:10",
+        "icon": "media/covers/sly_3_cover/achivments/TROP025.webp"
+      },
+      {
+        "name": "So Gang What's Next?",
+        "description": "Defeat Dr. M",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 17:53:13",
+        "icon": "media/covers/sly_3_cover/achivments/TROP026.webp"
+      },
+      {
+        "name": "Coin Collector",
+        "description": "Collect 1,000 coins",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 10:46:43",
+        "icon": "media/covers/sly_3_cover/achivments/TROP027.webp"
+      },
+      {
+        "name": "Obsessive Raccoon",
+        "description": "Complete 75% of the game",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 15:06:09",
+        "icon": "media/covers/sly_3_cover/achivments/TROP028.webp"
+      },
+      {
+        "name": "Earn Your stripes",
+        "description": "Complete 50% of the game",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-09-27 11:22:02",
+        "icon": "media/covers/sly_3_cover/achivments/TROP029.webp"
+      },
+      {
+        "name": "Whirlwind Of Awsome!",
+        "description": "Purchase Sly Spin Attack 3",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 20:34:38",
+        "icon": "media/covers/sly_3_cover/achivments/TROP030.webp"
+      },
+      {
+        "name": "Jump Kick Like A Plumber",
+        "description": "Purchase Sly Jump Attack 3",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-14 17:35:05",
+        "icon": "media/covers/sly_3_cover/achivments/TROP031.webp"
+      },
+      {
+        "name": "Loot!",
+        "description": "Collect 2,500 coins",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 16:18:56",
+        "icon": "media/covers/sly_3_cover/achivments/TROP032.webp"
+      },
+      {
+        "name": "Pink Power Murray Fighter",
+        "description": "Purchase Diablo Fire Slam",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 20:37:43",
+        "icon": "media/covers/sly_3_cover/achivments/TROP033.webp"
+      },
+      {
+        "name": "OMG A Flying Turtle!",
+        "description": "Purchase Hover Pack",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2025-09-21 16:48:03",
+        "icon": "media/covers/sly_3_cover/achivments/TROP034.webp"
+      },
+      {
+        "name": "100% Pure Cooper",
+        "description": "Complete 100% of the game",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2025-10-15 21:53:04",
+        "icon": "media/covers/sly_3_cover/achivments/TROP035.webp"
+      }
+    ],
+    "trophyBanner": "media/covers/sly_3_cover/ICON0.webp",
+    "passed": true,
+    "platinum": true,
+    "steamId": null
+  },
+  {
+    "id": 1792425794030,
+    "title": "Sly Mini Games",
+    "platform": "PS3",
+    "npwrId": "NPWR01341_00",
+    "year": 2011,
+    "cover": "media/covers/sly_mini_games_cover/sly_mini_games_f.webp",
+    "backCover": "media/covers/sly_mini_games_cover/sly_mini_games_b.webp",
+    "manual": "",
+    "discs": [],
+    "screenshots": [],
+    "bosses": [],
+    "achievements": [
+      {
+        "name": "Treasure Hunter",
+        "description": "Play Treasure Snagging!",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-17 19:12:51",
+        "icon": "media/covers/sly_mini_games_cover/achivments/TROP000.webp"
+      },
+      {
+        "name": "Move it!",
+        "description": "Score 5,000 in Treasure Snagging",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-10-17 19:14:09",
+        "icon": "media/covers/sly_mini_games_cover/achivments/TROP001.webp"
+      },
+      {
+        "name": "Trained Student",
+        "description": "Play Guru Dart Shooter",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-17 19:14:51",
+        "icon": "media/covers/sly_mini_games_cover/achivments/TROP002.webp"
+      },
+      {
+        "name": "Pink Hippo Mash",
+        "description": "Score 6,000 in Guru Dart Shooter",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2025-10-17 19:15:52",
+        "icon": "media/covers/sly_mini_games_cover/achivments/TROP003.webp"
+      },
+      {
+        "name": "Where is Penelope?",
+        "description": "Play Bentley RC Race",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-17 19:16:54",
+        "icon": "media/covers/sly_mini_games_cover/achivments/TROP004.webp"
+      },
+      {
+        "name": "Remote Controlled Turtle",
+        "description": "Score 8,000 in Bentley RC Race",
+        "type": "S",
+        "status": "Получен",
+        "obtainment_time": "2025-10-17 19:18:45",
+        "icon": "media/covers/sly_mini_games_cover/achivments/TROP005.webp"
+      },
+      {
+        "name": "Interpol Rookie",
+        "description": "Play Interpol Target Practice",
+        "type": "B",
+        "status": "Получен",
+        "obtainment_time": "2025-10-17 19:32:54",
+        "icon": "media/covers/sly_mini_games_cover/achivments/TROP006.webp"
+      },
+      {
+        "name": "Carmelita Crime Crunch",
+        "description": "Score 7,000 in Interpol Target Practice",
+        "type": "G",
+        "status": "Получен",
+        "obtainment_time": "2025-10-17 19:34:01",
+        "icon": "media/covers/sly_mini_games_cover/achivments/TROP007.webp"
+      }
+    ],
+    "trophyBanner": "media/covers/sly_mini_games_cover/ICON0.webp",
+    "passed": true,
+    "platinum": true,
+    "steamId": null
   }
 ]

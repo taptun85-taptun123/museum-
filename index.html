@@ -77,7 +77,12 @@
             <input type="text" id="searchInput" placeholder="🔍 Поиск игры..." oninput="filterGames()" />
             <div class="music-player">
                 <button id="playBtn" class="stone-1" onclick="toggleMusic()"><img src="media/icons/play.png" alt="Играть" class="btn-icon"></button>
-                <span id="trackName">🎵 Трек не выбран</span>
+				<span class="track-icon">🎵</span>
+                <div class="track-title-wrapper">
+                <span id="trackName" class="track-base">Трек не выбран</span>
+                  <span id="trackNameFill" class="track-fill glow-text" aria-hidden="true">Трек не выбран</span>
+                 </div>
+				<button class="stone-3" onclick="prevTrack()">⏮<alt="Предыдущий" > </button>
                 <button class="stone-2" onclick="nextTrack()">⏭</button>
             </div>
         </div>

@@ -23,7 +23,8 @@ async function loadTracks() {
         tracks = await res.json();
         if (tracks.length) {
             currentTrackIndex = Math.floor(Math.random() * tracks.length);
-            loadTrack(currentTrackIndex);
+            shuffleTracks();          // <-- ДОБАВИТЬ
+            loadNextShuffled();       // <-- вместо loadTrack(currentTrackIndex)
         }
     } catch (e) { console.error('Ошибка загрузки треков:', e); }
 }
@@ -31,6 +32,10 @@ async function loadTracks() {
 function loadTrack(index) {
     const track = tracks[index];
     if (!track) return;
+
+    // Сброс заливки при смене трека (один раз, в начале)
+    const fill = document.getElementById('trackNameFill');
+    if (fill) fill.style.clipPath = 'inset(0 100% 0 0)';
 
     audio.src = track.file;
     updateTrackName();
@@ -45,10 +50,15 @@ function loadTrack(index) {
 }
 
 function updateTrackName() {
-    const el = document.getElementById('trackName');
-    el.textContent = tracks.length && tracks[currentTrackIndex] 
-        ? `🎵 ${tracks[currentTrackIndex].name}` 
-        : '🎵 Нет треков';
+    const base = document.getElementById('trackName');
+    const fill = document.getElementById('trackNameFill');
+    
+    const text = tracks.length && tracks[currentTrackIndex] 
+        ? ` ${tracks[currentTrackIndex].name}` 
+        : ' Нет треков';
+        
+    base.textContent = text;
+    fill.textContent = text;
 }
 
 async function toggleMusic() {
@@ -61,8 +71,7 @@ async function toggleMusic() {
         return;
     }
     if (!audio.src && tracks.length) {
-        currentTrackIndex = Math.floor(Math.random() * tracks.length);
-        loadTrack(currentTrackIndex);
+    loadNextShuffled();   // <-- вместо рандома
     }
     if (!tracks.length) {
         alert('Нет доступных треков');
@@ -85,17 +94,97 @@ async function toggleMusic() {
 
 function nextTrack() {
     clearTimeout(trackLoadTimeout);
-    if (!tracks.length) return;
-    currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
-    loadTrack(currentTrackIndex);
+    if (isPlaying) audio.pause(); // Чтобы не было наложения
+    loadNextShuffled();
     if (isPlaying) audio.play().catch(() => {});
 }
+
+    // Выбираем случайный, пока не найдём отличный от текущего
+let shuffledTracks = [];
+let playIndex = 0;
+let history = [];
+
+function shuffleTracks() {
+    shuffledTracks = [...tracks];
+    // Перемешиваем (алгоритм Фишера-Йетса)
+    for (let i = shuffledTracks.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledTracks[i], shuffledTracks[j]] = [shuffledTracks[j], shuffledTracks[i]];
+    }
+    playIndex = 0;
+}
+
+function loadNextShuffled() {
+    if (shuffledTracks.length === 0) return;
+	// Если играет трек и мы переключаем, сохраняем текущий в историю
+	if (audio.src && currentTrackIndex !== undefined) {
+        history.push(currentTrackIndex);
+        if (history.length > 50) history.shift(); // ограничитель
+    }
+    if (playIndex >= shuffledTracks.length) {
+        shuffleTracks(); // Круг закончился, перемешиваем заново 
+    }
+	
+    const track = shuffledTracks[playIndex];
+    currentTrackIndex = tracks.indexOf(track); // Чтобы знать оригинальный индекс
+    playIndex++;
+    loadTrack(currentTrackIndex);
+}
+
+function prevTrack() {
+    clearTimeout(trackLoadTimeout);
+    
+    // Если истории нет, просто начинаем трек заново
+    if (history.length === 0) {
+        audio.currentTime = 0;
+        return;
+    }
+
+    if (isPlaying) audio.pause();
+
+    // Достаем индекс из истории
+    const prevIndex = history.pop();
+    currentTrackIndex = prevIndex;
+	
+	// Найдём этот трек в перемешанном списке, чтобы не потерять позицию
+    const trackObj = tracks[prevIndex];
+    const posInShuffled = shuffledTracks.indexOf(trackObj);
+    if (posInShuffled !== -1) {
+        playIndex = posInShuffled + 1; // В следующий раз пойдём после него
+    }
+
+    // Чтобы плеер не записал этот трек снова в историю, 
+    // временно "обнуляем" src перед загрузкой
+    
+    
+    loadTrack(currentTrackIndex);
+    
+    if (isPlaying) audio.play().catch(() => {});
+}
+
+// Наложи этот код рядом с audio.addEventListener('ended', ...)
+
+audio.addEventListener('timeupdate', function() {
+    if (!audio.duration || isNaN(audio.duration) || audio.duration === Infinity) return;
+    
+    const fill = document.getElementById('trackNameFill');
+    if (!fill) return;
+
+    const progress = (audio.currentTime / audio.duration) * 100;
+    
+    // Обрезаем правую часть (inset(сверху справа снизу слева))
+    // 0% — текст не виден, 100% — виден полностью
+    fill.style.clipPath = `inset(0 ${100 - Math.min(progress, 100)}% 0 0)`;
+	if (audio.duration - audio.currentTime < 0.5 && !audio.ended) {
+        audio.dispatchEvent(new Event('ended'));
+    }
+});
 
 // Автопереключение треков
 audio.addEventListener('ended', function() {
     if (isPlaying) {
+        audio.currentTime = 0;
         nextTrack();
-        audio.play().catch(() => {});
     }
 });
 
