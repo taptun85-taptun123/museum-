@@ -26,7 +26,9 @@ async function loadTracks() {
             shuffleTracks();          // <-- ДОБАВИТЬ
             loadNextShuffled();       // <-- вместо loadTrack(currentTrackIndex)
         }
-    } catch (e) { console.error('Ошибка загрузки треков:', e); }
+    } catch (e) { 
+        console.error('Ошибка загрузки треков:', e); 
+    }
 }
 
 function loadTrack(index) {
@@ -63,20 +65,24 @@ function updateTrackName() {
 
 async function toggleMusic() {
     const btn = document.getElementById('playBtn');
-	const icon = btn.querySelector('img');
+    const icon = btn.querySelector('img');
+    
     if (isPlaying) {
         audio.pause();
         if (icon) icon.src = 'media/icons/play.png';
         isPlaying = false;
         return;
     }
+    
     if (!audio.src && tracks.length) {
-    loadNextShuffled();   // <-- вместо рандома
+        loadNextShuffled();   // <-- вместо рандома
     }
+    
     if (!tracks.length) {
         alert('Нет доступных треков');
         return;
     }
+    
     try {
         await audio.play();
         if (icon) icon.src = 'media/icons/pause.png';
@@ -99,7 +105,7 @@ function nextTrack() {
     if (isPlaying) audio.play().catch(() => {});
 }
 
-    // Выбираем случайный, пока не найдём отличный от текущего
+// Выбираем случайный, пока не найдём отличный от текущего
 let shuffledTracks = [];
 let playIndex = 0;
 let history = [];
@@ -116,15 +122,17 @@ function shuffleTracks() {
 
 function loadNextShuffled() {
     if (shuffledTracks.length === 0) return;
-	// Если играет трек и мы переключаем, сохраняем текущий в историю
-	if (audio.src && currentTrackIndex !== undefined) {
+    
+    // Если играет трек и мы переключаем, сохраняем текущий в историю
+    if (audio.src && currentTrackIndex !== undefined) {
         history.push(currentTrackIndex);
         if (history.length > 50) history.shift(); // ограничитель
     }
+    
     if (playIndex >= shuffledTracks.length) {
         shuffleTracks(); // Круг закончился, перемешиваем заново 
     }
-	
+    
     const track = shuffledTracks[playIndex];
     currentTrackIndex = tracks.indexOf(track); // Чтобы знать оригинальный индекс
     playIndex++;
@@ -145,8 +153,8 @@ function prevTrack() {
     // Достаем индекс из истории
     const prevIndex = history.pop();
     currentTrackIndex = prevIndex;
-	
-	// Найдём этот трек в перемешанном списке, чтобы не потерять позицию
+    
+    // Найдём этот трек в перемешанном списке, чтобы не потерять позицию
     const trackObj = tracks[prevIndex];
     const posInShuffled = shuffledTracks.indexOf(trackObj);
     if (posInShuffled !== -1) {
@@ -155,7 +163,7 @@ function prevTrack() {
 
     // Чтобы плеер не записал этот трек снова в историю, 
     // временно "обнуляем" src перед загрузкой
-    
+    audio.src = '';
     
     loadTrack(currentTrackIndex);
     
@@ -163,19 +171,37 @@ function prevTrack() {
 }
 
 // Наложи этот код рядом с audio.addEventListener('ended', ...)
-
 audio.addEventListener('timeupdate', function() {
     if (!audio.duration || isNaN(audio.duration) || audio.duration === Infinity) return;
     
     const fill = document.getElementById('trackNameFill');
-    if (!fill) return;
+    const base = document.getElementById('trackName');
+    const wrapper = document.querySelector('.track-title-wrapper');
+    
+    if (!fill || !base || !wrapper) return;
 
     const progress = (audio.currentTime / audio.duration) * 100;
     
-    // Обрезаем правую часть (inset(сверху справа снизу слева))
-    // 0% — текст не виден, 100% — виден полностью
+    // 1. Заливка (как было)
     fill.style.clipPath = `inset(0 ${100 - Math.min(progress, 100)}% 0 0)`;
-	if (audio.duration - audio.currentTime < 0.5 && !audio.ended) {
+    
+    // 2. Сдвиг текста (новая логика)
+    const textWidth = base.scrollWidth;
+    const visibleWidth = wrapper.clientWidth;
+    
+    if (textWidth > visibleWidth) {
+        const maxShift = textWidth - visibleWidth;
+        const currentShift = -((progress / 100) * maxShift);
+        
+        base.style.transform = `translateX(${currentShift}px)`;
+        fill.style.transform = `translateX(${currentShift}px)`;
+    } else {
+        base.style.transform = 'none';
+        fill.style.transform = 'none';
+    }
+
+    // Автопереключение (как было)
+    if (audio.duration - audio.currentTime < 0.5 && !audio.ended) {
         audio.dispatchEvent(new Event('ended'));
     }
 });
@@ -203,6 +229,7 @@ function exportGames() {
 function importGames(e) {
     const file = e.target.files[0];
     if (!file) return;
+    
     const reader = new FileReader();
     reader.onload = function(e) {
         try {
@@ -212,8 +239,12 @@ function importGames(e) {
                 saveGames();
                 renderGames();
                 alert('Коллекция загружена!');
-            } else alert('Неверный формат файла.');
-        } catch { alert('Ошибка при чтении файла.'); }
+            } else {
+                alert('Неверный формат файла.');
+            }
+        } catch { 
+            alert('Ошибка при чтении файла.'); 
+        }
     };
     reader.readAsText(file);
     e.target.value = '';
@@ -225,7 +256,11 @@ function importGames(e) {
 function loadGames() {
     const saved = localStorage.getItem('games');
     if (saved) {
-        try { games = JSON.parse(saved); } catch { games = []; }
+        try { 
+            games = JSON.parse(saved); 
+        } catch { 
+            games = []; 
+        }
     } else {
         games = [
             { id: 1, title: 'Getting Up', platform: 'PS2', year: 2006, cover: 'media/covers/getting-up.jpg', passed: false, platinum: false, steamId: null },
@@ -243,7 +278,10 @@ function saveGames() {
 
 function addGame() {
     const title = document.getElementById('gameTitle').value.trim();
-    if (!title) { alert('Введи название игры'); return; }
+    if (!title) { 
+        alert('Введи название игры'); 
+        return; 
+    }
 
     const newGame = {
         id: Date.now(),
@@ -258,9 +296,12 @@ function addGame() {
         screenshots: document.getElementById('gameScreenshots').value.split(',').map(s => s.trim().replace(/\\/g, '/')).filter(Boolean),
         bosses: document.getElementById('gameBosses').value.split(',').map(s => s.trim().replace(/\\/g, '/')).filter(Boolean),
         achievements: document.getElementById('gameAchievements').value.split(',').map(s => s.trim()).filter(Boolean)
-            .map(item => { const p = item.split('|').map(s => s.trim()); return p.length === 2 ? { name: p[0], icon: p[1].replace(/\\/g, '/') } : null; })
+            .map(item => { 
+                const p = item.split('|').map(s => s.trim()); 
+                return p.length === 2 ? { name: p[0], icon: p[1].replace(/\\/g, '/') } : null; 
+            })
             .filter(Boolean),
-		trophyBanner: "",	
+        trophyBanner: "",    
         passed: false,
         platinum: false,
         steamId: null
@@ -276,7 +317,11 @@ function addGame() {
 
 function toggleStatus(id, field) {
     const game = games.find(g => g.id === id);
-    if (game) { game[field] = !game[field]; saveGames(); renderGames(); }
+    if (game) { 
+        game[field] = !game[field]; 
+        saveGames(); 
+        renderGames(); 
+    }
 }
 
 function deleteGame(id) {
@@ -316,10 +361,13 @@ function renderGames(list = null) {
 
     const totalPages = Math.ceil(data.length / itemsPerPage);
     if (currentPage > totalPages) currentPage = totalPages;
+    
     const start = (currentPage - 1) * itemsPerPage;
     const pageGames = data.slice(start, start + itemsPerPage);
 
-    grid.innerHTML = pageGames.map(game => `
+    grid.innerHTML = pageGames.map(game => {
+        const platformClass = game.platform.toLowerCase().replace(/ /g, '_');
+        return `
         <div class="card">
             <div class="cover" onclick="this.classList.toggle('flipped')">
                 <div class="cover-inner">
@@ -329,7 +377,7 @@ function renderGames(list = null) {
             </div>
             <div class="title"><span class="glow-text">${game.title}</span></div>
             <div class="meta">
-                <img src="media/icons/${game.platform.toLowerCase().replace(/ /g, '_')}.svg" alt="${game.platform}" class="platform-icon ${game.platform.toLowerCase().replace(/ /g, '_')}" />
+                <img src="media/icons/${platformClass}.svg" alt="${game.platform}" class="platform-icon ${platformClass}" />
                 ${game.year || ''}
             </div>
             <div class="status">
@@ -349,7 +397,8 @@ function renderGames(list = null) {
                 <button onclick="openAchievements(${game.id})">🏆</button>
             </div>
         </div>
-    `).join('');
+        `;
+    }).join('');
 
     renderPagination(totalPages);
 }
@@ -359,14 +408,31 @@ function renderPagination(totalPages) {
     const visible = 5;
     let start = Math.max(1, currentPage - Math.floor(visible / 2));
     let end = Math.min(totalPages, start + visible - 1);
-    if (end - start < visible - 1) start = Math.max(1, end - visible + 1);
+    
+    if (end - start < visible - 1) {
+        start = Math.max(1, end - visible + 1);
+    }
 
-    const addBtn = p => { html += `<button class="page-btn${p === currentPage ? ' active' : ''}" onclick="goToPage(${p})">${p}</button>`; };
-    const addEll = () => { html += `<span class="page-ellipsis">…</span>`; };
+    const addBtn = p => { 
+        html += `<button class="page-btn${p === currentPage ? ' active' : ''}" onclick="goToPage(${p})">${p}</button>`; 
+    };
+    const addEll = () => { 
+        html += `<span class="page-ellipsis">…</span>`; 
+    };
 
-    if (start > 1) { addBtn(1); if (start > 2) addEll(); }
-    for (let i = start; i <= end; i++) addBtn(i);
-    if (end < totalPages) { if (end < totalPages - 1) addEll(); addBtn(totalPages); }
+    if (start > 1) { 
+        addBtn(1); 
+        if (start > 2) addEll(); 
+    }
+    
+    for (let i = start; i <= end; i++) {
+        addBtn(i);
+    }
+    
+    if (end < totalPages) { 
+        if (end < totalPages - 1) addEll(); 
+        addBtn(totalPages); 
+    }
 
     document.getElementById('pagination-top').innerHTML = html;
     document.getElementById('pagination-bottom').innerHTML = html;
@@ -385,6 +451,7 @@ function goToPage(page) {
 function toggleAddForm() {
     const container = document.getElementById('addFormContainer');
     const btn = document.querySelector('.add-btn');
+    
     if (container.style.display === 'none' || container.style.display === '') {
         container.style.display = 'block';
         if (btn) btn.textContent = '✖ Свернуть форму';
@@ -415,21 +482,31 @@ function toggleHymn() {
 // ============================================================
 // УТИЛИТЫ ДЛЯ КНОПОК (затухание)
 // ============================================================
-let timerTheme, timerHymn;
+let timerTheme = null;
+let timerHymn = null;
 
-function brighten(btn, timer) {
+function brighten(btn, isTheme) {
     btn.style.opacity = '1';
-    clearTimeout(timer);
-    timer = setTimeout(() => btn.style.opacity = '0.3', 5000);
+    if (isTheme) {
+        clearTimeout(timerTheme);
+        timerTheme = setTimeout(() => { btn.style.opacity = '0.3'; }, 5000);
+    } else {
+        clearTimeout(timerHymn);
+        timerHymn = setTimeout(() => { btn.style.opacity = '0.3'; }, 5000);
+    }
 }
 
 ['.theme-toggle', '.hymn-toggle'].forEach(sel => {
     const el = document.querySelector(sel);
     if (!el) return;
+    
+    const isTheme = sel === '.theme-toggle';
+    
     ['click', 'mouseenter', 'touchstart'].forEach(ev => {
-        el.addEventListener(ev, () => brighten(el, ev.includes('theme') ? timerTheme : timerHymn));
+        el.addEventListener(ev, () => brighten(el, isTheme));
     });
-    setTimeout(() => el.style.opacity = '0.3', 5000);
+    
+    setTimeout(() => { el.style.opacity = '0.3'; }, 5000);
 });
 
 // ============================================================
@@ -447,7 +524,10 @@ function openModal(id) {
 // МАНУАЛ
 // ============================================================
 function openManual(url) {
-    if (!url?.trim()) { alert('📖 Мануал для этой игры пока не добавлен.'); return; }
+    if (!url?.trim()) { 
+        alert('📖 Мануал для этой игры пока не добавлен.'); 
+        return; 
+    }
     document.getElementById('manualFrame').src = url;
     openModal('manualModal');
 }
@@ -466,8 +546,13 @@ let currentDiscIndex = 0;
 function openDisc(id) {
     const game = games.find(g => g.id === id);
     if (!game) return;
+    
     currentDiscs = game.discs || [];
-    if (!currentDiscs.length) { alert('Фото дисков нет'); return; }
+    if (!currentDiscs.length) { 
+        alert('Фото дисков нет'); 
+        return; 
+    }
+    
     currentDiscIndex = 0;
     showDisc();
     openModal('discModal');
@@ -478,9 +563,24 @@ function showDisc() {
     document.getElementById('discCounter').textContent = `${currentDiscIndex + 1} / ${currentDiscs.length}`;
 }
 
-function nextDisc() { if (currentDiscIndex < currentDiscs.length - 1) { currentDiscIndex++; showDisc(); } }
-function prevDisc() { if (currentDiscIndex > 0) { currentDiscIndex--; showDisc(); } }
-function closeDisc() { closeModal('discModal'); document.getElementById('discImage').src = ''; }
+function nextDisc() { 
+    if (currentDiscIndex < currentDiscs.length - 1) { 
+        currentDiscIndex++; 
+        showDisc(); 
+    } 
+}
+
+function prevDisc() { 
+    if (currentDiscIndex > 0) { 
+        currentDiscIndex--; 
+        showDisc(); 
+    } 
+}
+
+function closeDisc() { 
+    closeModal('discModal'); 
+    document.getElementById('discImage').src = ''; 
+}
 
 // ============================================================
 // СКРИНШОТЫ
@@ -490,7 +590,11 @@ let currentScreenshotIndex = 0;
 
 function openScreenshots(id) {
     const game = games.find(g => g.id === id);
-    if (!game?.screenshots?.length) { alert('Скриншотов нет'); return; }
+    if (!game?.screenshots?.length) { 
+        alert('Скриншотов нет'); 
+        return; 
+    }
+    
     currentScreenshots = game.screenshots;
     currentScreenshotIndex = 0;
     showScreenshot();
@@ -502,9 +606,24 @@ function showScreenshot() {
     document.getElementById('screenshotsCounter').textContent = `${currentScreenshotIndex + 1} / ${currentScreenshots.length}`;
 }
 
-function nextScreenshot() { if (currentScreenshotIndex < currentScreenshots.length - 1) { currentScreenshotIndex++; showScreenshot(); } }
-function prevScreenshot() { if (currentScreenshotIndex > 0) { currentScreenshotIndex--; showScreenshot(); } }
-function closeScreenshots() { closeModal('screenshotsModal'); document.getElementById('screenshotsImage').src = ''; }
+function nextScreenshot() { 
+    if (currentScreenshotIndex < currentScreenshots.length - 1) { 
+        currentScreenshotIndex++; 
+        showScreenshot(); 
+    } 
+}
+
+function prevScreenshot() { 
+    if (currentScreenshotIndex > 0) { 
+        currentScreenshotIndex--; 
+        showScreenshot(); 
+    } 
+}
+
+function closeScreenshots() { 
+    closeModal('screenshotsModal'); 
+    document.getElementById('screenshotsImage').src = ''; 
+}
 
 // ============================================================
 // БОССЫ
@@ -514,7 +633,11 @@ let currentBossIndex = 0;
 
 function openBosses(id) {
     const game = games.find(g => g.id === id);
-    if (!game?.bosses?.length) { alert('Боссов нет'); return; }
+    if (!game?.bosses?.length) { 
+        alert('Боссов нет'); 
+        return; 
+    }
+    
     currentBosses = game.bosses;
     currentBossIndex = 0;
     showBoss();
@@ -526,9 +649,24 @@ function showBoss() {
     document.getElementById('bossCounter').textContent = `${currentBossIndex + 1} / ${currentBosses.length}`;
 }
 
-function nextBoss() { if (currentBossIndex < currentBosses.length - 1) { currentBossIndex++; showBoss(); } }
-function prevBoss() { if (currentBossIndex > 0) { currentBossIndex--; showBoss(); } }
-function closeBosses() { closeModal('bossModal'); document.getElementById('bossImage').src = ''; }
+function nextBoss() { 
+    if (currentBossIndex < currentBosses.length - 1) { 
+        currentBossIndex++; 
+        showBoss(); 
+    } 
+}
+
+function prevBoss() { 
+    if (currentBossIndex > 0) { 
+        currentBossIndex--; 
+        showBoss(); 
+    } 
+}
+
+function closeBosses() { 
+    closeModal('bossModal'); 
+    document.getElementById('bossImage').src = ''; 
+}
 
 // ============================================================
 // ДОСТИЖЕНИЯ
@@ -538,15 +676,21 @@ let sortMode = 'dateAsc';
 
 function openAchievements(id) {
     const game = games.find(g => g.id === id);
-    if (!game?.achievements?.length) { alert('Достижений нет'); return; }
+    if (!game?.achievements?.length) { 
+        alert('Достижений нет'); 
+        return; 
+    }
+    
     currentGameId = id;
     currentAchievements = [...game.achievements];
     sortMode = 'dateAsc';
     renderAchievements();
+    
     // Сброс активных кнопок сортировки
     document.querySelectorAll('.ach-sort button').forEach(btn => btn.classList.remove('active'));
     const firstBtn = document.querySelector('.ach-sort button');
     if (firstBtn) firstBtn.classList.add('active');
+    
     openModal('achievementModal');
 }
 
@@ -595,8 +739,8 @@ function sortAchievements(mode) {
     sortMode = mode;
     const game = games.find(g => g.id === currentGameId);
     if (!game) return;
-    const sorted = [...game.achievements];
     
+    const sorted = [...game.achievements];
     const typeOrder = { 'P': 0, 'G': 1, 'S': 2, 'B': 3 };
     const typeOrderDesc = { 'B': 0, 'S': 1, 'G': 2, 'P': 3 };
 
@@ -621,7 +765,8 @@ function sortAchievements(mode) {
         case 'typeDesc':
             sorted.sort((a, b) => (typeOrderDesc[a.type] ?? 99) - (typeOrderDesc[b.type] ?? 99));
             break;
-        default: return;
+        default: 
+            return;
     }
 
     currentAchievements = sorted;
@@ -646,7 +791,12 @@ document.addEventListener('DOMContentLoaded', function() {
         if (modal) {
             modal.addEventListener('click', e => {
                 if (e.target === modal) {
-                    const closeMap = { discModal: closeDisc, screenshotsModal: closeScreenshots, bossModal: closeBosses, achievementModal: closeAchievements };
+                    const closeMap = { 
+                        discModal: closeDisc, 
+                        screenshotsModal: closeScreenshots, 
+                        bossModal: closeBosses, 
+                        achievementModal: closeAchievements 
+                    };
                     closeMap[id]?.();
                 }
             });
@@ -665,7 +815,9 @@ document.addEventListener('DOMContentLoaded', function() {
             modals.forEach(({ id, close }) => {
                 if (document.getElementById(id).style.display === 'block') close();
             });
-            if (document.getElementById('achievementModal').style.display === 'block') closeAchievements();
+            if (document.getElementById('achievementModal').style.display === 'block') {
+                closeAchievements();
+            }
         }
 
         if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
